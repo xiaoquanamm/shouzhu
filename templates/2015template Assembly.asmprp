@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CPTemplate>
+  <CPSheet>
+    <GroupBox Label="名称" PropName="组框2" DefaultState="Expanded">
+      <Control Label="名称" PropName="名称" ApplyTo="Config" Type="TextBox" DefaultValue="" Mode="Text" />
+    </GroupBox>
+    <GroupBox Label="数量" PropName="组框4" DefaultState="Expanded">
+      <Control Label="数量" PropName="数量" ApplyTo="Config" Type="TextBox" DefaultValue="" Mode="Text" />
+    </GroupBox>
+    <GroupBox Label="厂牌" PropName="组框6" DefaultState="Expanded">
+      <Control Label="厂牌" PropName="厂牌" ApplyTo="Config" Type="TextBox" DefaultValue="" Mode="Text" />
+    </GroupBox>
+  </CPSheet>
+</CPTemplate>

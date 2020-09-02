@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7D80B8C6-0C38-4F92-952C-43B0D138C499}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Interop.Office.Core</RootNamespace>
+    <AssemblyName>AutoPartNo</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>mdico.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SolidWorks.Interop.sldworks, Version=20.0.0.5022, Culture=neutral, PublicKeyToken=7c4797c3e4eeac03, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>..\OutRef\SolidWorks.Interop.sldworks.dll</HintPath>
+    </Reference>
+    <Reference Include="SolidWorks.Interop.swcommands">
+      <HintPath>..\OutRef\SolidWorks.Interop.swcommands.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="SolidWorks.Interop.swconst">
+      <HintPath>..\OutRef\SolidWorks.Interop.swconst.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="SolidWorks.Interop.swpublished">
+      <HintPath>..\OutRef\SolidWorks.Interop.swpublished.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Solidworkstools, Version=2.0.0.0, Culture=neutral, PublicKeyToken=bd18593873b4686d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\OutRef\Solidworkstools.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Belt\BeltT_XX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Belt\BeltT_XX.Designer.cs">
+      <DependentUpon>BeltT_XX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CreateNumber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreateNumber.Designer.cs">
+      <DependentUpon>CreateNumber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exe\About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exe\About.designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exe\fntAlert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exe\fntAlert.Designer.cs">
+      <DependentUpon>fntAlert.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exe\PSetUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exe\PSetUp.designer.cs">
+      <DependentUpon>PSetUp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exe\PSetUp_Ref.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exe\PSetUp_Ref.Designer.cs">
+      <DependentUpon>PSetUp_Ref.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Exe\Setting_Excel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Exe\Setting_Excel.Designer.cs">
+      <DependentUpon>Setting_Excel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mgr\FrmMgrWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mgr\FrmMgrWindow.Designer.cs">
+      <DependentUpon>FrmMgrWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Public\AllData.cs" />
+    <Compile Include="Public\backMethod.cs" />
+    <Compile Include="Public\cfgInfo.cs" />
+    <Compile Include="Public\DbClient.cs" />
+    <Compile Include="Public\DBMethod.cs" />
+    <Compile Include="Public\Dbtool.cs" />
+    <Compile Include="Public\OnePPT.cs" />
+    <Compile Include="Public\SerializeInfo.cs" />
+    <Compile Include="Public\ShowMyDialogOK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Public\ShowMyDialogOK.Designer.cs">
+      <DependentUpon>ShowMyDialogOK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Public\SolidWorksMethod.cs" />
+    <Compile Include="Public\StringOperate.cs" />
+    <Compile Include="Public\Sys.cs" />
+    <Compile Include="Public\TransAccess.cs" />
+    <Compile Include="Public\Transport.cs" />
+    <Compile Include="Public\TransWeb.cs" />
+    <Compile Include="SubFormWeb\v70\SelIPAddress.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubFormWeb\v70\SelIPAddress.designer.cs">
+      <DependentUpon>SelIPAddress.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\my3dparts\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Belt\BeltT_XX.resx">
+      <DependentUpon>BeltT_XX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreateNumber.resx">
+      <DependentUpon>CreateNumber.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exe\About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exe\fntAlert.resx">
+      <DependentUpon>fntAlert.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exe\PSetUp.resx">
+      <DependentUpon>PSetUp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exe\PSetUp_Ref.resx">
+      <DependentUpon>PSetUp_Ref.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Exe\Setting_Excel.resx">
+      <DependentUpon>Setting_Excel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mgr\FrmMgrWindow.resx">
+      <DependentUpon>FrmMgrWindow.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Public\ShowMyDialogOK.resx">
+      <DependentUpon>ShowMyDialogOK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubFormWeb\v70\SelIPAddress.resx">
+      <DependentUpon>SelIPAddress.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Web References\my3dparts\MDTool.wsdl" />
+    <None Include="Web References\my3dparts\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://www.my3dparts.com/asmx/MDTool.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\my3dparts\</RelPath>
+      <UpdateFromURL>http://www.my3dparts.com/asmx/MDTool.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>AutoPartNo_my3dparts_MDTool</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\my3dparts\MDTool.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="MD3DToolsData.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="mdico.ico" />
+    <Content Include="Resources\02.ico" />
+    <None Include="Resources\app.png" />
+    <Content Include="Resources\Cursor8.dll" />
+    <None Include="Resources\zuhejj.png" />
+    <None Include="Resources\xingwei2.png" />
+    <None Include="Resources\Web-Download.gif" />
+    <None Include="Resources\user3_16x16.gif" />
+    <None Include="Resources\update.gif" />
+    <None Include="Resources\up_16x161.gif" />
+    <None Include="Resources\up_16x16.gif" />
+    <None Include="Resources\undo1_16x16.gif" />
+    <None Include="Resources\Tulun.png" />
+    <None Include="Resources\tree.gif" />
+    <None Include="Resources\tooltip.gif" />
+    <None Include="Resources\text.png" />
+    <None Include="Resources\symbol.bmp" />
+    <None Include="Resources\Standed.png" />
+    <None Include="Resources\sort.gif" />
+    <None Include="Resources\sldStalk.gif" />
+    <None Include="Resources\sldPart.png" />
+    <None Include="Resources\sldok.JPG" />
+    <None Include="Resources\sldhole.gif" />
+    <None Include="Resources\slddrw.gif" />
+    <None Include="Resources\sldcancel.JPG" />
+    <None Include="Resources\sketch.gif" />
+    <None Include="Resources\sigang.gif" />
+    <None Include="Resources\settings2_16x16.gif" />
+    <None Include="Resources\settings.gif" />
+    <None Include="Resources\Search2.gif" />
+    <None Include="Resources\search.png" />
+    <None Include="Resources\Search-Del.gif" />
+    <None Include="Resources\Search-Add.gif" />
+    <None Include="Resources\seach2.gif" />
+    <None Include="Resources\save_16x16.gif" />
+    <None Include="Resources\right_16x16.gif" />
+    <None Include="Resources\reverse_direction.gif" />
+    <None Include="Resources\restore_16x16.gif" />
+    <None Include="Resources\research_16x16.gif" />
+    <None Include="Resources\registration1_16x16.gif" />
+    <None Include="Resources\refresh_16x16.gif" />
+    <None Include="Resources\refresh.JPG" />
+    <None Include="Resources\redo1_16x16.gif" />
+    <None Include="Resources\property.png" />
+    <None Include="Resources\Printer.png" />
+    <None Include="Resources\Player Stop.gif" />
+    <None Include="Resources\pipe.png" />
+    <None Include="Resources\picWidth.gif" />
+    <None Include="Resources\PictureBox3.gif" />
+    <None Include="Resources\picLoad.gif" />
+    <None Include="Resources\picInternalD.gif" />
+    <None Include="Resources\picInternal.gif" />
+    <None Include="Resources\picInteralM.gif" />
+    <None Include="Resources\picExternalM.gif" />
+    <None Include="Resources\PicExternalD.gif" />
+    <None Include="Resources\picExternal.gif" />
+    <None Include="Resources\PEN04.ICO" />
+    <None Include="Resources\mdico.ico" />
+    <Content Include="Resources\pen_im.cur" />
+    <None Include="Resources\PDFfile.gif" />
+    <None Include="Resources\Paste.png" />
+    <None Include="Resources\PartNumber.png" />
+    <None Include="Resources\ok_16x16.gif" />
+    <None Include="Resources\Note-Add.gif" />
+    <None Include="Resources\MDSolid.gif" />
+    <None Include="Resources\mdpkgs.gif" />
+    <None Include="Resources\md16x16.png" />
+    <None Include="Resources\Material.png" />
+    <None Include="Resources\LSF.gif" />
+    <None Include="Resources\lock_16x16.gif" />
+    <None Include="Resources\Lock.gif" />
+    <None Include="Resources\loading.gif" />
+    <None Include="Resources\left.GIF" />
+    <None Include="Resources\LAN.gif" />
+    <None Include="Resources\Key.gif" />
+    <None Include="Resources\Information.gif" />
+    <None Include="Resources\Info.gif" />
+    <None Include="Resources\ie.ico" />
+    <None Include="Resources\HuaDong.jpg" />
+    <None Include="Resources\help_16x16.gif" />
+    <None Include="Resources\guanjian.png" />
+    <None Include="Resources\gear4.gif" />
+    <None Include="Resources\gear2.gif" />
+    <None Include="Resources\gear1.gif" />
+    <None Include="Resources\gangjiegou.png" />
+    <None Include="Resources\g3_1.jpg" />
+    <None Include="Resources\g2_4.png" />
+    <None Include="Resources\g2_3.gif" />
+    <None Include="Resources\g2_2.gif" />
+    <None Include="Resources\g2_1.jpg" />
+    <None Include="Resources\g1_5Right.gif" />
+    <None Include="Resources\g1_5left.gif" />
+    <None Include="Resources\g1_4.gif" />
+    <None Include="Resources\g1_3.gif" />
+    <None Include="Resources\g1_2.gif" />
+    <None Include="Resources\g1_1.gif" />
+    <None Include="Resources\fx.gif" />
+    <None Include="Resources\folder_open.gif" />
+    <None Include="Resources\folder_lan.png" />
+    <None Include="Resources\folder_huang.png" />
+    <None Include="Resources\folder_edit.gif" />
+    <None Include="Resources\flance2.png" />
+    <None Include="Resources\file_add.gif" />
+    <None Include="Resources\file.gif" />
+    <None Include="Resources\Favorite.gif" />
+    <None Include="Resources\Excel.JPG" />
+    <None Include="Resources\editmenu.gif" />
+    <None Include="Resources\down_16x16.gif" />
+    <None Include="Resources\diankonggui2.gif" />
+    <None Include="Resources\dianKongGui.gif" />
+    <None Include="Resources\diankg3.gif" />
+    <None Include="Resources\delete2.gif" />
+    <None Include="Resources\delete.gif" />
+    <None Include="Resources\database_table_16x16.gif" />
+    <None Include="Resources\database_form_16x16.gif" />
+    <None Include="Resources\Cursor7.cur" />
+    <None Include="Resources\Cursor6.cur" />
+    <None Include="Resources\Cursor5.cur" />
+    <None Include="Resources\Cursor4.cur" />
+    <None Include="Resources\Cursor3.cur" />
+    <None Include="Resources\Cursor2.cur" />
+    <None Include="Resources\Cursor1.cur" />
+    <None Include="Resources\Cursor0.cur" />
+    <None Include="Resources\Copy.png" />
+    <None Include="Resources\Computer.gif" />
+    <None Include="Resources\chongmu.png" />
+    <None Include="Resources\Char - More.gif" />
+    <None Include="Resources\Char - Dot.gif" />
+    <None Include="Resources\chain2.gif" />
+    <None Include="Resources\chain1.gif" />
+    <None Include="Resources\caolun.png" />
+    <None Include="Resources\Calcurate.png" />
+    <None Include="Resources\boltV.png" />
+    <None Include="Resources\boltT.png" />
+    <None Include="Resources\boltP.png" />
+    <None Include="Resources\boltD.png" />
+    <None Include="Resources\BoltCheck.gif" />
+    <None Include="Resources\bg.gif" />
+    <None Include="Resources\Bend.gif" />
+    <None Include="Resources\banjinxialiao1.png" />
+    <None Include="Resources\banjinxialiao.png" />
+    <None Include="Resources\backup_16x16.gif" />
+    <None Include="Resources\asmbly2.gif" />
+    <None Include="Resources\add.gif" />
+    <None Include="Resources\A05.png" />
+    <None Include="Resources\A04.png" />
+    <None Include="Resources\A013.png" />
+    <None Include="Resources\A012.png" />
+    <None Include="Resources\9.gif" />
+    <None Include="Resources\8.gif" />
+    <None Include="Resources\7.gif" />
+    <None Include="Resources\602.png" />
+    <None Include="Resources\601.png" />
+    <None Include="Resources\6.gif" />
+    <None Include="Resources\5.gif" />
+    <None Include="Resources\4.gif" />
+    <None Include="Resources\3.gif" />
+    <None Include="Resources\2.gif" />
+    <None Include="Resources\15.gif" />
+    <None Include="Resources\14.gif" />
+    <None Include="Resources\13.gif" />
+    <None Include="Resources\12.gif" />
+    <None Include="Resources\11.gif" />
+    <None Include="Resources\10.gif" />
+    <None Include="Resources\1.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

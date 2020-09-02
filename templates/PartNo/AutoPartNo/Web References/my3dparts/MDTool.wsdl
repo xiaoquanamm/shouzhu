@@ -1,0 +1,1253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://www.my3dparts.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://www.my3dparts.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://www.my3dparts.com/">
+      <s:element name="getLogin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="userName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="passWord" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="mdt" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getLoginResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getLoginResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getMD5Pwd">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pwd" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getMD5PwdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getMD5PwdResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getDESPwd">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pwd" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getDESPwdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getDESPwdResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getLoginIDByMdt">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="mdt" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getLoginIDByMdtResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getLoginIDByMdtResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getMdtByLoginID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoginID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getMdtByLoginIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getMdtByLoginIDResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getLogOut">
+        <s:complexType />
+      </s:element>
+      <s:element name="getLogOutResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="getLogOutResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getCompanyMgrID">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="CompID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getCompanyMgrIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="getCompanyMgrIDResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getHasLogined">
+        <s:complexType />
+      </s:element>
+      <s:element name="getHasLoginedResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="getHasLoginedResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getLoginID">
+        <s:complexType />
+      </s:element>
+      <s:element name="getLoginIDResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="getLoginIDResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addFriend">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="FID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addFriendResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="addFriendResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getFriendList">
+        <s:complexType />
+      </s:element>
+      <s:element name="getFriendListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getFriendListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getCollectedCompanyList">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="LoginID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getCollectedCompanyListResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getCollectedCompanyListResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addCollectComp">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="LoginID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="CompID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="CompName" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="TypeID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="addCollectCompResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="addCollectCompResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deleteCollectComp">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="LoginID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="CompID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="deleteCollectCompResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="deleteCollectCompResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getLocationByGuiGe">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GuiGe" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="compID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getLocationByGuiGeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getLocationByGuiGeResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="boolean" type="s:boolean" />
+      <s:element name="int" type="s:int" />
+      <s:element name="DataTable" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+            <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="getLoginSoapIn">
+    <wsdl:part name="parameters" element="tns:getLogin" />
+  </wsdl:message>
+  <wsdl:message name="getLoginSoapOut">
+    <wsdl:part name="parameters" element="tns:getLoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="getMD5PwdSoapIn">
+    <wsdl:part name="parameters" element="tns:getMD5Pwd" />
+  </wsdl:message>
+  <wsdl:message name="getMD5PwdSoapOut">
+    <wsdl:part name="parameters" element="tns:getMD5PwdResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDESPwdSoapIn">
+    <wsdl:part name="parameters" element="tns:getDESPwd" />
+  </wsdl:message>
+  <wsdl:message name="getDESPwdSoapOut">
+    <wsdl:part name="parameters" element="tns:getDESPwdResponse" />
+  </wsdl:message>
+  <wsdl:message name="getLoginIDByMdtSoapIn">
+    <wsdl:part name="parameters" element="tns:getLoginIDByMdt" />
+  </wsdl:message>
+  <wsdl:message name="getLoginIDByMdtSoapOut">
+    <wsdl:part name="parameters" element="tns:getLoginIDByMdtResponse" />
+  </wsdl:message>
+  <wsdl:message name="getMdtByLoginIDSoapIn">
+    <wsdl:part name="parameters" element="tns:getMdtByLoginID" />
+  </wsdl:message>
+  <wsdl:message name="getMdtByLoginIDSoapOut">
+    <wsdl:part name="parameters" element="tns:getMdtByLoginIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="getLogOutSoapIn">
+    <wsdl:part name="parameters" element="tns:getLogOut" />
+  </wsdl:message>
+  <wsdl:message name="getLogOutSoapOut">
+    <wsdl:part name="parameters" element="tns:getLogOutResponse" />
+  </wsdl:message>
+  <wsdl:message name="getCompanyMgrIDSoapIn">
+    <wsdl:part name="parameters" element="tns:getCompanyMgrID" />
+  </wsdl:message>
+  <wsdl:message name="getCompanyMgrIDSoapOut">
+    <wsdl:part name="parameters" element="tns:getCompanyMgrIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="getHasLoginedSoapIn">
+    <wsdl:part name="parameters" element="tns:getHasLogined" />
+  </wsdl:message>
+  <wsdl:message name="getHasLoginedSoapOut">
+    <wsdl:part name="parameters" element="tns:getHasLoginedResponse" />
+  </wsdl:message>
+  <wsdl:message name="getLoginIDSoapIn">
+    <wsdl:part name="parameters" element="tns:getLoginID" />
+  </wsdl:message>
+  <wsdl:message name="getLoginIDSoapOut">
+    <wsdl:part name="parameters" element="tns:getLoginIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="addFriendSoapIn">
+    <wsdl:part name="parameters" element="tns:addFriend" />
+  </wsdl:message>
+  <wsdl:message name="addFriendSoapOut">
+    <wsdl:part name="parameters" element="tns:addFriendResponse" />
+  </wsdl:message>
+  <wsdl:message name="getFriendListSoapIn">
+    <wsdl:part name="parameters" element="tns:getFriendList" />
+  </wsdl:message>
+  <wsdl:message name="getFriendListSoapOut">
+    <wsdl:part name="parameters" element="tns:getFriendListResponse" />
+  </wsdl:message>
+  <wsdl:message name="getCollectedCompanyListSoapIn">
+    <wsdl:part name="parameters" element="tns:getCollectedCompanyList" />
+  </wsdl:message>
+  <wsdl:message name="getCollectedCompanyListSoapOut">
+    <wsdl:part name="parameters" element="tns:getCollectedCompanyListResponse" />
+  </wsdl:message>
+  <wsdl:message name="addCollectCompSoapIn">
+    <wsdl:part name="parameters" element="tns:addCollectComp" />
+  </wsdl:message>
+  <wsdl:message name="addCollectCompSoapOut">
+    <wsdl:part name="parameters" element="tns:addCollectCompResponse" />
+  </wsdl:message>
+  <wsdl:message name="deleteCollectCompSoapIn">
+    <wsdl:part name="parameters" element="tns:deleteCollectComp" />
+  </wsdl:message>
+  <wsdl:message name="deleteCollectCompSoapOut">
+    <wsdl:part name="parameters" element="tns:deleteCollectCompResponse" />
+  </wsdl:message>
+  <wsdl:message name="getLocationByGuiGeSoapIn">
+    <wsdl:part name="parameters" element="tns:getLocationByGuiGe" />
+  </wsdl:message>
+  <wsdl:message name="getLocationByGuiGeSoapOut">
+    <wsdl:part name="parameters" element="tns:getLocationByGuiGeResponse" />
+  </wsdl:message>
+  <wsdl:message name="getLoginHttpGetIn">
+    <wsdl:part name="userName" type="s:string" />
+    <wsdl:part name="passWord" type="s:string" />
+    <wsdl:part name="mdt" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getLoginHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="getMD5PwdHttpGetIn">
+    <wsdl:part name="pwd" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getMD5PwdHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="getDESPwdHttpGetIn">
+    <wsdl:part name="pwd" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getDESPwdHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="getLoginIDByMdtHttpGetIn">
+    <wsdl:part name="mdt" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getLoginIDByMdtHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="getMdtByLoginIDHttpGetIn">
+    <wsdl:part name="LoginID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getMdtByLoginIDHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="getLogOutHttpGetIn" />
+  <wsdl:message name="getLogOutHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="getCompanyMgrIDHttpGetIn">
+    <wsdl:part name="CompID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getCompanyMgrIDHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="getHasLoginedHttpGetIn" />
+  <wsdl:message name="getHasLoginedHttpGetOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="getLoginIDHttpGetIn" />
+  <wsdl:message name="getLoginIDHttpGetOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="addFriendHttpGetIn">
+    <wsdl:part name="FID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="addFriendHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="getFriendListHttpGetIn" />
+  <wsdl:message name="getFriendListHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="getCollectedCompanyListHttpGetIn">
+    <wsdl:part name="LoginID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getCollectedCompanyListHttpGetOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="addCollectCompHttpGetIn">
+    <wsdl:part name="LoginID" type="s:string" />
+    <wsdl:part name="CompID" type="s:string" />
+    <wsdl:part name="CompName" type="s:string" />
+    <wsdl:part name="TypeID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="addCollectCompHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="deleteCollectCompHttpGetIn">
+    <wsdl:part name="LoginID" type="s:string" />
+    <wsdl:part name="CompID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="deleteCollectCompHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="getLocationByGuiGeHttpGetIn">
+    <wsdl:part name="GuiGe" type="s:string" />
+    <wsdl:part name="compID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getLocationByGuiGeHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="getLoginHttpPostIn">
+    <wsdl:part name="userName" type="s:string" />
+    <wsdl:part name="passWord" type="s:string" />
+    <wsdl:part name="mdt" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getLoginHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="getMD5PwdHttpPostIn">
+    <wsdl:part name="pwd" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getMD5PwdHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="getDESPwdHttpPostIn">
+    <wsdl:part name="pwd" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getDESPwdHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="getLoginIDByMdtHttpPostIn">
+    <wsdl:part name="mdt" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getLoginIDByMdtHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="getMdtByLoginIDHttpPostIn">
+    <wsdl:part name="LoginID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getMdtByLoginIDHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="getLogOutHttpPostIn" />
+  <wsdl:message name="getLogOutHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="getCompanyMgrIDHttpPostIn">
+    <wsdl:part name="CompID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getCompanyMgrIDHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="getHasLoginedHttpPostIn" />
+  <wsdl:message name="getHasLoginedHttpPostOut">
+    <wsdl:part name="Body" element="tns:boolean" />
+  </wsdl:message>
+  <wsdl:message name="getLoginIDHttpPostIn" />
+  <wsdl:message name="getLoginIDHttpPostOut">
+    <wsdl:part name="Body" element="tns:int" />
+  </wsdl:message>
+  <wsdl:message name="addFriendHttpPostIn">
+    <wsdl:part name="FID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="addFriendHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="getFriendListHttpPostIn" />
+  <wsdl:message name="getFriendListHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="getCollectedCompanyListHttpPostIn">
+    <wsdl:part name="LoginID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getCollectedCompanyListHttpPostOut">
+    <wsdl:part name="Body" element="tns:DataTable" />
+  </wsdl:message>
+  <wsdl:message name="addCollectCompHttpPostIn">
+    <wsdl:part name="LoginID" type="s:string" />
+    <wsdl:part name="CompID" type="s:string" />
+    <wsdl:part name="CompName" type="s:string" />
+    <wsdl:part name="TypeID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="addCollectCompHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="deleteCollectCompHttpPostIn">
+    <wsdl:part name="LoginID" type="s:string" />
+    <wsdl:part name="CompID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="deleteCollectCompHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="getLocationByGuiGeHttpPostIn">
+    <wsdl:part name="GuiGe" type="s:string" />
+    <wsdl:part name="compID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="getLocationByGuiGeHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="MDToolSoap">
+    <wsdl:operation name="getLogin">
+      <wsdl:input message="tns:getLoginSoapIn" />
+      <wsdl:output message="tns:getLoginSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getMD5Pwd">
+      <wsdl:input message="tns:getMD5PwdSoapIn" />
+      <wsdl:output message="tns:getMD5PwdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getDESPwd">
+      <wsdl:input message="tns:getDESPwdSoapIn" />
+      <wsdl:output message="tns:getDESPwdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getLoginIDByMdt">
+      <wsdl:input message="tns:getLoginIDByMdtSoapIn" />
+      <wsdl:output message="tns:getLoginIDByMdtSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getMdtByLoginID">
+      <wsdl:input message="tns:getMdtByLoginIDSoapIn" />
+      <wsdl:output message="tns:getMdtByLoginIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getLogOut">
+      <wsdl:input message="tns:getLogOutSoapIn" />
+      <wsdl:output message="tns:getLogOutSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getCompanyMgrID">
+      <wsdl:input message="tns:getCompanyMgrIDSoapIn" />
+      <wsdl:output message="tns:getCompanyMgrIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getHasLogined">
+      <wsdl:input message="tns:getHasLoginedSoapIn" />
+      <wsdl:output message="tns:getHasLoginedSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getLoginID">
+      <wsdl:input message="tns:getLoginIDSoapIn" />
+      <wsdl:output message="tns:getLoginIDSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="addFriend">
+      <wsdl:input message="tns:addFriendSoapIn" />
+      <wsdl:output message="tns:addFriendSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getFriendList">
+      <wsdl:input message="tns:getFriendListSoapIn" />
+      <wsdl:output message="tns:getFriendListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getCollectedCompanyList">
+      <wsdl:input message="tns:getCollectedCompanyListSoapIn" />
+      <wsdl:output message="tns:getCollectedCompanyListSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="addCollectComp">
+      <wsdl:input message="tns:addCollectCompSoapIn" />
+      <wsdl:output message="tns:addCollectCompSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteCollectComp">
+      <wsdl:input message="tns:deleteCollectCompSoapIn" />
+      <wsdl:output message="tns:deleteCollectCompSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getLocationByGuiGe">
+      <wsdl:input message="tns:getLocationByGuiGeSoapIn" />
+      <wsdl:output message="tns:getLocationByGuiGeSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="MDToolHttpGet">
+    <wsdl:operation name="getLogin">
+      <wsdl:input message="tns:getLoginHttpGetIn" />
+      <wsdl:output message="tns:getLoginHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getMD5Pwd">
+      <wsdl:input message="tns:getMD5PwdHttpGetIn" />
+      <wsdl:output message="tns:getMD5PwdHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getDESPwd">
+      <wsdl:input message="tns:getDESPwdHttpGetIn" />
+      <wsdl:output message="tns:getDESPwdHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getLoginIDByMdt">
+      <wsdl:input message="tns:getLoginIDByMdtHttpGetIn" />
+      <wsdl:output message="tns:getLoginIDByMdtHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getMdtByLoginID">
+      <wsdl:input message="tns:getMdtByLoginIDHttpGetIn" />
+      <wsdl:output message="tns:getMdtByLoginIDHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getLogOut">
+      <wsdl:input message="tns:getLogOutHttpGetIn" />
+      <wsdl:output message="tns:getLogOutHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getCompanyMgrID">
+      <wsdl:input message="tns:getCompanyMgrIDHttpGetIn" />
+      <wsdl:output message="tns:getCompanyMgrIDHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getHasLogined">
+      <wsdl:input message="tns:getHasLoginedHttpGetIn" />
+      <wsdl:output message="tns:getHasLoginedHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getLoginID">
+      <wsdl:input message="tns:getLoginIDHttpGetIn" />
+      <wsdl:output message="tns:getLoginIDHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="addFriend">
+      <wsdl:input message="tns:addFriendHttpGetIn" />
+      <wsdl:output message="tns:addFriendHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getFriendList">
+      <wsdl:input message="tns:getFriendListHttpGetIn" />
+      <wsdl:output message="tns:getFriendListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getCollectedCompanyList">
+      <wsdl:input message="tns:getCollectedCompanyListHttpGetIn" />
+      <wsdl:output message="tns:getCollectedCompanyListHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="addCollectComp">
+      <wsdl:input message="tns:addCollectCompHttpGetIn" />
+      <wsdl:output message="tns:addCollectCompHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteCollectComp">
+      <wsdl:input message="tns:deleteCollectCompHttpGetIn" />
+      <wsdl:output message="tns:deleteCollectCompHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getLocationByGuiGe">
+      <wsdl:input message="tns:getLocationByGuiGeHttpGetIn" />
+      <wsdl:output message="tns:getLocationByGuiGeHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="MDToolHttpPost">
+    <wsdl:operation name="getLogin">
+      <wsdl:input message="tns:getLoginHttpPostIn" />
+      <wsdl:output message="tns:getLoginHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getMD5Pwd">
+      <wsdl:input message="tns:getMD5PwdHttpPostIn" />
+      <wsdl:output message="tns:getMD5PwdHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getDESPwd">
+      <wsdl:input message="tns:getDESPwdHttpPostIn" />
+      <wsdl:output message="tns:getDESPwdHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getLoginIDByMdt">
+      <wsdl:input message="tns:getLoginIDByMdtHttpPostIn" />
+      <wsdl:output message="tns:getLoginIDByMdtHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getMdtByLoginID">
+      <wsdl:input message="tns:getMdtByLoginIDHttpPostIn" />
+      <wsdl:output message="tns:getMdtByLoginIDHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getLogOut">
+      <wsdl:input message="tns:getLogOutHttpPostIn" />
+      <wsdl:output message="tns:getLogOutHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getCompanyMgrID">
+      <wsdl:input message="tns:getCompanyMgrIDHttpPostIn" />
+      <wsdl:output message="tns:getCompanyMgrIDHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getHasLogined">
+      <wsdl:input message="tns:getHasLoginedHttpPostIn" />
+      <wsdl:output message="tns:getHasLoginedHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getLoginID">
+      <wsdl:input message="tns:getLoginIDHttpPostIn" />
+      <wsdl:output message="tns:getLoginIDHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="addFriend">
+      <wsdl:input message="tns:addFriendHttpPostIn" />
+      <wsdl:output message="tns:addFriendHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getFriendList">
+      <wsdl:input message="tns:getFriendListHttpPostIn" />
+      <wsdl:output message="tns:getFriendListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getCollectedCompanyList">
+      <wsdl:input message="tns:getCollectedCompanyListHttpPostIn" />
+      <wsdl:output message="tns:getCollectedCompanyListHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="addCollectComp">
+      <wsdl:input message="tns:addCollectCompHttpPostIn" />
+      <wsdl:output message="tns:addCollectCompHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="deleteCollectComp">
+      <wsdl:input message="tns:deleteCollectCompHttpPostIn" />
+      <wsdl:output message="tns:deleteCollectCompHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getLocationByGuiGe">
+      <wsdl:input message="tns:getLocationByGuiGeHttpPostIn" />
+      <wsdl:output message="tns:getLocationByGuiGeHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MDToolSoap" type="tns:MDToolSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getLogin">
+      <soap:operation soapAction="http://www.my3dparts.com/getLogin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMD5Pwd">
+      <soap:operation soapAction="http://www.my3dparts.com/getMD5Pwd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDESPwd">
+      <soap:operation soapAction="http://www.my3dparts.com/getDESPwd" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getLoginIDByMdt">
+      <soap:operation soapAction="http://www.my3dparts.com/getLoginIDByMdt" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMdtByLoginID">
+      <soap:operation soapAction="http://www.my3dparts.com/getMdtByLoginID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getLogOut">
+      <soap:operation soapAction="http://www.my3dparts.com/getLogOut" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCompanyMgrID">
+      <soap:operation soapAction="http://www.my3dparts.com/getCompanyMgrID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getHasLogined">
+      <soap:operation soapAction="http://www.my3dparts.com/getHasLogined" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getLoginID">
+      <soap:operation soapAction="http://www.my3dparts.com/getLoginID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addFriend">
+      <soap:operation soapAction="http://www.my3dparts.com/addFriend" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFriendList">
+      <soap:operation soapAction="http://www.my3dparts.com/getFriendList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCollectedCompanyList">
+      <soap:operation soapAction="http://www.my3dparts.com/getCollectedCompanyList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addCollectComp">
+      <soap:operation soapAction="http://www.my3dparts.com/addCollectComp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteCollectComp">
+      <soap:operation soapAction="http://www.my3dparts.com/deleteCollectComp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getLocationByGuiGe">
+      <soap:operation soapAction="http://www.my3dparts.com/getLocationByGuiGe" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MDToolSoap12" type="tns:MDToolSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="getLogin">
+      <soap12:operation soapAction="http://www.my3dparts.com/getLogin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMD5Pwd">
+      <soap12:operation soapAction="http://www.my3dparts.com/getMD5Pwd" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDESPwd">
+      <soap12:operation soapAction="http://www.my3dparts.com/getDESPwd" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getLoginIDByMdt">
+      <soap12:operation soapAction="http://www.my3dparts.com/getLoginIDByMdt" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMdtByLoginID">
+      <soap12:operation soapAction="http://www.my3dparts.com/getMdtByLoginID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getLogOut">
+      <soap12:operation soapAction="http://www.my3dparts.com/getLogOut" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCompanyMgrID">
+      <soap12:operation soapAction="http://www.my3dparts.com/getCompanyMgrID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getHasLogined">
+      <soap12:operation soapAction="http://www.my3dparts.com/getHasLogined" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getLoginID">
+      <soap12:operation soapAction="http://www.my3dparts.com/getLoginID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addFriend">
+      <soap12:operation soapAction="http://www.my3dparts.com/addFriend" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFriendList">
+      <soap12:operation soapAction="http://www.my3dparts.com/getFriendList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCollectedCompanyList">
+      <soap12:operation soapAction="http://www.my3dparts.com/getCollectedCompanyList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addCollectComp">
+      <soap12:operation soapAction="http://www.my3dparts.com/addCollectComp" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteCollectComp">
+      <soap12:operation soapAction="http://www.my3dparts.com/deleteCollectComp" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getLocationByGuiGe">
+      <soap12:operation soapAction="http://www.my3dparts.com/getLocationByGuiGe" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MDToolHttpGet" type="tns:MDToolHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="getLogin">
+      <http:operation location="/getLogin" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMD5Pwd">
+      <http:operation location="/getMD5Pwd" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDESPwd">
+      <http:operation location="/getDESPwd" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getLoginIDByMdt">
+      <http:operation location="/getLoginIDByMdt" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMdtByLoginID">
+      <http:operation location="/getMdtByLoginID" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getLogOut">
+      <http:operation location="/getLogOut" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCompanyMgrID">
+      <http:operation location="/getCompanyMgrID" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getHasLogined">
+      <http:operation location="/getHasLogined" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getLoginID">
+      <http:operation location="/getLoginID" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addFriend">
+      <http:operation location="/addFriend" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFriendList">
+      <http:operation location="/getFriendList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCollectedCompanyList">
+      <http:operation location="/getCollectedCompanyList" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addCollectComp">
+      <http:operation location="/addCollectComp" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteCollectComp">
+      <http:operation location="/deleteCollectComp" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getLocationByGuiGe">
+      <http:operation location="/getLocationByGuiGe" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MDToolHttpPost" type="tns:MDToolHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="getLogin">
+      <http:operation location="/getLogin" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMD5Pwd">
+      <http:operation location="/getMD5Pwd" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDESPwd">
+      <http:operation location="/getDESPwd" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getLoginIDByMdt">
+      <http:operation location="/getLoginIDByMdt" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getMdtByLoginID">
+      <http:operation location="/getMdtByLoginID" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getLogOut">
+      <http:operation location="/getLogOut" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCompanyMgrID">
+      <http:operation location="/getCompanyMgrID" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getHasLogined">
+      <http:operation location="/getHasLogined" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getLoginID">
+      <http:operation location="/getLoginID" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addFriend">
+      <http:operation location="/addFriend" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getFriendList">
+      <http:operation location="/getFriendList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getCollectedCompanyList">
+      <http:operation location="/getCollectedCompanyList" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="addCollectComp">
+      <http:operation location="/addCollectComp" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="deleteCollectComp">
+      <http:operation location="/deleteCollectComp" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getLocationByGuiGe">
+      <http:operation location="/getLocationByGuiGe" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MDTool">
+    <wsdl:port name="MDToolSoap" binding="tns:MDToolSoap">
+      <soap:address location="http://www.my3dparts.com/asmx/MDTool.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MDToolSoap12" binding="tns:MDToolSoap12">
+      <soap12:address location="http://www.my3dparts.com/asmx/MDTool.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MDToolHttpGet" binding="tns:MDToolHttpGet">
+      <http:address location="http://www.my3dparts.com/asmx/MDTool.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MDToolHttpPost" binding="tns:MDToolHttpPost">
+      <http:address location="http://www.my3dparts.com/asmx/MDTool.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

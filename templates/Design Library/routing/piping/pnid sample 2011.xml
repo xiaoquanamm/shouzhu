@@ -1,0 +1,213 @@
+<PnIDData>
+	<version value="5"/>
+
+	<SystemInfo>
+		<Description value="Piping system"/>
+		<Comment value="Piping system"/>
+	</SystemInfo>
+
+
+	<EquipmentReferenced>
+
+		<Equipment>
+			<ID value="1"/>
+			<Tag value="Tank1"/>
+			<Description value="Hot Water Tank"/>
+			<PartNumber value="sample-Tank-05.SLDPRT"/>
+			<Config value="Conf 5&quot;"/>
+			<Area value=""/><Type value=""/>
+			<SubType value=""/>
+			<System value=""/>
+			<Size value=""/>
+			<Specification value=""/>
+			<Custom/>
+		</Equipment>
+		
+		<Equipment>
+			<ID value="2"/>
+			<Tag value="Tank2"/>
+			<Description value="Mix 1"/>
+			<PartNumber value="sample-Tank-05.SLDPRT"/>
+			<Config value="Conf 4&quot;"/>
+			<Area value=""/>
+			<Type value=""/>
+			<SubType value=""/>
+			<System value=""/>
+			<Size value=""/>
+			<Specification value=""/>
+			<Custom/>
+		</Equipment>
+		
+		<Equipment>
+			<ID value="3"/>
+			<Tag value="Tank3"/>
+			<Description value="Mix 2 Big"/>
+			<PartNumber value="sample-Tank-07.SLDPRT"/>
+			<Config value="Conf 2&quot;"/>
+			<Area value=""/>
+			<Type value=""/>
+			<SubType value=""/>
+			<System value=""/>
+			<Size value=""/>
+			<Specification value=""/>
+			<Custom/>
+		</Equipment>
+		
+		<Equipment>
+			<ID value="4"/>
+			<Tag value="Tank4"/>
+			<Description value="Long Gaz"/>
+			<PartNumber value="sample-Tank-13.SLDPRT"/>
+			<Config value="3000-s&quot;"/>
+			<Area value=""/>
+			<Type value=""/>
+			<SubType value=""/>
+			<System value=""/>
+			<Size value=""/>
+			<Specification value=""/>
+			<Custom/>
+		</Equipment>
+		
+		<Equipment>
+			<ID value="5"/>
+			<Tag value="Pump1"/>
+			<Description value="Pump Hot Water"/>
+			<PartNumber value="Pump-water_booster.SLDPRT"/>
+			<Config value=""/>
+			<Area value=""/>
+			<Type value=""/>
+			<SubType value=""/>
+			<System value=""/>
+			<Size value=""/>
+			<Specification value=""/>
+			<Custom/>
+		</Equipment>
+		
+	</EquipmentReferenced>
+
+
+	<PipelineInfo>
+		<Description value="Hot Water1"/>
+		<Comment value="Hot Water1"/>
+		<Name value="Hot Water1"/>
+		<Tag value="Hot Wat1"/>
+		<In-lineFittings>
+			<fitting>
+				<ID value="6"/><Tag value="Valve1"/><Description value="Valve Hot Water"/><PartNumber value="SW3dPS-1_2 in ball valve.SLDPRT"/><Config value="2&quot;"/><Area value=""/><Type value=""/><SubType value=""/><System value=""/><Size value=""/><Specification value=""/><Custom/>
+			</fitting>
+			<fitting>
+				<ID value="20"/><Tag value="Tee2"/><Description value="Tee Hot Water"/><PartNumber value="straight tee inch.sldprt"/><Config value="2&quot;"/><Area value=""/><Type value=""/><SubType value=""/><System value=""/><Size value=""/><Specification value=""/><Custom/>
+			</fitting>
+			<fitting>
+				<ID value="21"/><Tag value="Tee3"/><Description value="Tee Hot Water"/><PartNumber value="straight tee inch.sldprt"/><Config value="2&quot;"/><Area value=""/><Type value=""/><SubType value=""/><System value=""/><Size value=""/><Specification value=""/><Custom/>
+			</fitting>
+		</In-lineFittings>
+		<connections>
+			<PipeSegment>
+				<ID value="7"/>
+				<Tag value="pipetag7"/>
+				<Diameter value="2&quot;"/>
+				<FromEquip value="Tank1"/>
+				<FromEquipPort value="1"/>
+				<FromEquipSize value=""/>
+				<ToEquip value="Tee2"/>
+				<ToEquipPort value=""/>
+				<ToEquipSize value=""/>
+				<Area value=""/>
+				<System value=""/>
+				<Size value=""/>
+				<Fluid value=""/>
+				<PhaseState value=""/>
+				<Specification value=""/>
+				<Insulation value=""/>
+				<Identifier value=""/>
+				<Custom/>
+			</PipeSegment>
+			<PipeSegment>
+				<ID value="8"/><Tag value="pipetag8"/><Diameter value="2&quot;"/><FromEquip value="Tee3"/><FromEquipPort value=""/><FromEquipSize value=""/><ToEquip value="Pump1"/><ToEquipPort value="In"/><ToEquipSize value=""/><Area value=""/><System value=""/><Size value=""/><Fluid value=""/><PhaseState value=""/><Specification value=""/><Insulation value=""/><Identifier value=""/><Custom/>
+			</PipeSegment>
+			<PipeSegment>
+			<ID value="22"/><Tag value="pipetag22"/><Diameter value="2&quot;"/><FromEquip value="Tee3"/><FromEquipPort value=""/><FromEquipSize value=""/><ToEquip value="Tee2"/><ToEquipPort value=""/><ToEquipSize value=""/><Area value=""/><System value=""/><Size value=""/><Fluid value=""/><PhaseState value=""/><Specification value=""/><Insulation value=""/><Identifier value=""/><Custom/>
+			</PipeSegment>
+			<PipeSegment>
+				<ID value="23"/><Tag value="pipetag23"/><Diameter value="2&quot;"/><FromEquip value="Tee3"/><FromEquipPort value=""/><FromEquipSize value=""/><ToEquip value="Valve1"/><ToEquipPort value=""/><ToEquipSize value=""/><Area value=""/><System value=""/><Size value=""/><Fluid value=""/><PhaseState value=""/><Specification value=""/><Insulation value=""/><Identifier value=""/><Custom/>
+			</PipeSegment>
+			<PipeSegment>
+				<ID value="22"/><Tag value="pipetag22"/><Diameter value="2&quot;"/><FromEquip value="Valve1"/><FromEquipPort value=""/><FromEquipSize value=""/><ToEquip value="Tee2"/><ToEquipPort value=""/><ToEquipSize value=""/><Area value=""/><System value=""/><Size value=""/><Fluid value=""/><PhaseState value=""/><Specification value=""/><Insulation value=""/><Identifier value=""/><Custom/>
+			</PipeSegment>
+		</connections>
+	</PipelineInfo>
+
+
+	<PipelineInfo>
+		<Description value="Hot Water2"/><Comment value="Hot Water2"/><Name value="Hot Water2"/><Tag value="Hot Water2"/>
+		<In-lineFittings>
+			<fitting>
+				<ID value="9"/><Tag value="Valve2"/><Description value="Valve Before Tank3"/><PartNumber value="SW3dPS-1_2 in ball valve.SLDPRT"/><Config value="2&quot;"/><Area value=""/><Type value=""/><SubType value=""/><System value=""/><Size value=""/><Specification value=""/><Custom/>
+			</fitting>
+			<fitting>
+				<ID value="10"/><Tag value="Tee1"/><Description value="Tee1"/><PartNumber value="straight tee inch.sldprt"/><Config value="Tee Inch 2 Sch40"/><Area value=""/><Type value=""/><SubType value=""/><System value=""/><Size value=""/><Specification value=""/><Custom/>
+			</fitting>
+			<fitting>
+				<ID value="11"/><Tag value="Valve3"/><Description value="Valve Before Tank3"/><PartNumber value="SW3dPS-1_2 in ball valve.SLDPRT"/><Config value="2&quot;"/><Area value=""/><Type value=""/><SubType value=""/><System value=""/><Size value=""/><Specification value=""/><Custom/>
+			</fitting>
+			<fitting>
+				<ID value="12"/><Tag value="Valve4"/><Description value="Valve Before Tank3"/><PartNumber value="SW3dPS-1_2 in ball valve.SLDPRT"/><Config value="2&quot;"/><Area value=""/><Type value=""/><SubType value=""/><System value=""/><Size value=""/><Specification value=""/><Custom/>
+			</fitting>
+		</In-lineFittings>
+		<connections>
+			<PipeSegment>
+				<ID value="13"/><Tag value="pipetag13"/><Diameter value="2&quot;"/><FromEquip value="Pump1"/><FromEquipPort value="Out"/><FromEquipSize value=""/><ToEquip value="Valve3"/><ToEquipPort value=""/><ToEquipSize value=""/><Area value=""/><System value=""/><Size value=""/><Fluid value=""/><PhaseState value=""/><Specification value=""/><Insulation value=""/><Identifier value=""/><Custom/>
+			</PipeSegment>
+			<PipeSegment>
+				<ID value="14"/><Tag value="pipetag14"/><Diameter value="2&quot;"/><FromEquip value="Tee1"/><FromEquipPort value=""/><FromEquipSize value=""/><ToEquip value="Valve3"/><ToEquipPort value=""/><ToEquipSize value=""/><Area value=""/><System value=""/><Size value=""/><Fluid value=""/><PhaseState value=""/><Specification value=""/><Insulation value=""/><Identifier value=""/><Custom/>
+			</PipeSegment>
+			<PipeSegment>
+				<ID value="15"/><Tag value="pipetag15"/><Diameter value="2&quot;"/><FromEquip value="Tee1"/><FromEquipPort value="2"/><FromEquipSize value=""/><ToEquip value="Valve4"/><ToEquipPort value=""/><ToEquipSize value=""/><Area value=""/><System value=""/><Size value=""/><Fluid value=""/><PhaseState value=""/><Specification value=""/><Insulation value=""/><Identifier value=""/><Custom/>
+			</PipeSegment>
+			<PipeSegment>
+				<ID value="16"/><Tag value="pipetag16"/><Diameter value="2&quot;"/><FromEquip value="Valve4"/><FromEquipPort value=""/><FromEquipSize value=""/><ToEquip value="Tank2"/><ToEquipPort value="1"/><ToEquipSize value=""/><Area value=""/><System value=""/><Size value=""/><Fluid value=""/><PhaseState value=""/><Specification value=""/><Insulation value=""/><Identifier value=""/><Custom/>
+			</PipeSegment>
+			<PipeSegment>
+				<ID value="17"/><Tag value="pipetag17"/><Diameter value="2&quot;"/><FromEquip value="Tee1"/><FromEquipPort value="2"/><FromEquipSize value=""/><ToEquip value="Valve2"/><ToEquipPort value="1"/><ToEquipSize value=""/><Area value=""/><System value=""/><Size value=""/><Fluid value=""/><PhaseState value=""/><Specification value=""/><Insulation value=""/><Identifier value=""/><Custom/>
+			</PipeSegment>
+			<PipeSegment>
+				<ID value="18"/><Tag value="pipetag18"/><Diameter value="2&quot;"/><FromEquip value="Valve2"/><FromEquipPort value="2"/><FromEquipSize value=""/><ToEquip value="Tank3"/><ToEquipPort value="1"/><ToEquipSize value=""/><Area value=""/><System value=""/><Size value=""/><Fluid value=""/><PhaseState value=""/><Specification value=""/><Insulation value=""/><Identifier value=""/><Custom/>
+			</PipeSegment>
+		</connections>
+	</PipelineInfo>
+	
+	
+	<PipelineInfo>
+		<Description value="Mix 1"/><Comment value="Mix 1"/><Name value="Mix 1"/><Tag value="Mix 1"/>
+		<In-lineFittings/>
+		<connections>
+			<PipeSegment>
+				<ID value="19"/>
+				<Tag value="pipetag19"/>
+				<Diameter value="5&quot;"/>
+				<FromEquip value="Tank3"/>
+				<FromEquipPort value="3"/>
+				<FromEquipSize value=""/>
+				<ToEquip value="Tank4"/>
+				<ToEquipPort value="1"/>
+				<ToEquipSize value=""/>
+				<Area value=""/>
+				<System value=""/>
+				<Size value=""/>
+				<Fluid value=""/>
+				<PhaseState value=""/>
+				<Specification value=""/>
+				<Insulation value=""/>
+				<Identifier value=""/>
+				<Custom>
+					<CustomAttribute name="atrib1" value="1.345"/>
+					<CustomAttribute name="atrib2" value="2.345"/>
+					<CustomAttribute name="atrib3" value="3.345"/>
+				</Custom>
+			</PipeSegment>
+		</connections>
+	</PipelineInfo>
+	
+	
+</PnIDData>

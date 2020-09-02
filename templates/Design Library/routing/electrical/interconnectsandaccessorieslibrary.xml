@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<InterconnectsAndAccessoriesLibrary xmlns='http://www.solidworks.com/interconnectsandaccessorieslibrary'>
+   <Terminals>
+     <Terminal ID="XXX-1">
+      <TerminalName value="748333-2" />
+      <GaugeRange value="22" />
+      <Description value="AMPLIMITE 22 GA Contact Pin" />
+      <PartNumber value="748333-2" />
+      <Vendor value="AMP" />
+      <Note value="Socket PN 748610-2" />
+    </Terminal>
+     <Terminal ID="XXX-2">
+      <TerminalName value="66506-4" />
+      <GaugeRange value="14-16" />
+      <Description value="AMPLIMITE" />
+      <PartNumber value="66506-4" />
+      <Vendor value="AMP" />
+      <Note value="Strip" />
+    </Terminal>
+     <Terminal ID="XXX-3">
+      <TerminalName value="66506-9" />
+      <GaugeRange value="20-24" />
+      <Description value="AMPLIMITE" />
+      <PartNumber value="66506-9" />
+      <Vendor value="AMP" />
+      <Note value="Loose" />
+    </Terminal>
+     <Terminal ID="XXX-4">
+      <TerminalName value="207683" />
+      <GaugeRange value="20-24" />
+      <Description value="AMPLIMITE Coax Mix SUB D" />
+      <PartNumber value="207683" />
+      <Vendor value="AMP" />
+      <Note value="Loose" />
+    </Terminal>
+  </Terminals>
+   <Seals>
+     <Seal ID="YYY-1">
+      <SealName value="SL .25 2002" />
+      <Vendor value="Vesco" />
+      <Description value="Seal .25in Clear" />
+      <PartNumber value="SL .25 2002" />
+    </Seal>
+     <Seal ID="YYY-2">
+      <SealName value="SL .30 2003" />
+      <Vendor value="Vesco" />
+      <Description value="Seal .30in Clear" />
+      <PartNumber value="SL .30 2003" />      
+    </Seal>
+     <Seal ID="YYY-3">
+      <SealName value="SL .40 3004" />
+      <Vendor value="Vesco" />
+      <Description value="Seal .40in Clear" />
+      <PartNumber value="SL .40 3004" />
+    </Seal>
+     <Seal ID="YYY-4">
+      <SealName value="SL .50 3005" />
+      <Vendor value="Vesco" />
+      <Description value="Seal .50in Clear" />
+      <PartNumber value="SL .50 3005" />
+    </Seal>
+     <Seal ID="YYY-5">
+      <SealName value="SL .15 1001" />
+      <Vendor value="JDN" />
+      <Description value="Seal .15in Blk" />
+      <PartNumber value="SL .15 1001" />
+    </Seal>
+     <Seal ID="YYY-6">
+      <SealName value="SL .33 1002" />
+      <Vendor value="JDN" />
+      <Description value="Seal .33in Blk" />
+      <PartNumber value="SL .33 1002" />
+    </Seal>
+     <Seal ID="YYY-7">
+      <SealName value="SL 1 1003" />
+      <Vendor value="JDN" />
+      <Description value="Seal 1in Blk" />
+      <PartNumber value="SL 1 1003" />
+    </Seal>
+  </Seals>
+   <Plugs>
+     <Plug ID="ZZZ-1">
+      <PlugName value="PLG 300-1" />
+      <PartNumber value="PLG 300-1" />
+      <Description value="Conn Plug 10-12 GA" />
+      <Vendor value="PCD" />
+      <Note value="InStock" />
+      <Pin value="12ga" />
+      <Mode value="12" />
+    </Plug>
+     <Plug ID="ZZZ-2">
+      <PlugName value="PLG 301-1" />
+      <PartNumber value="PLG 301-1" />
+      <Description value="Conn Plug 14-18 GA" />
+      <Vendor value="PCD" />
+      <Note value="" />
+      <Pin value="12ga" />
+      <Mode value="12" />
+    </Plug>
+     <Plug ID="ZZZ-3">
+      <PlugName value="PLG 302-1" />
+      <PartNumber value="PLG 302-1" />
+      <Description value="Conn Plug 20-24 GA" />
+      <Vendor value="PCD" />
+      <Note value="" />
+      <Pin value="12ga" />
+      <Mode value="12" />
+    </Plug>
+     <Plug ID="ZZZ-4">
+      <PlugName value="PLG 400-1" />
+      <PartNumber value="PLG 400-1" />
+      <Description value="Conn Plug 8 GA PWR" />
+      <Vendor value="ASEM" />
+      <Note value="" />
+      <Pin value="12ga" />
+      <Mode value="12" />
+    </Plug>
+     <Plug ID="ZZZ-5">
+      <PlugName value="PLG T6700" />
+      <PartNumber value="P234" />
+      <Description value="Conn Plug 8 GA PWR" />
+      <Vendor value="TBO" />
+      <Note value="" />
+      <Pin value="12ga" />
+      <Mode value="" />
+    </Plug>
+  </Plugs>
+   <MiscParts>
+     <Misc ID="AAA-1">
+      <MiscName value="205980-1" />
+      <Description value="Male Screw Retainer" />
+      <PartNumber value="205980-1" />
+      <Vendor value="AMP" />
+      <Cost value="0.45" />
+      <Note value="Mate to AMPLIMITE" />
+      <Loom value="Mach12" />
+    </Misc>
+     <Misc ID="AAA-2">
+      <MiscName value="747579-8" />
+      <Description value="Ferrule" />
+      <PartNumber value="747579-8" />
+      <Vendor value="AMP" />
+      <Cost value="0.12" />
+      <Note value="" />      
+      <Loom value="Mach12" />
+    </Misc>
+     <Misc ID="AAA-3">
+      <MiscName value="747580-5" />
+      <Description value="Ferrule" />
+      <PartNumber value="747580-5" />
+      <Vendor value="AMP" />
+      <Cost value="0.15" />
+      <Note value="" />      
+      <Loom value="Mach12" />
+    </Misc>
+     <Misc ID="AAA-4">
+      <MiscName value="TIEWRAP1-4" />
+      <Description value=".25in Wht Tie Wrap" />
+      <PartNumber value="747580-5" />
+      <Vendor value="Sono" />      
+      <Cost value="0.01" />
+      <Note value="" />      
+      <Loom value="Mach12" />
+    </Misc>
+     <Misc ID="AAA-5">
+      <MiscName value="TIEWRAP1-8" />
+      <Description value=".125in Wht Tie Wrap" />
+      <PartNumber value="TIEWRAP1-8" />
+      <Vendor value="Sono" />
+      <Cost value=".03" />
+      <Note value="Mo12" />      
+      <Loom value="Mach12" />
+    </Misc>  
+  </MiscParts>
+</InterconnectsAndAccessoriesLibrary>
+

@@ -1,0 +1,816 @@
+<PnIDData>
+	<version value="6"/>
+
+	<SystemInfo>
+		<Description value="Piping system"/>
+		<Comment value="Piping system"/>
+	</SystemInfo>
+
+  <!--Equipment-->
+
+	<EquipmentReferenced>
+
+		<Equipment>
+			<ID value="1"/>
+			<Tag value="Tank1"/>
+			<Description value="Hot Water Tank"/>
+			<PartNumber value="sample-Tank-05.SLDPRT"/>
+			<Config value="Conf 5&quot;"/>
+			<Area value=""/><Type value=""/>
+			<SubType value=""/>
+			<System value=""/>
+			<Size value=""/>
+			<Specification value=""/>
+			<Custom/>
+		</Equipment>
+		
+		<Equipment>
+			<ID value="2"/>
+			<Tag value="Tank2"/>
+			<Description value="Mix 1"/>
+			<PartNumber value="sample-Tank-05.SLDPRT"/>
+			<Config value="Conf 4&quot;"/>
+			<Area value=""/>
+			<Type value=""/>
+			<SubType value=""/>
+			<System value=""/>
+			<Size value=""/>
+			<Specification value=""/>
+			<Custom/>
+		</Equipment>
+		
+		<Equipment>
+			<ID value="3"/>
+			<Tag value="Tank3"/>
+			<Description value="Mix 2 Big"/>
+			<PartNumber value="sample-Tank-07.SLDPRT"/>
+			<Config value="Conf 2&quot;"/>
+			<Area value=""/>
+			<Type value=""/>
+			<SubType value=""/>
+			<System value=""/>
+			<Size value=""/>
+			<Specification value=""/>
+			<Custom/>
+		</Equipment>
+		
+		<Equipment>
+			<ID value="4"/>
+			<Tag value="Tank4"/>
+			<Description value="Long Gaz"/>
+			<PartNumber value="sample-Tank-13.SLDPRT"/>
+			<Config value="3000-s&quot;"/>
+			<Area value=""/>
+			<Type value=""/>
+			<SubType value=""/>
+			<System value=""/>
+			<Size value=""/>
+			<Specification value=""/>
+			<Custom/>
+		</Equipment>
+		
+		<Equipment>
+			<ID value="5"/>
+			<Tag value="Pump1"/>
+			<Description value="Pump Hot Water"/>
+			<PartNumber value="Pump-water_booster.SLDPRT"/>
+			<Config value=""/>
+			<Area value=""/>
+			<Type value=""/>
+			<SubType value=""/>
+			<System value=""/>
+			<Size value=""/>
+			<Specification value=""/>
+			<Custom/>
+		</Equipment>
+		
+	</EquipmentReferenced>
+
+  <!--Pipe Lines--> 
+  
+	<PipelineInfo ID="1">
+		<Description value="Hot Water1"/>
+		<Comment value="Hot Water1"/>
+		<Name value="Hot Water1"/>
+		<Tag value="Hot Wat1"/>
+		<In-lineFittings>
+      
+			<fitting>
+				<ID value="6"/>
+        <Tag value="Valve1"/>
+        <Description value="Valve Hot Water"/>
+        <PartNumber value="SW3dPS-1_2 in ball valve.SLDPRT"/>
+        <Config value="2&quot;"/>
+        <Area value=""/>
+        <Type value=""/>
+        <SubType value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Specification value=""/>
+        <Custom/>
+			</fitting>
+      
+			<fitting>
+				<ID value="7"/>
+        <Tag value="Tee1"/>
+        <Description value="Tee Hot Water"/>
+        <PartNumber value="straight tee inch.sldprt"/>
+        <Config value="2&quot;"/>
+        <Area value=""/>
+        <Type value=""/>
+        <SubType value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Specification value=""/>
+        <Custom/>
+			</fitting>
+      
+			<fitting>
+				<ID value="8"/>
+        <Tag value="Tee2"/>
+        <Description value="Tee Hot Water"/>
+        <PartNumber value="straight tee inch.sldprt"/>
+        <Config value="2&quot;"/>
+        <Area value=""/>
+        <Type value=""/>
+        <SubType value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Specification value=""/>
+        <Custom/>
+			</fitting>
+      
+		</In-lineFittings>
+    
+		<connections>
+			<PipeSegment ID="1">
+				<Tag value="pipetag1"/>
+				<Diameter value="2&quot;"/>
+				<FromEquip value="Tank1"/>
+				<FromEquipPort value="1"/>
+				<FromEquipSize value=""/>
+				<ToEquip value="Tee1"/>
+				<ToEquipPort value=""/>
+				<ToEquipSize value=""/>
+				<Area value=""/>
+				<System value=""/>
+				<Size value=""/>
+				<Fluid value=""/>
+				<PhaseState value=""/>
+				<Specification value=""/>
+				<Insulation value=""/>
+				<Identifier value=""/>
+				<Custom/>
+			</PipeSegment>
+      
+			<PipeSegment ID="2">
+        <Tag value="pipetag2"/>
+        <Diameter value="2&quot;"/>
+        <FromEquip value="Tee2"/>
+        <FromEquipPort value=""/>
+        <FromEquipSize value=""/>
+        <ToEquip value="Pump1"/>
+        <ToEquipPort value="In"/>
+        <ToEquipSize value=""/>
+        <Area value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Fluid value=""/>
+        <PhaseState value=""/>
+        <Specification value=""/>
+        <Insulation value=""/>
+        <Identifier value=""/>
+        <Custom/>
+			</PipeSegment>
+      
+			<PipeSegment ID="3">
+        <Tag value="pipetag3"/>
+        <Diameter value="2&quot;"/>
+        <FromEquip value="Tee2"/>
+        <FromEquipPort value=""/>
+        <FromEquipSize value=""/>
+        <ToEquip value="Tee1"/>
+        <ToEquipPort value=""/>
+        <ToEquipSize value=""/>
+        <Area value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Fluid value=""/>
+        <PhaseState value=""/>
+        <Specification value=""/>
+        <Insulation value=""/>
+        <Identifier value=""/>
+        <Custom/>
+			</PipeSegment>
+      
+			<PipeSegment ID="4">
+        <Tag value="pipetag4"/>
+        <Diameter value="2&quot;"/>
+        <FromEquip value="Tee2"/>
+        <FromEquipPort value=""/>
+        <FromEquipSize value=""/>
+        <ToEquip value="Valve1"/>
+        <ToEquipPort value=""/>
+        <ToEquipSize value=""/>
+        <Area value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Fluid value=""/>
+        <PhaseState value=""/>
+        <Specification value=""/>
+        <Insulation value=""/>
+        <Identifier value=""/>
+        <Custom/>
+			</PipeSegment>
+      
+			<PipeSegment ID="5">
+        <Tag value="pipetag5"/>
+        <Diameter value="2&quot;"/>
+        <FromEquip value="Valve1"/>
+        <FromEquipPort value=""/>
+        <FromEquipSize value=""/>
+        <ToEquip value="Tee1"/>
+        <ToEquipPort value=""/>
+        <ToEquipSize value=""/>
+        <Area value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Fluid value=""/>
+        <PhaseState value=""/>
+        <Specification value=""/>
+        <Insulation value=""/>
+        <Identifier value=""/>
+        <Custom/>
+			</PipeSegment>
+      
+		</connections>
+	</PipelineInfo>
+
+	<PipelineInfo ID="2">
+		<Description value="Hot Water2"/>
+    <Comment value="Hot Water2"/>
+    <Name value="Hot Water2"/>
+    <Tag value="Hot Water2"/>
+    
+		<In-lineFittings>
+      
+			<fitting>
+				<ID value="9"/>
+        <Tag value="Valve2"/>
+        <Description value="Valve Before Tank3"/>
+        <PartNumber value="SW3dPS-1_2 in ball valve.SLDPRT"/>
+        <Config value="2&quot;"/><Area value=""/><Type value=""/>
+        <SubType value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Specification value=""/>
+        <Custom/>
+			</fitting>
+      
+			<fitting>
+				<ID value="10"/>
+        <Tag value="Tee3"/>
+        <Description value="Tee3"/>
+        <PartNumber value="straight tee inch.sldprt"/>
+        <Config value="Tee Inch 2 Sch40"/><Area value=""/>
+        <Type value=""/>
+        <SubType value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Specification value=""/>
+        <Custom/>
+			</fitting>
+      
+			<fitting>
+				<ID value="11"/>
+        <Tag value="Valve3"/>
+        <Description value="Valve Before Tank3"/>
+        <PartNumber value="SW3dPS-1_2 in ball valve.SLDPRT"/>
+        <Config value="2&quot;"/>
+        <Area value=""/>
+        <Type value=""/>
+        <SubType value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Specification value=""/>
+        <Custom/>
+			</fitting>
+      
+			<fitting>
+				<ID value="12"/>
+        <Tag value="Valve4"/>
+        <Description value="Valve Before Tank3"/>
+        <PartNumber value="SW3dPS-1_2 in ball valve.SLDPRT"/>
+        <Config value="2&quot;"/>
+        <Area value=""/>
+        <Type value=""/>
+        <SubType value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Specification value=""/>
+        <Custom/>
+			</fitting>
+      
+		</In-lineFittings>
+    
+		<connections>
+      
+			<PipeSegment ID="6">
+        <Tag value="pipetag6"/>
+        <Diameter value="2&quot;"/>
+        <FromEquip value="Pump1"/>
+        <FromEquipPort value="Out"/>
+        <FromEquipSize value=""/>
+        <ToEquip value="Valve3"/>
+        <ToEquipPort value=""/>
+        <ToEquipSize value=""/>
+        <Area value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Fluid value=""/>
+        <PhaseState value=""/>
+        <Specification value=""/>
+        <Insulation value=""/>
+        <Identifier value=""/>
+        <Custom/>
+			</PipeSegment>
+      
+			<PipeSegment ID="7">
+        <Tag value="pipetag7"/>
+        <Diameter value="2&quot;"/>
+        <FromEquip value="Tee3"/>
+        <FromEquipPort value=""/>
+        <FromEquipSize value=""/>
+        <ToEquip value="Valve3"/>
+        <ToEquipPort value=""/>
+        <ToEquipSize value=""/>
+        <Area value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Fluid value=""/>
+        <PhaseState value=""/>
+        <Specification value=""/>
+        <Insulation value=""/>
+        <Identifier value=""/>
+        <Custom/>
+			</PipeSegment>
+      
+			<PipeSegment ID="8">
+        <Tag value="pipetag8"/>
+        <Diameter value="2&quot;"/>
+        <FromEquip value="Tee3"/>
+        <FromEquipPort value="2"/>
+        <FromEquipSize value=""/>
+        <ToEquip value="Valve4"/>
+        <ToEquipPort value=""/>
+        <ToEquipSize value=""/>
+        <Area value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Fluid value=""/>
+        <PhaseState value=""/>
+        <Specification value=""/>
+        <Insulation value=""/>
+        <Identifier value=""/>
+        <Custom/>
+			</PipeSegment>
+      
+			<PipeSegment ID="9">
+        <Tag value="pipetag9"/>
+        <Diameter value="2&quot;"/>
+        <FromEquip value="Valve4"/>
+        <FromEquipPort value=""/>
+        <FromEquipSize value=""/>
+        <ToEquip value="Tank2"/>
+        <ToEquipPort value="1"/>
+        <ToEquipSize value=""/>
+        <Area value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Fluid value=""/>
+        <PhaseState value=""/>
+        <Specification value=""/>
+        <Insulation value=""/>
+        <Identifier value=""/>
+        <Custom/>
+			</PipeSegment>
+      
+			<PipeSegment ID="10">
+        <Tag value="pipetag10"/>
+        <Diameter value="2&quot;"/>
+        <FromEquip value="Tee3"/>
+        <FromEquipPort value="2"/>
+        <FromEquipSize value=""/>
+        <ToEquip value="Valve2"/>
+        <ToEquipPort value="1"/>
+        <ToEquipSize value=""/>
+        <Area value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Fluid value=""/>
+        <PhaseState value=""/>
+        <Specification value=""/>
+        <Insulation value=""/>
+        <Identifier value=""/>
+        <Custom/>
+			</PipeSegment>
+      
+			<PipeSegment ID="11">
+        <Tag value="pipetag11"/>
+        <Diameter value="2&quot;"/>
+        <FromEquip value="Valve2"/>
+        <FromEquipPort value="2"/>
+        <FromEquipSize value=""/>
+        <ToEquip value="Tank3"/>
+        <ToEquipPort value="1"/>
+        <ToEquipSize value=""/>
+        <Area value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Fluid value=""/>
+        <PhaseState value=""/>
+        <Specification value=""/>
+        <Insulation value=""/>
+        <Identifier value=""/>
+        <Custom/>
+			</PipeSegment>
+      
+		</connections>
+	</PipelineInfo>
+		
+	<PipelineInfo ID="3">
+		<Description value="Mix 1"/>
+    <Comment value="Mix 1"/>
+    <Name value="Mix 1"/>
+    <Tag value="Mix 1"/>
+    <In-lineFittings>
+      <fitting>
+        <ID value="13"/>
+        <Tag value="Flange1"/>
+        <Description value="Tubing Flange"/>
+        <PartNumber value="slip on tube flange-ss.sldprt"/>
+        <Config value="2&quot;"/>
+        <Area value=""/>
+        <Type value=""/>
+        <SubType value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Specification value=""/>
+        <Custom/>
+      </fitting>
+
+      <fitting>
+        <ID value="14"/>
+        <Tag value="Flange2"/>
+        <Description value="Tubing Flange"/>
+        <PartNumber value="slip on tube flange-ss.sldprt"/>
+        <Config value="2&quot;"/>
+        <Area value=""/>
+        <Type value=""/>
+        <SubType value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Specification value=""/>
+        <Custom/>
+      </fitting>
+
+      <fitting>
+        <ID value="15"/>
+        <Tag value="Flange3"/>
+        <Description value="Tubing Flange"/>
+        <PartNumber value="slip on tube flange-ss.sldprt"/>
+        <Config value="2&quot;"/>
+        <Area value=""/>
+        <Type value=""/>
+        <SubType value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Specification value=""/>
+        <Custom/>
+      </fitting>
+
+      <fitting>
+        <ID value="16"/>
+        <Tag value="Tee4"/>
+        <Description value="Tee Tubing Hot Water"/>
+        <PartNumber value="tee-ss.sldprt"/>
+        <Config value="2&quot;"/>
+        <Area value=""/>
+        <Type value=""/>
+        <SubType value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Specification value=""/>
+        <Custom/>
+      </fitting>
+    </In-lineFittings>
+		<connections>
+			<PipeSegment ID="13">
+				<Tag value="pipetag13"/>
+				<Diameter value="5&quot;"/>
+				<FromEquip value="Tank3"/>
+				<FromEquipPort value="3"/>
+				<FromEquipSize value=""/>
+				<ToEquip value="Tank4"/>
+				<ToEquipPort value="1"/>
+				<ToEquipSize value=""/>
+				<Area value=""/>
+				<System value=""/>
+				<Size value=""/>
+				<Fluid value=""/>
+				<PhaseState value=""/>
+				<Specification value=""/>
+				<Insulation value=""/>
+				<Identifier value=""/>
+				<Custom>
+					<CustomAttribute name="atrib1" value="1.345"/>
+					<CustomAttribute name="atrib2" value="2.345"/>
+					<CustomAttribute name="atrib3" value="3.345"/>
+				</Custom>
+			</PipeSegment>
+
+      <TubeSegment ID="14">
+        <Tag value="tubetag14"/>
+        <Diameter value="2&quot;"/>
+        <FromEquip value="Flange1"/>
+        <FromEquipPort value="1"/>
+        <FromEquipSize value=""/>
+        <ToEquip value="Tee4"/>
+        <ToEquipPort value="1"/>
+        <ToEquipSize value=""/>
+        <Area value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Fluid value=""/>
+        <PhaseState value=""/>
+        <Specification value=""/>
+        <Insulation value=""/>
+        <Identifier value=""/>
+        <Custom/>
+      </TubeSegment>
+
+      <TubeSegment ID="29">
+        <Tag value="tubetag7"/>
+        <Diameter value="2&quot;"/>
+        <FromEquip value="Tee4"/>
+        <FromEquipPort value="3"/>
+        <FromEquipSize value=""/>
+        <ToEquip value="Flange2"/>
+        <ToEquipPort value="1"/>
+        <ToEquipSize value=""/>
+        <Area value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Fluid value=""/>
+        <PhaseState value=""/>
+        <Specification value=""/>
+        <Insulation value=""/>
+        <Identifier value=""/>
+        <Custom/>
+      </TubeSegment>
+
+      <TubeSegment ID="30">
+        <Tag value="tubetag7"/>
+        <Diameter value="2&quot;"/>
+        <FromEquip value="Tee4"/>
+        <FromEquipPort value="2"/>
+        <FromEquipSize value=""/>
+        <ToEquip value="Flange3"/>
+        <ToEquipPort value="1"/>
+        <ToEquipSize value=""/>
+        <Area value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Fluid value=""/>
+        <PhaseState value=""/>
+        <Specification value=""/>
+        <Insulation value=""/>
+        <Identifier value=""/>
+        <Custom/>
+      </TubeSegment>      
+		</connections>
+	</PipelineInfo>
+  
+  <!--Tube Lines-->
+  
+  <TubelineInfo ID="4">
+    <Description value="Tubing System1"/>
+    <Comment value="Tubing System1"/>
+    <Name value="Tubing System1"/>
+    <Tag value="Tube Sys1"/>
+
+    <In-lineFittings>
+
+      <fitting>
+        <ID value="17"/>
+        <Tag value="Flange4"/>
+        <Description value="Tubing Flange"/>
+        <PartNumber value="slip on tube flange-ss.sldprt"/>
+        <Config value="2&quot;"/>
+        <Area value=""/>
+        <Type value=""/>
+        <SubType value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Specification value=""/>
+        <Custom/>
+      </fitting>
+
+      <fitting>
+        <ID value="18"/>
+        <Tag value="Flange5"/>
+        <Description value="Tubing Flange"/>
+        <PartNumber value="slip on tube flange-ss.sldprt"/>
+        <Config value="2&quot;"/>
+        <Area value=""/>
+        <Type value=""/>
+        <SubType value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Specification value=""/>
+        <Custom/>
+      </fitting>
+
+      <fitting>
+        <ID value="19"/>
+        <Tag value="Flange6"/>
+        <Description value="Tubing Flange"/>
+        <PartNumber value="slip on tube flange-ss.sldprt"/>
+        <Config value="2&quot;"/>
+        <Area value=""/>
+        <Type value=""/>
+        <SubType value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Specification value=""/>
+        <Custom/>
+      </fitting>
+
+      <fitting>
+        <ID value="20"/>
+        <Tag value="Tee5"/>
+        <Description value="Tee Tubing Hot Water"/>
+        <PartNumber value="tee-ss.sldprt"/>
+        <Config value="2&quot;"/>
+        <Area value=""/>
+        <Type value=""/>
+        <SubType value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Specification value=""/>
+        <Custom/>
+      </fitting>
+
+    </In-lineFittings>
+
+    <connections>
+      
+      <TubeSegment ID="31">
+        <Tag value="tubetag31"/>
+        <Diameter value="2&quot;"/>
+        <FromEquip value="Flange4"/>
+        <FromEquipPort value="1"/>
+        <FromEquipSize value=""/>
+        <ToEquip value="Tee5"/>
+        <ToEquipPort value="1"/>
+        <ToEquipSize value=""/>
+        <Area value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Fluid value=""/>
+        <PhaseState value=""/>
+        <Specification value=""/>
+        <Insulation value=""/>
+        <Identifier value=""/>
+        <Custom/>
+      </TubeSegment>
+
+      <TubeSegment ID="32">
+        <Tag value="tubetag32"/>
+        <Diameter value="2&quot;"/>
+        <FromEquip value="Tee5"/>
+        <FromEquipPort value="3"/>
+        <FromEquipSize value=""/>
+        <ToEquip value="Flange5"/>
+        <ToEquipPort value="1"/>
+        <ToEquipSize value=""/>
+        <Area value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Fluid value=""/>
+        <PhaseState value=""/>
+        <Specification value=""/>
+        <Insulation value=""/>
+        <Identifier value=""/>
+        <Custom/>
+      </TubeSegment>
+
+      <TubeSegment ID="33">
+        <Tag value="tubetag33"/>
+        <Diameter value="2&quot;"/>
+        <FromEquip value="Tee5"/>
+        <FromEquipPort value="2"/>
+        <FromEquipSize value=""/>
+        <ToEquip value="Flange6"/>
+        <ToEquipPort value="1"/>
+        <ToEquipSize value=""/>
+        <Area value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Fluid value=""/>
+        <PhaseState value=""/>
+        <Specification value=""/>
+        <Insulation value=""/>
+        <Identifier value=""/>
+        <Custom/>
+      </TubeSegment>
+      
+    </connections>
+  </TubelineInfo>
+
+  <TubelineInfo ID="5">
+    <Description value="Tubing System2"/>
+    <Comment value="Tubing System2"/>
+    <Name value="Tubing System2"/>
+    <Tag value="Tube Sys2"/>
+
+    <In-lineFittings>
+
+      <fitting>
+        <ID value="21"/>
+        <Tag value="Flange7"/>
+        <Description value="Tubing Flange"/>
+        <PartNumber value="slip on tube flange-ss.sldprt"/>
+        <Config value="2&quot;"/>
+        <Area value=""/>
+        <Type value=""/>
+        <SubType value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Specification value=""/>
+        <Custom/>
+      </fitting>
+
+      <fitting>
+        <ID value="22"/>
+        <Tag value="Tubing Connector1"/>
+        <Description value="Tubing connector"/>
+        <PartNumber value="solidworks-lok male connector.sldprt"/>
+        <Config value="2&quot;"/>
+        <Area value=""/>
+        <Type value=""/>
+        <SubType value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Specification value=""/>
+        <Custom/>
+      </fitting>
+
+     </In-lineFittings>
+
+    <connections>
+
+      <PipeSegment ID="34">
+        <Tag value="pipetag34"/>
+        <Diameter value="2&quot;"/>
+        <FromEquip value="Tank3"/>
+        <FromEquipPort value="2"/>
+        <FromEquipSize value=""/>
+        <ToEquip value="Tubing Connector1"/>
+        <ToEquipPort value="1"/>
+        <ToEquipSize value=""/>
+        <Area value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Fluid value=""/>
+        <PhaseState value=""/>
+        <Specification value=""/>
+        <Insulation value=""/>
+        <Identifier value=""/>
+        <Custom/>
+      </PipeSegment>
+
+      <TubeSegment ID="35">
+        <Tag value="tubetag35"/>
+        <Diameter value="2&quot;"/>
+        <FromEquip value="Flange7"/>
+        <FromEquipPort value="1"/>
+        <FromEquipSize value=""/>
+        <ToEquip value="Tubing Connector1"/>
+        <ToEquipPort value="2"/>
+        <ToEquipSize value=""/>
+        <Area value=""/>
+        <System value=""/>
+        <Size value=""/>
+        <Fluid value=""/>
+        <PhaseState value=""/>
+        <Specification value=""/>
+        <Insulation value=""/>
+        <Identifier value=""/>
+        <Custom/>
+      </TubeSegment>
+
+     </connections>
+  </TubelineInfo>
+
+</PnIDData>

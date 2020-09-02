@@ -1,0 +1,174 @@
+Dim swapp As Object 'SldWorks.SldWorks
+Dim xlapp As Object 'Excel.Application
+Dim fs As Object
+Dim TopDoc As Object
+Dim TopDocPathOnly As String
+Dim TopDocNameOnly As String
+Dim bomtsv As Object
+Dim Child As Component2
+Dim valout As String
+Dim resolvedValOut As String
+Dim Collects() As String
+Dim CollectsQty() As String
+Dim HeaderNames() As String
+
+Const OutputPathInit = "D:\Desktop\"
+Const LastColumnNameForCountedQuantity = "$Q$"
+Const ExcelFormat = ".xlsx" '".xls"
+Const HeaderRow = 2
+Const PropForSheetName = "Description"
+Const DoPreview = False 'True
+Const ImgQuality = 2
+Const PreviewDisplayMode = 2 ' 1 = Wireframe, 2 = HiddenLinesRemoved, 3 = HiddenLinesGrayed, 4 = Shaded, 5 = ShadedWithEdges
+Const PreviewTangentEdge = 1 ' 1  =Visible, 2 = Phantom, 3 = Removed
+Const PreviewColumn = 8 ' 0 = find property name $Preview_OuputFileName$, 1 = column A, 2 = column B, ......
+Const PreviewCommentWidth = 200
+Const PreviewCommentHeight = 150
+
+Sub main()
+Set swapp = Application.SldWorks
+Set TopDoc = swapp.ActiveDoc
+If TopDoc Is Nothing Then Exit Sub
+If TopDoc.GetType <> 2 Then Exit Sub
+Set xlapp = CreateObject("Excel.Application")
+xlapp.Visible = False 'True
+xlapp.Application.DisplayAlerts = False
+TopDocName = TopDoc.GetPathName
+Set TopDocConfig = TopDoc.GetActiveConfiguration
+htpathlength = InStrRev(TopDocName, "\", -1)
+TopDocNameOnly = Mid(TopDocName, htpathlength + 1)
+TopDocNameOnly = Left(TopDocNameOnly, Len(TopDocNameOnly) - 7)
+TopDocPathOnly = Mid(TopDocName, 1, InStrRev(TopDocName, "\", -1))
+TopConfString = TopDoc.GetActiveConfiguration.Name
+If Dir(OutputPathInit, vbDirectory) = "." Then OutputPath = OutputPathInit Else OutputPath = TopDocPathOnly
+ReDim Collects(0)
+Thisfile = swapp.GetCurrentMacroPathName
+Set newbk = xlapp.Workbooks.Open(Left(Thisfile, Len(Thisfile) - 4) & ExcelFormat)
+
+TopDocConfig.CustomPropertyManager.Get2 PropForSheetName, valout, resolvedValOut
+xlapp.ActiveSheet.Name = "BOM of " & resolvedValOut
+
+'GetHeaderNames
+i = 0
+PropName = xlapp.Application.Cells(HeaderRow, i + 1) & ""
+While Not (PropName = "")  'find match prop
+    ReDim Preserve HeaderNames(i)
+    HeaderNames(i) = PropName
+    i = i + 1
+    PropName = xlapp.Application.Cells(HeaderRow, i + 1) & ""
+Wend
+
+Collects(0) = HeaderNames(0)
+For i = 1 To UBound(HeaderNames)
+Collects(0) = Collects(0) & Chr(9) & HeaderNames(i)
+Next
+
+ReDim CollectsQty(0)
+CollectsQty(0) = LastColumnNameForCountedQuantity
+
+SubAsm TopDoc, TopConfString
+
+'write to excel file
+newbkPathName = OutputPath & TopDocNameOnly & "(" & Date & ")" & ExcelFormat
+newbkPathNamedir = Dir(newbkPathName)
+n = 1
+While newbkPathNamedir <> ""
+    newbkPathName = OutputPath & TopDocNameOnly & "(" & Date & ")-" & n & ExcelFormat
+    newbkPathNamedir = Dir(newbkPathName)
+    n = n + 1
+Wend
+If ExcelFormat = "xls" Then
+    newbk.SaveAs newbkPathName, FileFormat:=56
+Else
+    newbk.SaveAs newbkPathName
+End If
+xlapp.Application.Cells.NumberFormatLocal = " @ "
+
+For i = 0 To UBound(Collects)
+    CollectSplit = Split(Collects(i), Chr(9))
+    For j = 0 To UBound(CollectSplit)
+        xlapp.Application.Cells(i + 2, j + 1) = CollectSplit(j)
+    Next
+    xlapp.Application.Cells(i + 2, UBound(CollectSplit) + 2) = CollectsQty(i)
+Next
+
+newbk.Save
+xlapp.Application.Quit
+'write to excel file
+
+'create text file *.tsv
+Set fs = CreateObject("Scripting.FileSystemObject")
+Set bomtsv = fs.CreateTextFile(OutputPath & "\" & TopDocNameOnly & ".tsv", True)
+For i = 0 To UBound(Collects)
+    bomtsv.WriteLine Collects(i) & Chr(9) & CollectsQty(i)
+Next
+bomtsv.Close
+'create text file *.tsv
+MsgBox "Done!"
+End Sub
+
+Function SubAsm(AsmDoc, ConfString)
+Set Configuration = AsmDoc.GetConfigurationByName(ConfString)
+Set RootComponent = Configuration.GetRootComponent
+Components = RootComponent.GetChildren
+ChildCount = UBound(Components)
+For i = 0 To ChildCount
+    Set Child = Components(i)
+    ChildBodies = Child.GetBodies2(0)
+    If IsEmpty(ChildBodies) Then
+        NumberOfBody = 0
+    Else
+        NumberOfBody = UBound(Child.GetBodies2(0)) + 1
+    End If
+    Set ChildModel = Child.GetModelDoc
+    If Not (ChildModel Is Nothing) Then
+        ChildType = ChildModel.GetType
+        ChildConfString = Child.ReferencedConfiguration
+        Set ChildConf = ChildModel.GetConfigurationByName(ChildConfString)
+        ChildPathName = Child.GetPathName
+        ChildPathLength = InStrRev(ChildPathName, "\", -1)
+        ChildName = Mid(ChildPathName, ChildPathLength + 1)
+        ChildPathOnly = Mid(ChildPathName, 1, ChildPathLength)
+        ChildExcludeFromBOM = Child.ExcludeFromBOM
+        ChildIsEnvelope = Child.IsEnvelope
+        If Not ChildExcludeFromBOM And Not ChildIsEnvelope Then
+            Set ChildConfig = ChildModel.GetConfigurationByName(ChildConfString)
+            If ChildType = 2 And ChildConfig.ChildComponentDisplayInBOM <> 1 Then
+                SubAsm ChildModel, ChildConfString
+            Else
+                EachString = ChildPathOnly
+                EachString = EachString & Chr(9) & ChildName
+                EachString = EachString & Chr(9) & ChildConfString
+                EachString = EachString & Chr(9) & ChildConfString
+                EachString = EachString & Chr(9) & ""
+                For k = 5 To UBound(HeaderNames)
+                    PropValue = ChildModel.CustomInfo2(ChildConfString, HeaderNames(k))
+                    
+                If PropValue <> Replace(PropValue, "@" & ChildName, "") Then
+                    ChildConf.CustomPropertyManager.Get2 HeaderNames(k), valout, resolvedValOut
+                    EachString = EachString & Chr(9) & resolvedValOut
+                Else
+                    EachString = EachString & Chr(9) & PropValue
+                End If
+                Next
+                InCollects = False
+                For j = 1 To UBound(Collects)
+                    If Collects(j) = EachString Then
+                        InCollects = True
+                        InCollectsN = j
+                    End If
+                Next
+                If InCollects Then
+                     CollectsQty(InCollectsN) = CollectsQty(InCollectsN) + 1
+                Else
+                    ReDim Preserve Collects(UBound(Collects) + 1)
+                    ReDim Preserve CollectsQty(UBound(Collects) + 1)
+                    Collects(UBound(Collects)) = EachString
+                    CollectsQty(UBound(Collects)) = "1"
+                End If
+            End If
+        End If
+    End If
+Next i
+End Function
+

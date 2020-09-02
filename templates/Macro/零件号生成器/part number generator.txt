@@ -1,0 +1,14 @@
+***************************************************************************************************************
+*	SIMPLE PART NUMBER GENERATOR	REV 1					*
+*	SOLIDTEC SOLUTIONS PTY LTD						*
+*	WWW.SOLIDTEC.COM.AU							*
+*	BUG REPORTS: nayshil@solidtec.com.au					*
+*	DO NO EDIT THE LASTNUMBER PROPERTY! DEFAULT VALUE = 0			*
+*	Please add references to scrrun.dll,  & sldworks.tlb in SWRX VBA IDE			*
+***************************************************************************************************************
+START|5000
+PREFIX|ST
+SUFFIX|LTD
+JOIN|-
+INCREMENT|50
+LASTNUMBER|0

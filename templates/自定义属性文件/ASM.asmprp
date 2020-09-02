@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CPTemplate>
+  <AppVersion>26</AppVersion>
+  <CPSheet>
+    <GroupBox Label="自定义属性" PropName="组框2" DefaultState="Expanded">
+      <Control Label="类别" PropName="类别" ApplyTo="Global" Type="ComboBox" ReadOnly="False" UserDefineable="True">
+        <Data Path="" SourceType="List">
+          <Item>装配体</Item>
+          <Item>零件</Item>
+          <Item>标准件</Item>
+          <Item>标准件改制</Item>
+          <Item>客户产品</Item>
+        </Data>
+      </Control>
+      <Control Label="品牌" PropName="品牌" ApplyTo="Global" Type="ComboBox" ReadOnly="False" UserDefineable="True">
+        <Data Path="" SourceType="List">
+          <Item>SMC</Item>
+          <Item>MISUMI</Item>
+          <Item>FESTO</Item>
+          <Item>OMRON</Item>
+          <Item>IAI</Item>
+          <Item>Autonics</Item>
+          <Item>上银</Item>
+          <Item>NSK</Item>
+          <Item>亚德客</Item>
+          <Item>市购件</Item>
+        </Data>
+      </Control>
+      <Control Label="项目号" PropName="Project Number" ApplyTo="Global" Type="TextBox" ReadOnly="False" DefaultValue="" Mode="Text" />
+      <Control Label="Description" PropName="Description" ApplyTo="Global" Type="TextBox" ReadOnly="False" DefaultValue="" Mode="Text" />
+    </GroupBox>
+  </CPSheet>
+</CPTemplate>

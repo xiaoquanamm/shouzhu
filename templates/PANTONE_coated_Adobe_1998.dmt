@@ -1,0 +1,2261 @@
+﻿V6.0
+#
+#
+# PGL Version 6.0
+#
+#
+# material name
+material_name "ref_color120"
+# material label
+material_label "yellow c"
+# material description
+material_description ""
+# material keywords
+material_keywords ""
+shader_type plastic_shader "generic_plastic"
+color_param 0.960784 0.870588 0.000000 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 1
+shader_type plastic_shader "transparent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.900000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type plastic_shader "translucent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.800000 "refr_trans_weight"
+float_param 0.970000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type metal_shader "generic_metal"
+color_param 0.878400 0.949000 1.000000 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 0
+shader_type glass_shader "generic_glass"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.970000 "transparency"
+float_param 1.520000 "refr_ior"
+shader_enabled 0
+# ambient color
+ambient_color 0.960784 0.870588 0.000000 1.000000
+# diffuse color
+diffuse_color 0.960784 0.870588 0.000000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 0.500000
+# shine
+shine 1.000000
+# shine intensity
+intensity 0.500000
+# reflection
+reflection 0.900000
+# bump_type
+bump_type 0
+# amplitude
+amplitude 1.000000
+# scale
+scale 0.100000
+# exponent
+exponent 3.000000
+# rotation
+rotation 0.000000
+# color_tex_type
+color_tex_type 0
+# color_tex_scale
+color_tex_scale 0.100000
+# color_tex_rotation
+color_tex_rotation 0.000000
+# decal_type
+decal_type 0
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "ref_color121"
+# material label
+material_label "purple c"
+# material description
+material_description ""
+# material keywords
+material_keywords ""
+shader_type plastic_shader "generic_plastic"
+color_param 0.615686 0.215686 0.713725 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 1
+shader_type plastic_shader "transparent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.900000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type plastic_shader "translucent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.800000 "refr_trans_weight"
+float_param 0.970000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type metal_shader "generic_metal"
+color_param 0.878400 0.949000 1.000000 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 0
+shader_type glass_shader "generic_glass"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.970000 "transparency"
+float_param 1.520000 "refr_ior"
+shader_enabled 0
+# ambient color
+ambient_color 0.615686 0.215686 0.713726 1.000000
+# diffuse color
+diffuse_color 0.615686 0.215686 0.713725 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 0.500000
+# shine
+shine 1.000000
+# shine intensity
+intensity 0.500000
+# reflection
+reflection 0.900000
+# bump_type
+bump_type 0
+# amplitude
+amplitude 1.000000
+# scale
+scale 0.100000
+# exponent
+exponent 3.000000
+# rotation
+rotation 0.000000
+# color_tex_type
+color_tex_type 0
+# color_tex_scale
+color_tex_scale 0.100000
+# color_tex_rotation
+color_tex_rotation 0.000000
+# decal_type
+decal_type 0
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "ref_color122"
+# material label
+material_label "violet c"
+# material description
+material_description ""
+# material keywords
+material_keywords ""
+shader_type plastic_shader "generic_plastic"
+color_param 0.258824 0.066667 0.611765 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 1
+shader_type plastic_shader "transparent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.900000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type plastic_shader "translucent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.800000 "refr_trans_weight"
+float_param 0.970000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type metal_shader "generic_metal"
+color_param 0.258823 0.066666 0.611764 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 0
+shader_type glass_shader "generic_glass"
+color_param 0.258823 0.066666 0.611764 "refr_color"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.970000 "transparency"
+float_param 1.520000 "refr_ior"
+shader_enabled 0
+# ambient color
+ambient_color 0.258824 0.066667 0.611765 1.000000
+# diffuse color
+diffuse_color 0.258824 0.066667 0.611765 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 0.500000
+# shine
+shine 1.000000
+# shine intensity
+intensity 0.500000
+# reflection
+reflection 0.900000
+# bump_type
+bump_type 0
+# amplitude
+amplitude 1.000000
+# scale
+scale 0.100000
+# exponent
+exponent 3.000000
+# rotation
+rotation 0.000000
+# color_tex_type
+color_tex_type 0
+# color_tex_scale
+color_tex_scale 0.100000
+# color_tex_rotation
+color_tex_rotation 0.000000
+# decal_type
+decal_type 0
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "ref_color123"
+# material label
+material_label "reflex blue c"
+# material description
+material_description ""
+# material keywords
+material_keywords ""
+shader_type plastic_shader "generic_plastic"
+color_param 0.000000 0.156863 0.603922 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 1
+shader_type plastic_shader "transparent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.900000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type plastic_shader "translucent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.800000 "refr_trans_weight"
+float_param 0.970000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type metal_shader "generic_metal"
+color_param 0.258823 0.066666 0.611764 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 0
+shader_type glass_shader "generic_glass"
+color_param 0.258823 0.066666 0.611764 "refr_color"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.970000 "transparency"
+float_param 1.520000 "refr_ior"
+shader_enabled 0
+# ambient color
+ambient_color 0.000000 0.156863 0.603922 1.000000
+# diffuse color
+diffuse_color 0.000000 0.156863 0.603922 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 0.500000
+# shine
+shine 1.000000
+# shine intensity
+intensity 0.500000
+# reflection
+reflection 0.900000
+# bump_type
+bump_type 0
+# amplitude
+amplitude 1.000000
+# scale
+scale 0.100000
+# exponent
+exponent 3.000000
+# rotation
+rotation 0.000000
+# color_tex_type
+color_tex_type 0
+# color_tex_scale
+color_tex_scale 0.100000
+# color_tex_rotation
+color_tex_rotation 0.000000
+# decal_type
+decal_type 0
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "ref_color124"
+# material label
+material_label "rubine red c"
+# material description
+material_description ""
+# material keywords
+material_keywords ""
+shader_type plastic_shader "generic_plastic"
+color_param 0.670588 0.000000 0.360784 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 1
+shader_type plastic_shader "transparent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.900000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type plastic_shader "translucent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.800000 "refr_trans_weight"
+float_param 0.970000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type metal_shader "generic_metal"
+color_param 0.878400 0.949000 1.000000 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 0
+shader_type glass_shader "generic_glass"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.970000 "transparency"
+float_param 1.520000 "refr_ior"
+shader_enabled 0
+# ambient color
+ambient_color 0.670588 0.000000 0.360784 1.000000
+# diffuse color
+diffuse_color 0.670588 0.000000 0.360784 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 0.500000
+# shine
+shine 1.000000
+# shine intensity
+intensity 0.500000
+# reflection
+reflection 0.900000
+# bump_type
+bump_type 0
+# amplitude
+amplitude 1.000000
+# scale
+scale 0.100000
+# exponent
+exponent 3.000000
+# rotation
+rotation 0.000000
+# color_tex_type
+color_tex_type 0
+# color_tex_scale
+color_tex_scale 0.100000
+# color_tex_rotation
+color_tex_rotation 0.000000
+# decal_type
+decal_type 0
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "ref_color125"
+# material label
+material_label "warm red c"
+# material description
+material_description ""
+# material keywords
+material_keywords ""
+shader_type plastic_shader "generic_plastic"
+color_param 0.839216 0.258824 0.239216 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 1
+shader_type plastic_shader "transparent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.900000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type plastic_shader "translucent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.800000 "refr_trans_weight"
+float_param 0.970000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type metal_shader "generic_metal"
+color_param 0.878400 0.949000 1.000000 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 0
+shader_type glass_shader "generic_glass"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.970000 "transparency"
+float_param 1.520000 "refr_ior"
+shader_enabled 0
+# ambient color
+ambient_color 0.839216 0.258824 0.239216 1.000000
+# diffuse color
+diffuse_color 0.839216 0.258824 0.239216 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 0.500000
+# shine
+shine 1.000000
+# shine intensity
+intensity 0.500000
+# reflection
+reflection 0.900000
+# bump_type
+bump_type 0
+# amplitude
+amplitude 1.000000
+# scale
+scale 0.100000
+# exponent
+exponent 3.000000
+# rotation
+rotation 0.000000
+# color_tex_type
+color_tex_type 0
+# color_tex_scale
+color_tex_scale 0.100000
+# color_tex_rotation
+color_tex_rotation 0.000000
+# decal_type
+decal_type 0
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "ref_color126"
+# material label
+material_label "red 032 c"
+# material description
+material_description ""
+# material keywords
+material_keywords ""
+shader_type plastic_shader "generic_plastic"
+color_param 0.800000 0.176471 0.231373 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 1
+shader_type plastic_shader "transparent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.900000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type plastic_shader "translucent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.800000 "refr_trans_weight"
+float_param 0.970000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type metal_shader "generic_metal"
+color_param 0.878400 0.949000 1.000000 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 0
+shader_type glass_shader "generic_glass"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.970000 "transparency"
+float_param 1.520000 "refr_ior"
+shader_enabled 0
+# ambient color
+ambient_color 0.800000 0.176471 0.231373 1.000000
+# diffuse color
+diffuse_color 0.800000 0.176471 0.231373 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 0.500000
+# shine
+shine 1.000000
+# shine intensity
+intensity 0.500000
+# reflection
+reflection 0.900000
+# bump_type
+bump_type 0
+# amplitude
+amplitude 1.000000
+# scale
+scale 0.100000
+# exponent
+exponent 3.000000
+# rotation
+rotation 0.000000
+# color_tex_type
+color_tex_type 0
+# color_tex_scale
+color_tex_scale 0.100000
+# color_tex_rotation
+color_tex_rotation 0.000000
+# decal_type
+decal_type 0
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "ref_color127"
+# material label
+material_label "process cyan c"
+# material description
+material_description ""
+# material keywords
+material_keywords ""
+shader_type plastic_shader "generic_plastic"
+color_param 0.050980 0.619608 0.843137 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 1
+shader_type plastic_shader "transparent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.900000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type plastic_shader "translucent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.800000 "refr_trans_weight"
+float_param 0.970000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type metal_shader "generic_metal"
+color_param 0.878400 0.949000 1.000000 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 0
+shader_type glass_shader "generic_glass"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.970000 "transparency"
+float_param 1.520000 "refr_ior"
+shader_enabled 0
+# ambient color
+ambient_color 0.050980 0.619608 0.843137 1.000000
+# diffuse color
+diffuse_color 0.050980 0.619608 0.843137 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 0.500000
+# shine
+shine 1.000000
+# shine intensity
+intensity 0.500000
+# reflection
+reflection 0.900000
+# bump_type
+bump_type 0
+# amplitude
+amplitude 1.000000
+# scale
+scale 0.100000
+# exponent
+exponent 3.000000
+# rotation
+rotation 0.000000
+# color_tex_type
+color_tex_type 0
+# color_tex_scale
+color_tex_scale 0.100000
+# color_tex_rotation
+color_tex_rotation 0.000000
+# decal_type
+decal_type 0
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "ref_color128"
+# material label
+material_label "orange 021 c"
+# material description
+material_description ""
+# material keywords
+material_keywords ""
+shader_type plastic_shader "generic_plastic"
+color_param 0.878431 0.345098 0.000000 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 1
+shader_type plastic_shader "transparent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.900000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type plastic_shader "translucent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.800000 "refr_trans_weight"
+float_param 0.970000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type metal_shader "generic_metal"
+color_param 0.878400 0.949000 1.000000 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 0
+shader_type glass_shader "generic_glass"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.970000 "transparency"
+float_param 1.520000 "refr_ior"
+shader_enabled 0
+# ambient color
+ambient_color 0.878431 0.345098 0.000000 1.000000
+# diffuse color
+diffuse_color 0.878431 0.345098 0.000000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 0.500000
+# shine
+shine 1.000000
+# shine intensity
+intensity 0.500000
+# reflection
+reflection 0.900000
+# bump_type
+bump_type 0
+# amplitude
+amplitude 1.000000
+# scale
+scale 0.100000
+# exponent
+exponent 3.000000
+# rotation
+rotation 0.000000
+# color_tex_type
+color_tex_type 0
+# color_tex_scale
+color_tex_scale 0.100000
+# color_tex_rotation
+color_tex_rotation 0.000000
+# decal_type
+decal_type 0
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "ref_color129"
+# material label
+material_label "yellow 012 c"
+# material description
+material_description ""
+# material keywords
+material_keywords ""
+shader_type plastic_shader "generic_plastic"
+color_param 0.964706 0.831373 0.000000 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 1
+shader_type plastic_shader "transparent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.900000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type plastic_shader "translucent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.800000 "refr_trans_weight"
+float_param 0.970000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type metal_shader "generic_metal"
+color_param 0.878400 0.949000 1.000000 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 0
+shader_type glass_shader "generic_glass"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.970000 "transparency"
+float_param 1.520000 "refr_ior"
+shader_enabled 0
+# ambient color
+ambient_color 0.964706 0.831373 0.000000 1.000000
+# diffuse color
+diffuse_color 0.964706 0.831373 0.000000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 0.500000
+# shine
+shine 1.000000
+# shine intensity
+intensity 0.500000
+# reflection
+reflection 0.900000
+# bump_type
+bump_type 0
+# amplitude
+amplitude 1.000000
+# scale
+scale 0.100000
+# exponent
+exponent 3.000000
+# rotation
+rotation 0.000000
+# color_tex_type
+color_tex_type 0
+# color_tex_scale
+color_tex_scale 0.100000
+# color_tex_rotation
+color_tex_rotation 0.000000
+# decal_type
+decal_type 0
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "ref_color130"
+# material label
+material_label "rhodamine red c"
+# material description
+material_description ""
+# material keywords
+material_keywords ""
+shader_type plastic_shader "generic_plastic"
+color_param 0.752941 0.094118 0.600000 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 1
+shader_type plastic_shader "transparent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.900000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type plastic_shader "translucent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.800000 "refr_trans_weight"
+float_param 0.970000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type metal_shader "generic_metal"
+color_param 0.878400 0.949000 1.000000 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 0
+shader_type glass_shader "generic_glass"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.970000 "transparency"
+float_param 1.520000 "refr_ior"
+shader_enabled 0
+# ambient color
+ambient_color 0.752941 0.094118 0.600000 1.000000
+# diffuse color
+diffuse_color 0.752941 0.094118 0.600000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 0.500000
+# shine
+shine 1.000000
+# shine intensity
+intensity 0.500000
+# reflection
+reflection 0.900000
+# bump_type
+bump_type 0
+# amplitude
+amplitude 1.000000
+# scale
+scale 0.100000
+# exponent
+exponent 3.000000
+# rotation
+rotation 0.000000
+# color_tex_type
+color_tex_type 0
+# color_tex_scale
+color_tex_scale 0.100000
+# color_tex_rotation
+color_tex_rotation 0.000000
+# decal_type
+decal_type 0
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "ref_color131"
+# material label
+material_label "blue 072 c"
+# material description
+material_description ""
+# material keywords
+material_keywords ""
+shader_type plastic_shader "generic_plastic"
+color_param 0.000000 0.117647 0.639216 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 1
+shader_type plastic_shader "transparent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.900000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type plastic_shader "translucent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.800000 "refr_trans_weight"
+float_param 0.970000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type metal_shader "generic_metal"
+color_param 0.878400 0.949000 1.000000 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 0
+shader_type glass_shader "generic_glass"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.970000 "transparency"
+float_param 1.520000 "refr_ior"
+shader_enabled 0
+# ambient color
+ambient_color 0.000000 0.117647 0.639216 1.000000
+# diffuse color
+diffuse_color 0.000000 0.117647 0.639216 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 0.500000
+# shine
+shine 1.000000
+# shine intensity
+intensity 0.500000
+# reflection
+reflection 0.900000
+# bump_type
+bump_type 0
+# amplitude
+amplitude 1.000000
+# scale
+scale 0.100000
+# exponent
+exponent 3.000000
+# rotation
+rotation 0.000000
+# color_tex_type
+color_tex_type 0
+# color_tex_scale
+color_tex_scale 0.100000
+# color_tex_rotation
+color_tex_rotation 0.000000
+# decal_type
+decal_type 0
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "ref_color132"
+# material label
+material_label "process blue c"
+# material description
+material_description ""
+# material keywords
+material_keywords ""
+shader_type plastic_shader "generic_plastic"
+color_param 0.000000 0.525490 0.792157 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 1
+shader_type plastic_shader "transparent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.900000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type plastic_shader "translucent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.800000 "refr_trans_weight"
+float_param 0.970000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type metal_shader "generic_metal"
+color_param 0.878400 0.949000 1.000000 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 0
+shader_type glass_shader "generic_glass"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.970000 "transparency"
+float_param 1.520000 "refr_ior"
+shader_enabled 0
+# ambient color
+ambient_color 0.000000 0.525490 0.792157 1.000000
+# diffuse color
+diffuse_color 0.000000 0.525490 0.792157 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 0.500000
+# shine
+shine 1.000000
+# shine intensity
+intensity 0.500000
+# reflection
+reflection 0.900000
+# bump_type
+bump_type 0
+# amplitude
+amplitude 1.000000
+# scale
+scale 0.100000
+# exponent
+exponent 3.000000
+# rotation
+rotation 0.000000
+# color_tex_type
+color_tex_type 0
+# color_tex_scale
+color_tex_scale 0.100000
+# color_tex_rotation
+color_tex_rotation 0.000000
+# decal_type
+decal_type 0
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "ref_color133"
+# material label
+material_label "green c"
+# material description
+material_description ""
+# material keywords
+material_keywords ""
+shader_type plastic_shader "generic_plastic"
+color_param 0.000000 0.674510 0.517647 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 1
+shader_type plastic_shader "transparent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.900000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type plastic_shader "translucent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.800000 "refr_trans_weight"
+float_param 0.970000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type metal_shader "generic_metal"
+color_param 0.258823 0.066666 0.611764 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 0
+shader_type glass_shader "generic_glass"
+color_param 0.258823 0.066666 0.611764 "refr_color"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.970000 "transparency"
+float_param 1.520000 "refr_ior"
+shader_enabled 0
+# ambient color
+ambient_color 0.000000 0.674510 0.517647 1.000000
+# diffuse color
+diffuse_color 0.000000 0.674510 0.517647 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 0.500000
+# shine
+shine 1.000000
+# shine intensity
+intensity 0.500000
+# reflection
+reflection 0.900000
+# bump_type
+bump_type 0
+# amplitude
+amplitude 1.000000
+# scale
+scale 0.100000
+# exponent
+exponent 3.000000
+# rotation
+rotation 0.000000
+# color_tex_type
+color_tex_type 0
+# color_tex_scale
+color_tex_scale 0.100000
+# color_tex_rotation
+color_tex_rotation 0.000000
+# decal_type
+decal_type 0
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "ref_color134"
+# material label
+material_label "black c"
+# material description
+material_description ""
+# material keywords
+material_keywords ""
+shader_type plastic_shader "generic_plastic"
+color_param 0.176471 0.168627 0.156863 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 1
+shader_type plastic_shader "transparent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.900000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type plastic_shader "translucent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.800000 "refr_trans_weight"
+float_param 0.970000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type metal_shader "generic_metal"
+color_param 0.258823 0.066666 0.611764 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 0
+shader_type glass_shader "generic_glass"
+color_param 0.258823 0.066666 0.611764 "refr_color"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.970000 "transparency"
+float_param 1.520000 "refr_ior"
+shader_enabled 0
+# ambient color
+ambient_color 0.176471 0.168627 0.156863 1.000000
+# diffuse color
+diffuse_color 0.176471 0.168627 0.156863 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 0.500000
+# shine
+shine 1.000000
+# shine intensity
+intensity 0.500000
+# reflection
+reflection 0.900000
+# bump_type
+bump_type 0
+# amplitude
+amplitude 1.000000
+# scale
+scale 0.100000
+# exponent
+exponent 3.000000
+# rotation
+rotation 0.000000
+# color_tex_type
+color_tex_type 0
+# color_tex_scale
+color_tex_scale 0.100000
+# color_tex_rotation
+color_tex_rotation 0.000000
+# decal_type
+decal_type 0
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "ref_color135"
+# material label
+material_label "process yellow c"
+# material description
+material_description ""
+# material keywords
+material_keywords ""
+shader_type plastic_shader "generic_plastic"
+color_param 0.952941 0.886275 0.000000 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 1
+shader_type plastic_shader "transparent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.900000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type plastic_shader "translucent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.800000 "refr_trans_weight"
+float_param 0.970000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type metal_shader "generic_metal"
+color_param 0.878400 0.949000 1.000000 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 0
+shader_type glass_shader "generic_glass"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.970000 "transparency"
+float_param 1.520000 "refr_ior"
+shader_enabled 0
+# ambient color
+ambient_color 0.952941 0.886275 0.000000 1.000000
+# diffuse color
+diffuse_color 0.952941 0.886275 0.000000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 0.500000
+# shine
+shine 1.000000
+# shine intensity
+intensity 0.500000
+# reflection
+reflection 0.900000
+# bump_type
+bump_type 0
+# amplitude
+amplitude 1.000000
+# scale
+scale 0.100000
+# exponent
+exponent 3.000000
+# rotation
+rotation 0.000000
+# color_tex_type
+color_tex_type 0
+# color_tex_scale
+color_tex_scale 0.100000
+# color_tex_rotation
+color_tex_rotation 0.000000
+# decal_type
+decal_type 0
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "ref_color136"
+# material label
+material_label "process mangenta c"
+# material description
+material_description ""
+# material keywords
+material_keywords ""
+shader_type plastic_shader "generic_plastic"
+color_param 0.698039 0.000000 0.521569 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 1
+shader_type plastic_shader "transparent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.900000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type plastic_shader "translucent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.800000 "refr_trans_weight"
+float_param 0.970000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type metal_shader "generic_metal"
+color_param 0.878400 0.949000 1.000000 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 0
+shader_type glass_shader "generic_glass"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.970000 "transparency"
+float_param 1.520000 "refr_ior"
+shader_enabled 0
+# ambient color
+ambient_color 0.698039 0.000000 0.521569 1.000000
+# diffuse color
+diffuse_color 0.698039 0.000000 0.521569 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 0.500000
+# shine
+shine 1.000000
+# shine intensity
+intensity 0.500000
+# reflection
+reflection 0.900000
+# bump_type
+bump_type 0
+# amplitude
+amplitude 1.000000
+# scale
+scale 0.100000
+# exponent
+exponent 3.000000
+# rotation
+rotation 0.000000
+# color_tex_type
+color_tex_type 0
+# color_tex_scale
+color_tex_scale 0.100000
+# color_tex_rotation
+color_tex_rotation 0.000000
+# decal_type
+decal_type 0
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "ref_color137"
+# material label
+material_label "process black c"
+# material description
+material_description ""
+# material keywords
+material_keywords ""
+shader_type plastic_shader "generic_plastic"
+color_param 0.137255 0.137255 0.137255 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 1
+shader_type plastic_shader "transparent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.900000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type plastic_shader "translucent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.800000 "refr_trans_weight"
+float_param 0.970000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type metal_shader "generic_metal"
+color_param 0.878400 0.949000 1.000000 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 0
+shader_type glass_shader "generic_glass"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.970000 "transparency"
+float_param 1.520000 "refr_ior"
+shader_enabled 0
+# ambient color
+ambient_color 0.137255 0.137255 0.137255 1.000000
+# diffuse color
+diffuse_color 0.137255 0.137255 0.137255 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 0.500000
+# shine
+shine 1.000000
+# shine intensity
+intensity 0.500000
+# reflection
+reflection 0.900000
+# bump_type
+bump_type 0
+# amplitude
+amplitude 1.000000
+# scale
+scale 0.100000
+# exponent
+exponent 3.000000
+# rotation
+rotation 0.000000
+# color_tex_type
+color_tex_type 0
+# color_tex_scale
+color_tex_scale 0.100000
+# color_tex_rotation
+color_tex_rotation 0.000000
+# decal_type
+decal_type 0
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "ref_color138"
+# material label
+material_label "hex. yellow c"
+# material description
+material_description ""
+# material keywords
+material_keywords ""
+shader_type plastic_shader "generic_plastic"
+color_param 0.964706 0.874510 0.000000 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 1
+shader_type plastic_shader "transparent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.900000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type plastic_shader "translucent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.800000 "refr_trans_weight"
+float_param 0.970000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type metal_shader "generic_metal"
+color_param 0.878400 0.949000 1.000000 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 0
+shader_type glass_shader "generic_glass"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.970000 "transparency"
+float_param 1.520000 "refr_ior"
+shader_enabled 0
+# ambient color
+ambient_color 0.964706 0.874510 0.000000 1.000000
+# diffuse color
+diffuse_color 0.964706 0.874510 0.000000 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 0.500000
+# shine
+shine 1.000000
+# shine intensity
+intensity 0.500000
+# reflection
+reflection 0.900000
+# bump_type
+bump_type 0
+# amplitude
+amplitude 1.000000
+# scale
+scale 0.100000
+# exponent
+exponent 3.000000
+# rotation
+rotation 0.000000
+# color_tex_type
+color_tex_type 0
+# color_tex_scale
+color_tex_scale 0.100000
+# color_tex_rotation
+color_tex_rotation 0.000000
+# decal_type
+decal_type 0
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "ref_color139"
+# material label
+material_label "hex.organge c"
+# material description
+material_description ""
+# material keywords
+material_keywords ""
+shader_type plastic_shader "generic_plastic"
+color_param 0.921569 0.482353 0.074510 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 1
+shader_type plastic_shader "transparent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.900000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type plastic_shader "translucent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.800000 "refr_trans_weight"
+float_param 0.970000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type metal_shader "generic_metal"
+color_param 0.878400 0.949000 1.000000 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 0
+shader_type glass_shader "generic_glass"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.970000 "transparency"
+float_param 1.520000 "refr_ior"
+shader_enabled 0
+# ambient color
+ambient_color 0.921569 0.482353 0.074510 1.000000
+# diffuse color
+diffuse_color 0.921569 0.482353 0.074510 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 0.500000
+# shine
+shine 1.000000
+# shine intensity
+intensity 0.500000
+# reflection
+reflection 0.900000
+# bump_type
+bump_type 0
+# amplitude
+amplitude 1.000000
+# scale
+scale 0.100000
+# exponent
+exponent 3.000000
+# rotation
+rotation 0.000000
+# color_tex_type
+color_tex_type 0
+# color_tex_scale
+color_tex_scale 0.100000
+# color_tex_rotation
+color_tex_rotation 0.000000
+# decal_type
+decal_type 0
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "ref_color140"
+# material label
+material_label "hex.mangeta c"
+# material description
+material_description ""
+# material keywords
+material_keywords ""
+shader_type plastic_shader "generic_plastic"
+color_param 0.741176 0.000000 0.549020 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 1
+shader_type plastic_shader "transparent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.900000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type plastic_shader "translucent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.800000 "refr_trans_weight"
+float_param 0.970000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type metal_shader "generic_metal"
+color_param 0.878400 0.949000 1.000000 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 0
+shader_type glass_shader "generic_glass"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.970000 "transparency"
+float_param 1.520000 "refr_ior"
+shader_enabled 0
+# ambient color
+ambient_color 0.741176 0.000000 0.549020 1.000000
+# diffuse color
+diffuse_color 0.741176 0.000000 0.549020 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 0.500000
+# shine
+shine 1.000000
+# shine intensity
+intensity 0.500000
+# reflection
+reflection 0.900000
+# bump_type
+bump_type 0
+# amplitude
+amplitude 1.000000
+# scale
+scale 0.100000
+# exponent
+exponent 3.000000
+# rotation
+rotation 0.000000
+# color_tex_type
+color_tex_type 0
+# color_tex_scale
+color_tex_scale 0.100000
+# color_tex_rotation
+color_tex_rotation 0.000000
+# decal_type
+decal_type 0
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "ref_color141"
+# material label
+material_label "hex.cyan c"
+# material description
+material_description ""
+# material keywords
+material_keywords ""
+shader_type plastic_shader "generic_plastic"
+color_param 0.000000 0.552941 0.803922 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 1
+shader_type plastic_shader "transparent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.900000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type plastic_shader "translucent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.800000 "refr_trans_weight"
+float_param 0.970000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type metal_shader "generic_metal"
+color_param 0.878400 0.949000 1.000000 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 0
+shader_type glass_shader "generic_glass"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.970000 "transparency"
+float_param 1.520000 "refr_ior"
+shader_enabled 0
+# ambient color
+ambient_color 0.000000 0.552941 0.803922 1.000000
+# diffuse color
+diffuse_color 0.000000 0.552941 0.803922 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 0.500000
+# shine
+shine 1.000000
+# shine intensity
+intensity 0.500000
+# reflection
+reflection 0.900000
+# bump_type
+bump_type 0
+# amplitude
+amplitude 1.000000
+# scale
+scale 0.100000
+# exponent
+exponent 3.000000
+# rotation
+rotation 0.000000
+# color_tex_type
+color_tex_type 0
+# color_tex_scale
+color_tex_scale 0.100000
+# color_tex_rotation
+color_tex_rotation 0.000000
+# decal_type
+decal_type 0
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "ref_color142"
+# material label
+material_label "hex.green c"
+# material description
+material_description ""
+# material keywords
+material_keywords ""
+shader_type plastic_shader "generic_plastic"
+color_param 0.266667 0.686275 0.321569 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 1
+shader_type plastic_shader "transparent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.900000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type plastic_shader "translucent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.800000 "refr_trans_weight"
+float_param 0.970000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type metal_shader "generic_metal"
+color_param 0.878400 0.949000 1.000000 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 0
+shader_type glass_shader "generic_glass"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.970000 "transparency"
+float_param 1.520000 "refr_ior"
+shader_enabled 0
+# ambient color
+ambient_color 0.266667 0.686275 0.321569 1.000000
+# diffuse color
+diffuse_color 0.266667 0.686275 0.321569 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 0.500000
+# shine
+shine 1.000000
+# shine intensity
+intensity 0.500000
+# reflection
+reflection 0.900000
+# bump_type
+bump_type 0
+# amplitude
+amplitude 1.000000
+# scale
+scale 0.100000
+# exponent
+exponent 3.000000
+# rotation
+rotation 0.000000
+# color_tex_type
+color_tex_type 0
+# color_tex_scale
+color_tex_scale 0.100000
+# color_tex_rotation
+color_tex_rotation 0.000000
+# decal_type
+decal_type 0
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "ref_color143"
+# material label
+material_label "hex.black c"
+# material description
+material_description ""
+# material keywords
+material_keywords ""
+shader_type plastic_shader "generic_plastic"
+color_param 0.145098 0.149020 0.149020 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 1
+shader_type plastic_shader "transparent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.900000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type plastic_shader "translucent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.800000 "refr_trans_weight"
+float_param 0.970000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type metal_shader "generic_metal"
+color_param 0.878400 0.949000 1.000000 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 0
+shader_type glass_shader "generic_glass"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.970000 "transparency"
+float_param 1.520000 "refr_ior"
+shader_enabled 0
+# ambient color
+ambient_color 0.145098 0.149020 0.149020 1.000000
+# diffuse color
+diffuse_color 0.145098 0.149020 0.149020 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 0.500000
+# shine
+shine 1.000000
+# shine intensity
+intensity 0.500000
+# reflection
+reflection 0.900000
+# bump_type
+bump_type 0
+# amplitude
+amplitude 1.000000
+# scale
+scale 0.100000
+# exponent
+exponent 3.000000
+# rotation
+rotation 0.000000
+# color_tex_type
+color_tex_type 0
+# color_tex_scale
+color_tex_scale 0.100000
+# color_tex_rotation
+color_tex_rotation 0.000000
+# decal_type
+decal_type 0
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "ref_color144"
+# material label
+material_label "172 C"
+# material description
+material_description ""
+# material keywords
+material_keywords ""
+shader_type plastic_shader "generic_plastic"
+color_param 0.847059 0.282353 0.141176 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 1
+shader_type plastic_shader "transparent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.900000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type plastic_shader "translucent_plastic"
+color_param 0.878400 0.949000 1.000000 "refr_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.800000 "refr_trans_weight"
+float_param 0.970000 "transparency"
+float_param 1.480000 "refr_ior"
+shader_enabled 0
+shader_type metal_shader "generic_metal"
+color_param 0.258823 0.066666 0.611764 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 0
+shader_type glass_shader "generic_glass"
+color_param 0.258823 0.066666 0.611764 "refr_color"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 0.100000 "diffuse_weight"
+float_param 0.900000 "reflectivity"
+float_param 1.000000 "refr_gloss"
+float_param 0.970000 "transparency"
+float_param 1.520000 "refr_ior"
+shader_enabled 0
+# ambient color
+ambient_color 0.847059 0.282353 0.141176 1.000000
+# diffuse color
+diffuse_color 0.847059 0.282353 0.141176 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 0.500000
+# shine
+shine 1.000000
+# shine intensity
+intensity 0.500000
+# reflection
+reflection 0.900000
+# bump_type
+bump_type 0
+# amplitude
+amplitude 1.000000
+# scale
+scale 0.100000
+# exponent
+exponent 3.000000
+# rotation
+rotation 0.000000
+# color_tex_type
+color_tex_type 0
+# color_tex_scale
+color_tex_scale 0.100000
+# color_tex_rotation
+color_tex_rotation 0.000000
+# decal_type
+decal_type 0
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0
+# material name
+material_name "ref_color147"
+# material label
+material_label "298 C"
+# material description
+material_description ""
+# material keywords
+material_keywords ""
+shader_type plastic_shader "generic_plastic"
+color_param 0.443137 0.713726 0.886275 "diffuse"
+color_param 1.000000 1.000000 1.000000 "refl_color"
+float_param 1.000000 "diffuse_weight"
+float_param 1.000000 "reflectivity"
+float_param 1.000000 "refl_gloss"
+shader_enabled 1
+# ambient color
+ambient_color 0.443137 0.713726 0.886275 1.000000
+# diffuse color
+diffuse_color 0.443137 0.713725 0.886275 1.000000
+# specular color
+specular_color 1.000000 1.000000 1.000000 1.000000
+# diffuse
+diffuse 1.000000
+# ambient
+ambient 1.000000
+# shine
+shine 1.000000
+# shine intensity
+intensity 0.500000
+# reflection
+reflection 1.000000
+# bump_type
+bump_type 0
+# amplitude
+amplitude 1.000000
+# scale
+scale 0.100000
+# exponent
+exponent 3.000000
+# rotation
+rotation 0.000000
+# color_tex_type
+color_tex_type 0
+# color_tex_scale
+color_tex_scale 0.100000
+# color_tex_rotation
+color_tex_rotation 0.000000
+# decal_type
+decal_type 0
+# transparency
+transparency 0.000000
+# fresnel index of refraction
+index_of_refraction 1.000000
+# fresnel reflections
+fresnel_reflections 0

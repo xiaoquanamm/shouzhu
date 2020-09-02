@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CoveringLibrary xmlns="http://www.solidworks.com/coveringlibrary">
+  <covering ID="Tape-1">
+    <coveringName value="Ceramic Fiber Tape" />
+    <coveringType value="Tape"/>
+    <Width value="1.0in - 4.0in"/> 
+    <Thickness value="3mm"/>
+    <materialProperty>
+      <swMaterialLibrary value="solidworks materials.sldmat"/>
+      <swMaterial value=""/>
+      <Color value="YEL" />
+      <Construction value="Plain Woven"/>
+      <serviceTemp value="1260°C"/>
+      <meltingPoint value="1760°C"/>
+      <Insert value="Fibreglass Yarn / SS wire"/>
+      <Composition value="Aluminium Silicate"/>
+      <LossOnIgnition value="less then 18%"/>              
+    </materialProperty>  
+    <Packing value="25m rolls"/>      
+    <Partnumber value="Ceramic Fiber Tape" />
+    <Application value="Gasket and Wrapping Material, Fuel Line Insulation, Wrap for Equipment Protection" />
+  </covering>
+  <covering ID="Tape-2">
+    <coveringName value="Glass Fiber Tape" />
+    <coveringType value="Tape"/>
+    <Width value="1.0in - 4.0in"/>
+    <Thickness value="2mm"/>
+    <materialProperty>
+      <swMaterialLibrary value="solidworks materials.sldmat"/>
+      <swMaterial value="A-Glass Fiber"/>
+      <swMaterialID value="59"/>
+      <Color value="" />
+      <Construction value="Plain Woven"/>
+      <serviceTemp value="550°C"/>
+      <meltingPoint value="840°C"/>
+      <ReinforcementInsert value="SS wire / Brass Wire"/>
+      <LossOnIgnition value="less then 1%"/>
+    </materialProperty>
+    <Packing value="15m rolls"/>
+    <Partnumber value="Glass Fiber Tape" />
+    <Application value="Gasket and Wrapping Material, Wrap for Equipment Protection, Welding Curtains" />
+  </covering>
+  <covering ID="Tape-3">
+    <coveringName value="Glass Fiber Tape" />
+    <coveringType value="Tape"/>
+    <Width value="1.0in - 4.0in"/>
+    <Thickness value="5mm"/>
+    <materialProperty>
+      <swMaterialLibrary value="solidworks materials.sldmat"/>
+      <swMaterial value="A-Glass Fiber"/>
+      <swMaterialID value="59"/>
+      <Color value="" />
+      <Construction value="Plain Woven"/>
+      <serviceTemp value="550°C"/>
+      <meltingPoint value="840°C"/>
+      <ReinforcementInsert value="SS wire / Brass Wire"/>
+      <LossOnIgnition value="less then 1%"/>
+    </materialProperty>
+    <Packing value="15m rolls"/>
+    <Partnumber value="Glass Fiber Tape" />
+    <Application value="Gasket and Wrapping Material, Wrap for Equipment Protection, Welding Curtains" />
+  </covering>
+  <covering ID="Rope-1">
+    <coveringName value="Ceramic Fiber Braided Rope" />
+    <coveringType value="Rope"/>
+    <Width value="6mm to 75mm"/>
+    <Thickness value="6mm"/>
+    <Shape value="Round or Sqare"/>
+   <materialProperty>
+      <swMaterialLibrary value="solidworks materials.sldmat"/>
+      <swMaterial value="A-Glass Fiber"/>
+      <swMaterialID value="59"/>
+      <Color value="" />
+      <Construction value="Closely Braided/Knitted"/>
+      <serviceTemp value="1260°C"/>
+      <meltingPoint value="1760°C"/>
+      <Composition value="Aluminium Silicate"/>
+      <LossOnIgnition value="less then 18%"/>
+    </materialProperty>
+    <Packing value="200m for sizes upto 8mm, 100m for sizes upto 12.5mm, 50m for sizes upto 25mm, 25m for sizes above 25mm"/>
+    <Partnumber value="Ceramic Fiber Braided Rope" />
+    <Application value="Furnace / Boiler Door insulation and seal, Coke Oven door jam seal, Expansion Joint packing, High Temperature Gasketing and Packing, Maintenance in Foundaries, Refineries, Power Plants and Steel Plants" />
+  </covering>
+  <covering ID="Rope-2">
+    <coveringName value="Ceramic Fiber Braided Rope" />
+    <coveringType value="Rope"/>
+    <Width value="6mm to 75mm"/>
+    <Thickness value="75mm"/>
+    <Shape value="Round or Sqare"/>
+    <materialProperty>
+      <swMaterialLibrary value="solidworks materials.sldmat"/>
+      <swMaterial value="A-Glass Fiber"/>
+      <swMaterialID value="59"/>
+      <Color value="" />
+      <Construction value="Closely Braided/Knitted"/>
+      <serviceTemp value="1260°C"/>
+      <meltingPoint value="1760°C"/>
+      <Composition value="Aluminium Silicate"/>
+      <LossOnIgnition value="less then 18%"/>
+    </materialProperty>
+    <Packing value="200m for sizes upto 8mm, 100m for sizes upto 12.5mm, 50m for sizes upto 25mm, 25m for sizes above 25mm"/>
+    <Partnumber value="Ceramic Fiber Braided Rope" />
+    <Application value="Furnace / Boiler Door insulation and seal, Coke Oven door jam seal, Expansion Joint packing, High Temperature Gasketing and Packing, Maintenance in Foundaries, Refineries, Power Plants and Steel Plants" />
+  </covering>
+  <covering ID="Rope-3">
+    <coveringName value="Glass Fiber Fiber Braided Rope" />
+    <coveringType value="Rope"/>
+    <Width value="6mm to 75mm"/>
+    <Thickness value="0.006"/>
+    <Shape value="Round or Sqare"/>
+    <materialProperty>
+      <swMaterialLibrary value="solidworks materials.sldmat"/>
+      <swMaterial value="A-Glass Fiber"/>
+      <swMaterialID value="59"/>
+      <Color value="" />
+      <Construction value="Closely Braided/Knitted"/>
+      <serviceTemp value="550°C"/>
+      <meltingPoint value="840°C"/>
+      <Composition value="SS wire / Brass wire"/>
+      <LossOnIgnition value="less then 1%"/>
+    </materialProperty>
+    <Packing value="2.5kg for sizes upto 12.5mm, 5 kg for sizes upto 25mm, 10 kg for sizes upto 38mm, 20 kg for sizes above 38mm"/>
+    <Partnumber value="Ceramic Fiber Braided Rope" />
+    <Application value="Boiler Door packing, Expansion Joint packing, Insulation of Industrial Ovens and Furnaces, Protection of Equipment / Machinery from extreme radiant heat" />
+  </covering>  
+  <covering ID="Adhesive Tape-1">
+    <coveringName value="PVC Electrical Tape" />
+    <coveringType value="Adhesive Tape"/>
+    <Width value="1in to 4in"/>
+    <Thickness value="0.2mm"/>
+    <materialProperty>
+      <swMaterialLibrary value="solidworks materials.sldmat"/>
+      <swMaterial value=""/>
+      <swMaterialID value=""/>
+      <Color value="black, white, red, green, blue and yellow" />
+      <Construction value=""/>
+      <Material value=""/>
+      <serviceTemp value=""/>
+    </materialProperty>
+    <Packing value="25m rolls"/>
+    <Partnumber value="PVC Electrical Tape" />
+    <Application value="Flame Retardant or Non-flame Retardant, Used in Wire and Cable Insulation and bundling" />
+  </covering>
+  <covering ID="Adhesive Tape-2">
+    <coveringName value="Lead-free PVC Electrical Tape" />
+    <coveringType value="Adhesive Tape"/>
+    <Width value="18, 19 and 20mm "/>
+    <Thickness value="0.15mm"/>
+    <materialProperty>
+      <swMaterialLibrary value="solidworks materials.sldmat"/>
+      <swMaterial value=""/>
+      <swMaterialID value=""/>
+      <Color value="black, white, red, green, blue and yellow" />
+      <Material value="lead-free PVC film, rubber-based adhesive"/>
+      <serviceTemp value=""/>
+      <Elongation value="160%"/>
+      <PeelAdhesion value="1.5N/cm"/>
+    </materialProperty>
+    <VoltageBreakdown value="7.0kV"/>
+    <Packing value="25m rolls"/>
+    <Partnumber value="Lead-free PVC Electrical Tape" />
+    <Application value="Mainly for wrapping electrical wires/cables and automobile harness" />
+  </covering>
+  <covering ID="Adhesive Tape-3">
+    <coveringName value="Heavy-duty PVC Electrical Tape" />
+    <coveringType value="Adhesive Tape"/>
+    <Width value="18, 19 and 20mm "/>
+    <Thickness value="0.2mm"/>
+    <materialProperty>
+      <swMaterialLibrary value="solidworks materials.sldmat"/>
+      <swMaterial value=""/>
+      <swMaterialID value=""/>
+      <Color value="black, white, red, green, blue and yellow" />
+      <Material value="PVC film, rubber-based adhesive"/>
+      <serviceTemp value=""/>
+      <Elongation value="180%"/>
+      <PeelAdhesion value="1.5N/cm"/>
+    </materialProperty>
+    <VoltageBreakdown value="9.0kV"/>
+    <Packing value="25m rolls"/>
+    <Partnumber value="Heavy-duty PVC Electrical Tape" />
+    <Application value="Mainly for wrapping electrical wires/cables and automobile harness" />
+  </covering>
+  <covering ID="Adhesive Tape-4">
+    <coveringName value="Flame-retardant PVC Electrical Tape" />
+    <coveringType value="Adhesive Tape"/>
+    <Width value="18, 19 and 20mm "/>
+    <Thickness value="0.12mm"/>
+    <materialProperty>
+      <swMaterialLibrary value="solidworks materials.sldmat"/>
+      <swMaterial value=""/>
+      <swMaterialID value=""/>
+      <Color value="black, white, red, green, blue and yellow" />
+      <Material value="PVC fire-resistant film, rubber-based adhesive"/>
+      <serviceTemp value=""/>
+      <Elongation value="150%"/>
+      <PeelAdhesion value="1.5N/cm"/>
+    </materialProperty>
+    <VoltageBreakdown value="6.5kV"/>
+    <Packing value="25m rolls"/>
+    <Partnumber value="Flame-retardant PVC Electrical Tape" />
+    <Application value="Mainly for wrapping electrical wires/cables and automobile harness" />
+  </covering>
+  <covering ID="Adhesive Tape-5">
+    <coveringName value="General Purpose 40 Micron Aluminum Tape" />
+    <coveringType value="Adhesive Tape"/>
+    <Width value="50, 75, 100mm"/>
+    <Thickness value="0.04mm"/>
+    <materialProperty>
+      <swMaterialLibrary value="solidworks materials.sldmat"/>
+      <swMaterial value=""/>
+      <swMaterialID value=""/>
+      <Color value="black, white, red, green, blue and yellow" />
+      <Material value="aluminum foil, acrylic-based adhesivee"/>
+      <serviceTemp value="-20°C to 120°C"/>
+      <Elongation value=""/>
+      <PeelAdhesion value="10N/25mm"/>
+    </materialProperty>
+    <VoltageBreakdown value="6.5kV"/>
+    <Packing value="25m rolls"/>
+    <Partnumber value="General Purpose 40 Micron Aluminum Tape" />
+    <Application value="Used for conditioning systems in construction and refrigeration" />
+  </covering>
+  <covering ID="Adhesive Tape-6">
+    <coveringName value="Industrial Grade Double-sided PE Foam Tape" />
+    <coveringType value="Adhesive Tape"/>
+    <Width value="12, 15, 19 and 25mm "/>
+    <Thickness value="1.0mm"/>
+    <materialProperty>
+      <swMaterialLibrary value="solidworks materials.sldmat"/>
+      <swMaterial value=""/>
+      <swMaterialID value=""/>
+      <Color value="black, white" />
+      <Material value="PE foam, PE film liner and acrylic solvent adhesive"/>
+      <serviceTemp value="-20°C to 120°C"/>
+      <Elongation value=""/>
+      <PeelAdhesion value="to 32 N/20mm"/>
+    </materialProperty>
+    <VoltageBreakdown value="6.5kV"/>
+    <Packing value="25m rolls"/>
+    <Partnumber value="Industrial Grade Double-sided PE Foam Tape" />
+    <Application value="Suitable for mounting and fixing interior/exterior trim for cars in automobile industries" />
+  </covering>
+</CoveringLibrary>

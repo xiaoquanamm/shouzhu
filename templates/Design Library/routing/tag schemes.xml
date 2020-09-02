@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PnIDTagSchema>
+  <Schema name="TagSchema1">
+    <Equipment>
+      <FieldsInfo>
+        <Field ID="1">
+          <System value="S1" />
+          <Deliminator>
+            <Type value="CharacterNumber" />
+            <Content value="5" />
+          </Deliminator>
+        </Field>
+        <Field ID="2">
+          <Size value="10&quot;" />
+          <Deliminator>
+            <Type value="SpecificCharacter" />
+            <Content value="-" />
+          </Deliminator>
+        </Field>
+        <Field ID="3">
+          <Specification value="LA" />
+          <Deliminator>
+            <Type value="SpecificCharacter" />
+            <Content value="-" />
+          </Deliminator>
+        </Field>
+      </FieldsInfo>
+    </Equipment>
+    <Fitting />
+    <Pipe />
+  </Schema>
+  <Schema name="TagSchema2">
+    <Equipment />
+    <Fitting>
+      <FieldsInfo>
+        <Field ID="1">
+          <System value="S1" />
+          <Deliminator>
+            <Type value="SpecificCharacter" />
+            <Content value="-" />
+          </Deliminator>
+        </Field>
+      </FieldsInfo>
+    </Fitting>
+    <Pipe />
+  </Schema>
+</PnIDTagSchema>

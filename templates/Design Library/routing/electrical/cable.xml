@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<CableLibrary xmlns='http://www.solidworks.com/cablelibrary'>
+    <cable ID='1'>
+        <cableName value='C1'/>
+        <partNumber  value='C1'/>
+        <description value='C1 -  4 core'/>
+        <outerDia value='0.004500'/>
+        <Color value='Black'/>
+        <SWColor value='0'/>
+        <NoOfCores value='4'/>
+        <core ID='1'>
+            <coreName value='w1'/>
+            <conductorSize value='0.5mm'/>
+            <conductorOD value='0.001000'/>
+            <color value='Green'/>
+            <SWColor value='65280'/>
+            <MinBendRadius value='0.001000'/>
+            <Seal value=''/>
+        </core>
+        <core ID='2'>
+            <coreName value='w2'/>
+            <conductorSize value='0.5mm'/>
+            <conductorOD value='0.001000'/>
+            <color value='Blue'/>
+            <SWColor value='16711680'/>
+            <MinBendRadius value='0.001000'/>
+            <Seal value=''/>
+        </core>
+        <core ID='3'>
+            <coreName value='w3'/>
+            <conductorSize value='0.5mm'/>
+            <conductorOD value='0.001000'/>
+            <color value='Red'/>
+            <SWColor value='255'/>
+            <MinBendRadius value='0.001000'/>
+            <Seal value=''/>
+        </core>
+        <core ID='4'>
+            <coreName value='w4'/>
+            <conductorSize value='0.5mm'/>
+            <conductorOD value='0.001000'/>
+            <color value='Yellow'/>
+            <SWColor value='65535'/>
+            <MinBendRadius value='0.001000'/>
+            <Seal value=''/>
+        </core>
+        <MinBendRadius value='0.015000'/>
+    </cable>
+    <cable ID='2'>
+        <cableName value='Optical Fibre'/>
+        <partNumber  value='Optical Fibre'/>
+        <description value='Optical Fibre'/>
+        <outerDia value='0.000200'/>
+        <Color value='ffff8040'/>
+        <SWColor value='4227327'/>
+        <NoOfCores value='1'/>
+        <core ID='1'>
+            <coreName value='optic'/>
+            <conductorSize value='n/a'/>
+            <conductorOD value='0.002000'/>
+            <color value='white'/>
+            <SWColor value='16777215'/>
+            <MinBendRadius value='0.000000'/>
+            <Seal value=''/>
+        </core>
+        <MinBendRadius value='0.150000'/>
+    </cable>
+    <wire ID='1'>
+        <WireName value='20g yellow'/>
+        <PartNumber value='9982'/>
+        <Description value='20g yellow'/>
+        <WireOD value='0.002000'/>
+        <Color value='Y'/>
+        <SWColor value='65535'/>
+        <Size value='2.5'/>
+        <MinBendRadius value='0.002000'/>
+        <Seal value=''/>
+    </wire>
+    <wire ID='2'>
+        <WireName value='20g white'/>
+        <PartNumber value='9983'/>
+        <Description value='20g white'/>
+        <WireOD value='0.002000'/>
+        <Color value='W'/>
+        <SWColor value='16777215'/>
+        <Size value='2'/>
+        <MinBendRadius value='0.001000'/>
+        <Seal value=''/>
+    </wire>
+    <wire ID='3'>
+        <WireName value='20g red'/>
+        <PartNumber value='9984'/>
+        <Description value='20g red'/>
+        <WireOD value='0.002000'/>
+        <Color value='R'/>
+        <SWColor value='255'/>
+        <Size value='16'/>
+        <MinBendRadius value='0.001000'/>
+        <Seal value=''/>
+    </wire>
+    <wire ID='4'>
+        <WireName value='20g blue'/>
+        <PartNumber value='9985'/>
+        <Description value='20g blue'/>
+        <WireOD value='0.002000'/>
+        <Color value='B'/>
+        <SWColor value='16711680'/>
+        <Size value='22'/>
+        <MinBendRadius value='0.001000'/>
+        <Seal value=''/>
+    </wire>
+    <RibbonCable ID='1'>
+        <CableName value='FPDI-1 31 Display Cables'/>
+        <PartNumber value='P/N 989909-31'/>
+        <Description value='31 Position, utilize male/female Hirose DF-9 or equivalent connectors and .5mm pitch laminated cable'/>
+        <Thickness value='0.001000'/>
+        <Width value='0.025000'/>
+        <Color value='RED'/>
+        <SWColor value='1'/>
+        <NoOfConductors value='31'/>
+        <MinBendRadius value='0.002'/>
+    </RibbonCable>
+    <RibbonCable ID='2'>
+        <CableName value='FPDI-1 41 Display Cables'/>
+        <PartNumber value='P/N 989909-41'/>
+        <Description value='41 Position, utilize male/female Hirose DF-9 or equivalent connectors and .5mm pitch laminated cable'/>
+        <Thickness value='0.001000'/>
+        <Width value='0.033780'/>
+        <Color value='RED'/>
+        <SWColor value='1'/>
+        <NoOfConductors value='41'/>
+        <MinBendRadius value='0.002'/>
+    </RibbonCable>
+    <RibbonCable ID='3'>
+        <CableName value='AMP IDC 5 Pin'/>
+        <PartNumber value='5WDY00006'/>
+        <Description value='5 Position, AWM Style 2651'/>
+        <Thickness value='0.000889'/>
+        <Width value='0.012700'/>
+        <Color value='BLACK'/>
+        <SWColor value='1'/>
+        <NoOfConductors value='5'/>
+        <MinBendRadius value='0.002'/>
+    </RibbonCable>
+    <RibbonCable ID='4'>
+        <CableName value='AMP IDC 15 Pin'/>
+        <PartNumber value='15WDY00006'/>
+        <Description value='15 Position, AWM Style 2651'/>
+        <Thickness value='0.000889'/>
+        <Width value='0.038100'/>
+        <Color value='BLACK'/>
+        <SWColor value='1'/>
+        <NoOfConductors value='15'/>
+        <MinBendRadius value='0.002'/>
+    </RibbonCable>
+    <RibbonCable ID='5'>
+        <CableName value='AMP IDC 10 Pin'/>
+        <PartNumber value='10WDY00006'/>
+        <Description value='10 Position, AWM Style 2651'/>
+        <Thickness value='0.000889'/>
+        <Width value='0.025400'/>
+        <Color value='BLACK'/>
+        <SWColor value='1'/>
+        <NoOfConductors value='10'/>
+        <MinBendRadius value='0.002'/>
+    </RibbonCable>
+    <RibbonCable ID='6'>
+        <CableName value='3M Round Cond. Flat Cable 3365 30 Way'/>
+        <PartNumber value='3365/30'/>
+        <Description value='0.05in 28 AWG Stranded, PVC'/>
+        <Thickness value='0.000890'/>
+        <Width value='0.038100'/>
+        <Color value='Grey'/>
+        <SWColor value='8421504'/>
+        <NoOfConductors value='30'/>
+        <MinBendRadius value='0.001780'/>
+    </RibbonCable>
+    <RibbonCable ID='7'>
+        <CableName value='3M Round Cond. Flat Cable 2010 10 Way'/>
+        <PartNumber value='2010/10'/>
+        <Description value='0.05in 28 AWG Stranded, Halogen Free Insulation'/>
+        <Thickness value='0.000890'/>
+        <Width value='0.012700'/>
+        <Color value='Grey'/>
+        <SWColor value='8421504'/>
+        <NoOfConductors value='10'/>
+        <MinBendRadius value='0.001780'/>
+    </RibbonCable>
+    <RibbonCable ID='8'>
+        <CableName value='3M Round Cond. Flat Cable 2010 20 Way'/>
+        <PartNumber value='2010/20'/>
+        <Description value='0.05in 28 AWG Stranded, Halogen Free Insulation'/>
+        <Thickness value='0.000890'/>
+        <Width value='0.025400'/>
+        <Color value='Grey'/>
+        <SWColor value='8421504'/>
+        <NoOfConductors value='20'/>
+        <MinBendRadius value='0.001780'/>
+    </RibbonCable>
+    <RibbonCable ID='9'>
+        <CableName value='Amphenol SpectraStrip 44 Way'/>
+        <PartNumber value='191-2815-044'/>
+        <Description value='0.039in (1mm)  28 AWG Stranded, 7/36 Tinned Copper'/>
+        <Thickness value='0.000889'/>
+        <Width value='0.043891'/>
+        <Color value='Grey'/>
+        <SWColor value='8421504'/>
+        <NoOfConductors value='44'/>
+        <MinBendRadius value='0.001780'/>
+    </RibbonCable>
+    <RibbonCable ID='10'>
+        <CableName value='3M Round Cable Cond. Flat Cable 3365 50 Way'/>
+        <PartNumber value='3365/50'/>
+        <Description value='0.05in 28 AWG Stranded, PVC'/>
+        <Thickness value='0.000889'/>
+        <Width value='0.063500'/>
+        <Color value='Grey'/>
+        <SWColor value='8421504'/>
+        <NoOfConductors value='50'/>
+        <MinBendRadius value='0.001780'/>
+    </RibbonCable>
+    <RibbonCable ID='11'>
+        <CableName value='3M Pleated Foil Shielded Cable 90901 50 Way'/>
+        <PartNumber value='90101/50'/>
+        <Description value='0.025in 30 AWG Solid, TPE Primary, PVC Jacket'/>
+        <Thickness value='0.002540'/>
+        <Width value='0.034290'/>
+        <Color value='Grey'/>
+        <SWColor value='8421504'/>
+        <NoOfConductors value='50'/>
+        <MinBendRadius value='0.005080'/>
+    </RibbonCable>
+</CableLibrary>

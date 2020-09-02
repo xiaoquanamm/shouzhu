@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CPTemplate>
+  <CPSheet>
+    <GroupBox Label="组框" PropName="组框2" DefaultState="Expanded">
+      <Control Label="名称" PropName="Description" ApplyTo="Config" Type="TextBox" DefaultValue="" Mode="Text" />
+      <Control Label="分类" PropName="File Type" ApplyTo="Config" Type="ComboBox" UserDefineable="False">
+        <Data Path="" SourceType="List">
+          <Item>装配体</Item>
+        </Data>
+      </Control>
+      <Control Label="类别" PropName="Part Type" ApplyTo="Config" Type="ComboBox" UserDefineable="False">
+        <Data Path="" SourceType="List">
+          <Item>NA</Item>
+          <Item>机械加工件</Item>
+          <Item>钣金</Item>
+          <Item>机械标准件</Item>
+          <Item>电气元件</Item>
+          <Item>气动元件</Item>
+        </Data>
+      </Control>
+      <Control Label="型号" PropName="Model" ApplyTo="Config" Type="TextBox" DefaultValue="" Mode="Text" />
+      <Control Label="品牌" PropName="Vendor" ApplyTo="Config" Type="ComboBox" UserDefineable="True">
+        <Data Path="" SourceType="List">
+          <Item>SURUN</Item>
+          <Item>Schunk</Item>
+          <Item>SMC</Item>
+          <Item>FESTO</Item>
+          <Item>SEW</Item>
+          <Item>钱豹</Item>
+        </Data>
+      </Control>
+      <Control Label="料号" PropName="Number" ApplyTo="Config" Type="TextBox" DefaultValue="" Mode="Text" />
+      <Control Label="质量" PropName="Weight" ApplyTo="Config" Type="TextBox" DefaultValue="SW-Mass" Mode="SWProperty" />
+      <Control Label="PN" PropName="PartNumber" ApplyTo="Config" Type="TextBox" DefaultValue="" Mode="Text" />
+    </GroupBox>
+  </CPSheet>
+</CPTemplate>

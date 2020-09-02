@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CPTemplate>
+  <CPSheet>
+    <GroupBox Label="组框" PropName="组框2" DefaultState="Expanded">
+      <Control Label="名称" PropName="Description" ApplyTo="Config" Type="TextBox" DefaultValue="" Mode="Text" />
+      <Control Label="材料" PropName="Material" ApplyTo="Config" Type="TextBox" DefaultValue="SW-Material" Mode="SWProperty" />
+      <Control Label="热处理" PropName="Heat Treatment" ApplyTo="Config" Type="ComboBox" UserDefineable="True">
+        <Data Path="" SourceType="List">
+          <Item>NA</Item>
+          <Item>调质</Item>
+          <Item>去应力处理</Item>
+          <Item>高频淬火</Item>
+          <Item>HRC62~68</Item>
+          <Item>HRC52~56</Item>
+        </Data>
+      </Control>
+      <Control Label="表面处理" PropName="Finish" ApplyTo="Config" Type="ComboBox" UserDefineable="True">
+        <Data Path="" SourceType="List">
+          <Item>NA</Item>
+          <Item>化学镀镍</Item>
+          <Item>镀硬铬</Item>
+          <Item>发黑</Item>
+          <Item>电镀蓝白锌</Item>
+          <Item>硬质氧化</Item>
+          <Item>原色氧化</Item>
+          <Item>黑色氧化</Item>
+          <Item>电泳 RAL9005</Item>
+          <Item>喷漆哑光橘纹RAL9018</Item>
+          <Item>喷漆哑光橘纹RAL7035灰</Item>
+          <Item>喷漆哑光橘纹RAL7037灰</Item>
+          <Item>喷漆哑光橘纹RAL7010</Item>
+          <Item>喷漆哑光橘纹RAL1023黄</Item>
+          <Item>喷漆哑光橘纹RAL9005黑</Item>
+          <Item>喷漆哑光橘纹RAL6018绿</Item>
+          <Item>喷漆哑光橘纹RAL2003黄</Item>
+          <Item>喷涂哑光平纹RAL9016白</Item>
+          <Item>喷涂哑光平纹RAL9011黑</Item>
+          <Item>喷涂亚光橘纹RAL5003蓝</Item>
+          <Item>喷塑 RAL9005</Item>
+          <Item>喷涂国邦化学 790-43103H</Item>
+          <Item>喷涂国邦化学 790-49721H</Item>
+          <Item>喷涂哑光RAL9006</Item>
+          <Item>喷涂RAL9010乳白</Item>
+        </Data>
+      </Control>
+      <Control Label="类型" PropName="Part Type" ApplyTo="Config" Type="ComboBox" UserDefineable="False">
+        <Data Path="" SourceType="List">
+          <Item>NA</Item>
+          <Item>机械加工件</Item>
+          <Item>钣金</Item>
+          <Item>机械标准件</Item>
+          <Item>电气元件</Item>
+          <Item>气动元件</Item>
+        </Data>
+      </Control>
+      <Control Label="分类" PropName="File Type" ApplyTo="Config" Type="ComboBox" UserDefineable="False">
+        <Data Path="" SourceType="List">
+          <Item>零件体</Item>
+        </Data>
+      </Control>
+      <Control Label="型号" PropName="Model" ApplyTo="Config" Type="TextBox" DefaultValue="" Mode="Text" />
+      <Control Label="料号" PropName="Number" ApplyTo="Config" Type="TextBox" DefaultValue="" Mode="Text" />
+      <Control Label="品牌" PropName="Vendor" ApplyTo="Config" Type="ComboBox" UserDefineable="True">
+        <Data Path="" SourceType="List">
+          <Item>市购</Item>
+          <Item>SURUN</Item>
+          <Item>MISUMI</Item>
+          <Item>SIEMENS</Item>
+          <Item>WITTENSTEIN</Item>
+          <Item>SEW</Item>
+          <Item>THK</Item>
+          <Item>SKF</Item>
+          <Item>NSK</Item>
+          <Item>FESTO</Item>
+          <Item>SMC</Item>
+          <Item>WNGLOR</Item>
+          <Item>FANUC</Item>
+          <Item>ABB</Item>
+          <Item>KUKA</Item>
+          <Item>SCHUNK</Item>
+          <Item>钱豹</Item>
+        </Data>
+      </Control>
+      <Control Label="质量" PropName="Weight" ApplyTo="Config" Type="TextBox" DefaultValue="SW-Mass" Mode="SWProperty" />
+      <Control Label="PN" PropName="Part Number" ApplyTo="Config" Type="TextBox" DefaultValue="" Mode="Text" />
+    </GroupBox>
+  </CPSheet>
+</CPTemplate>

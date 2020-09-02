@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CPTemplate>
+  <AppVersion>26</AppVersion>
+  <CPSheet>
+    <GroupBox Label="组框" PropName="组框2" DefaultState="Expanded">
+      <Control Label="类型" PropName="Type" ApplyTo="Config" Type="ComboBox" ReadOnly="False" UserDefineable="True">
+        <Data Path="C:\SW2018\SOLIDWORKS\lang\chinese-simplified\Tutorial\类型.txt" SourceType="Text" />
+      </Control>
+      <Control Label="名称" PropName="Name" ApplyTo="Config" Type="TextBox" ReadOnly="False" DefaultValue="" Mode="Text" />
+      <Control Label="图号" PropName="Drawing Number" ApplyTo="Config" Type="TextBox" ReadOnly="False" DefaultValue="SW-File Name" Mode="SWProperty" />
+      <Control Label="品牌" PropName="Brand" ApplyTo="Config" Type="ComboBox" ReadOnly="False" UserDefineable="True">
+        <Data Path="C:\SW2018\SOLIDWORKS\lang\chinese-simplified\Tutorial\品牌.txt" SourceType="Text" />
+      </Control>
+      <Control Label="规格" PropName="Specification" ApplyTo="Config" Type="TextBox" ReadOnly="False" DefaultValue="" Mode="Text" />
+      <Control Label="物料描述" PropName="Material Description" ApplyTo="Config" Type="TextBox" ReadOnly="False" DefaultValue="$PRP:&quot;Name&quot; $PRP:&quot;Brand&quot; $PRP:&quot;Specification&quot; $PRP:&quot;Material&quot;" Mode="Text" />
+      <Control Label="材质" PropName="Material" ApplyTo="Config" Type="TextBox" ReadOnly="False" DefaultValue="SW-Material" Mode="SWProperty" />
+      <Control Label="热处理" PropName="Surface1" ApplyTo="Config" Type="ComboBox" ReadOnly="False" UserDefineable="True">
+        <Data Path="C:\SW2018\SOLIDWORKS\lang\chinese-simplified\Tutorial\热处理.txt" SourceType="Text" />
+      </Control>
+      <Control Label="表面处理" PropName="Surface2" ApplyTo="Config" Type="ComboBox" ReadOnly="False" UserDefineable="True">
+        <Data Path="C:\SW2018\SOLIDWORKS\lang\chinese-simplified\Tutorial\表面处理.txt" SourceType="Text" />
+      </Control>
+      <Control Label="数量" PropName="Quantity" ApplyTo="Config" Type="ComboBox" ReadOnly="False" UserDefineable="True">
+        <Data Path="" SourceType="List">
+          <Item>1</Item>
+          <Item>2</Item>
+          <Item>3</Item>
+          <Item>4</Item>
+          <Item>5</Item>
+          <Item>6</Item>
+          <Item>7</Item>
+          <Item>8</Item>
+          <Item>9</Item>
+          <Item>10</Item>
+        </Data>
+      </Control>
+      <Control Label="重量" PropName="Weight" ApplyTo="Config" Type="TextBox" ReadOnly="False" DefaultValue="SW-Mass" Mode="SWProperty" />
+      <Control Label="设计人员" PropName="Designer" ApplyTo="Config" Type="TextBox" ReadOnly="False" DefaultValue="" Mode="Text" />
+      <Control Label="日期" PropName="Date" ApplyTo="Config" Type="TextBox" ReadOnly="False" DefaultValue="SW-Short Date" Mode="SWProperty" />
+      <Control Label="项目名称" PropName="Project Name" ApplyTo="Config" Type="TextBox" ReadOnly="False" DefaultValue="" Mode="Text" />
+      <Control Label="版本" PropName="Version" ApplyTo="Config" Type="TextBox" ReadOnly="False" DefaultValue="" Mode="Text" />
+    </GroupBox>
+  </CPSheet>
+</CPTemplate>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CPTemplate>
+  <CPSheet>
+    <MessageBox>焊接切割清单属性</MessageBox>
+    <GroupBox Label="组框" PropName="组框2" DefaultState="Expanded">
+      <Control Label="类型" PropName="Part Type" ApplyTo="Config" Type="ComboBox" UserDefineable="True">
+        <Data Path="" SourceType="List">
+          <Item>型材架</Item>
+          <Item>焊接架</Item>
+          <Item>焊接件</Item>
+        </Data>
+      </Control>
+      <Control Label="材料" PropName="Material" ApplyTo="Config" Type="ComboBox" UserDefineable="True">
+        <Data Path="" SourceType="List">
+          <Item>方管</Item>
+          <Item>45重载型材</Item>
+          <Item>45轻载型材</Item>
+          <Item>40重载型材</Item>
+          <Item>40轻载型材</Item>
+          <Item>30型材</Item>
+        </Data>
+      </Control>
+      <Control Label="品牌" PropName="Vendor" ApplyTo="Global" Type="TextBox" DefaultValue="SURUN" Mode="Text" />
+      <Control Label="料号" PropName="Number" ApplyTo="Config" Type="TextBox" DefaultValue="" Mode="Text" />
+    </GroupBox>
+  </CPSheet>
+</CPTemplate>

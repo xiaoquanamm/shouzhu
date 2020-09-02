@@ -1,0 +1,378 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Interop.Office.Core.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ftnBoltNut_SaveAsmPath" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ftnBoltNut_AutoL" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="ftnBoltNut_selPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PrinterFiles" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Printer_chkSubPath" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="PrinterFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Printer_cmbPrintWidth" Type="System.String" Scope="User">
+      <Value Profile="(Default)">A0</Value>
+    </Setting>
+    <Setting Name="Printer_rdoInARow" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Printer_chkAutoColor" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="Printer_txtA0W" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">890</Value>
+    </Setting>
+    <Setting Name="Printer_txtA1W" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">630</Value>
+    </Setting>
+    <Setting Name="Printer_txtA2W" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">430</Value>
+    </Setting>
+    <Setting Name="Printer_txtA3W" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">297</Value>
+    </Setting>
+    <Setting Name="Printer_txtA4W" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">210</Value>
+    </Setting>
+    <Setting Name="Printer_txtA0H" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1230</Value>
+    </Setting>
+    <Setting Name="Printer_txtA1H" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">870</Value>
+    </Setting>
+    <Setting Name="Printer_txtA2H" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">610</Value>
+    </Setting>
+    <Setting Name="Printer_txtA3H" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">430</Value>
+    </Setting>
+    <Setting Name="Printer_txtA4H" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">297</Value>
+    </Setting>
+    <Setting Name="Printer_cmbSpaceXY" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="Printer_cmbSpaceLT" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2</Value>
+    </Setting>
+    <Setting Name="Printer_chkAddLine" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Symbol_LastNodePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Symbol_bDisplayName" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="frmAll_width" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">699</Value>
+    </Setting>
+    <Setting Name="frmAll_height" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">596</Value>
+    </Setting>
+    <Setting Name="frmAll_spltADisct" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">262</Value>
+    </Setting>
+    <Setting Name="frmAll_spltCDisct" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">227</Value>
+    </Setting>
+    <Setting Name="frmAll_spltBDisct" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">382</Value>
+    </Setting>
+    <Setting Name="AutoCV_radioNewPath" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="AutoCV_DefaultExt" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.PDF</Value>
+    </Setting>
+    <Setting Name="AutoCV_arExtensions" Type="System.String" Scope="User">
+      <Value Profile="(Default)">.slddrw</Value>
+    </Setting>
+    <Setting Name="fntWeb_ServerIP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">192.168.10.31</Value>
+    </Setting>
+    <Setting Name="fntWeb_SavePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="bAddToolBar" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="bShowStartForm" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="bOnePartManyConf" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="swBomRowLength" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">7</Value>
+    </Setting>
+    <Setting Name="swBomType_e" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="strWorkPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="exe1ength" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">123456789012</Value>
+    </Setting>
+    <Setting Name="WriteTechnic_Line" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="exeStartx" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">900</Value>
+    </Setting>
+    <Setting Name="exeStarty" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">9</Value>
+    </Setting>
+    <Setting Name="addPPage_width" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">328</Value>
+    </Setting>
+    <Setting Name="addPPage_height" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">500</Value>
+    </Setting>
+    <Setting Name="swBomBomTemplate" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="setUpInTolerance" Type="System.String" Scope="User">
+      <Value Profile="(Default)">True,True,True,3,1,False</Value>
+    </Setting>
+    <Setting Name="fntWeb_width" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">910</Value>
+    </Setting>
+    <Setting Name="fntWeb_height" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">590</Value>
+    </Setting>
+    <Setting Name="Tolerance_bTopWindow" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Tolerance_bDisplayPC" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Tolerance_bDisplayGCD" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Tolerance_bPCinKH" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Tolerance_iPrecision" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="Tolerance_iTaoHeStyle" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="BOM_rdoCfgAtt" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="BOM_rdoListAtt" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="BOM_chkIgnoreAsm" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="BOM_DZ" Type="System.String" Scope="User">
+      <Value Profile="(Default)">$单重</Value>
+    </Setting>
+    <Setting Name="BOM_ZZ" Type="System.String" Scope="User">
+      <Value Profile="(Default)">$总重</Value>
+    </Setting>
+    <Setting Name="BOM_SL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">$数量小计</Value>
+    </Setting>
+    <Setting Name="AboutTabSelIndex" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="dwgtemplateCompanyName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">迈迪数码</Value>
+    </Setting>
+    <Setting Name="RepName_txtNewStr" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="RepName_txtOldStr" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="RepName_txtFolderPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="RepName_bIncProperty" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="XingWei_Level" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="WriteTech_LineDist" Type="System.String" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="WriteTech_TxtHeight" Type="System.String" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="WriteTech_LineTxtNbl" Type="System.String" Scope="User">
+      <Value Profile="(Default)">22</Value>
+    </Setting>
+    <Setting Name="AutoCV_selpath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="AutoCV_selMFiles" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Auto_bAllExtensions" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Auto_bChangeExten" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Auto_arExtensions" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Auto_iLevel" Type="System.String" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="AddCode_RetCode" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="AddCode_CodePre" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="AddCode_CodeLevel" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3</Value>
+    </Setting>
+    <Setting Name="AddCode_Sepeater" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="swBomTitleBarHeight" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">56</Value>
+    </Setting>
+    <Setting Name="MDEXE_UseXuanGua" Description="是否点击图标显示工具条" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="chkPanelIsActive" Type="System.String" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="dblBomRowLength" Type="System.String" Scope="User">
+      <Value Profile="(Default)">7</Value>
+    </Setting>
+    <Setting Name="swBomRowCount1" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+    <Setting Name="swBomRowCount2" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+    <Setting Name="exeFormWidth_J" Type="System.String" Scope="User">
+      <Value Profile="(Default)">580</Value>
+    </Setting>
+    <Setting Name="Tolerance_bSmallWindow" Type="System.String" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="frmAll_bUseCache" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="CreateNbr_PPtName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">序号</Value>
+    </Setting>
+    <Setting Name="CreateNbr_StartIndex" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="BOM_filterIdx" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="ExcelExtension" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="BOM_chkIgnoreSuppressed" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="fntWeb_dgvPptHid" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="frmAll_bThreadMaps" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="frmAll_bDelFormula" Description="生成标准件后删除方程式（全局设置）" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="MDEXE_AutoHidden" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="fntWeb_mdpgksfilter" Description="打开模型包默认选择的扩展名" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="MDExe_Times" Description="记录每个功能的使用次数" Type="System.String" Scope="User">
+      <Value Profile="(Default)">[1=0][15=0]</Value>
+    </Setting>
+    <Setting Name="MDEXE_UseBigIcon" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="exeOSBit" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="Login_SavePWD" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="Login_strPWD" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Login_strName" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DimMgrSelArr" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="HuaDong_2dChecked" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="StrReplace_cfg" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="BomWritePPT_cfg" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="HuaDong_MaoZhongPPT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">毛重</Value>
+    </Setting>
+    <Setting Name="HuaDong_XYZPPT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">名称</Value>
+    </Setting>
+    <Setting Name="HuaDong_DwgSize" Type="System.String" Scope="User">
+      <Value Profile="(Default)">纸张大小</Value>
+    </Setting>
+    <Setting Name="saidi_cmbNameType" Type="System.String" Scope="User">
+      <Value Profile="(Default)">"工程图号""版本号"</Value>
+    </Setting>
+    <Setting Name="DimMgr_AllViews" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DimMgr_DuplicateDims" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DimMgr_HiddenFeatureDims" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="DimMgr_Option" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="DimMgr_UsePlacementInSketch" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Interop_Office_Core_my3dparts_MDTool" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.my3dparts.com/asmx/MDTool.asmx</Value>
+    </Setting>
+    <Setting Name="BOM_chkIgnoreSubWeldment" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="BOM_chkCurrConfig" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="AutoPartNo_my3dparts_MDTool" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.my3dparts.com/asmx/MDTool.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,24 @@
+Sub main()
+Set swApp = Application.SldWorks
+Set part = swApp.ActiveDoc
+If part Is Nothing Then Exit Sub
+If part.GetType <> 1 Then Exit Sub
+FilePathName = part.GetPathName
+FilePath = Left(FilePathName, InStrRev(FilePathName, "\", -1))
+PartName = Mid(FilePathName, Len(FilePath) + 1, Len(FilePathName) - Len(FilePath) - 7)
+FilecPath = FilePath & PartName & "-" & "Config\"
+If Not (Dir(FilecPath, vbDirectory) = ".") Then MkDir (FilecPath)
+CfgNames = part.GetConfigurationNames
+For Each CfgName In CfgNames
+    PartcPathName = FilecPath & PartName & "-" & CfgName & ".SLDPRT"
+    Debug.Print PartcPathName
+    part.SaveAsSilent PartcPathName, True
+    Set Partc = swApp.OpenDoc(PartcPathName, 1)
+    Partc.ShowConfiguration2 CfgName
+    For Each CfgDelete In CfgNames
+        Partc.DeleteConfiguration2 (CfgDelete)
+    Next
+    Partc.Save
+    swApp.CloseDoc PartcPathName
+Next
+End Sub

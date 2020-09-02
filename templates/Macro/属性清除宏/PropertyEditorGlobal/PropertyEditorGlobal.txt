@@ -1,0 +1,201 @@
+---------------------------------------------------------------------03/08/2007
+PropertyEditorGlobal.swp          Written by Leonard Kikstra,
+                                  Copyright 2003-2007, Leonard Kikstra
+                                  Downloaded from Lenny's SolidWorks Resources
+                                       at http://www.lennyworks.com/solidworks
+-------------------------------------------------------------------------------
+
+INTRODUCTION:
+
+PropertyEditorGlobal is a macro that allows you set up rules that define the 
+properties that will Edit/Add/Delete/Rename custom file properties and 
+configuration specific properties, in all SolidWorks documents in the current 
+directory.  Rules may be saved for later addition to the external configuration 
+file for later use.
+
+An external configuration file, when properly set up, provides easy access to 
+predefined custom file properties and configuration specific properties that 
+should exist in your SolidWorks documents.  The external configuration file 
+can also be used to specify predefined special properties that may be added 
+to your SolidWorks documents.  Rules that exist in this configuration file 
+can be brought into the macro and modified to suit your needs at any time.
+
+For editing properties on the current document loaded in SolidWorks , see my 
+macro PropertyEditorSpec which allows you to Edit/Add/Delete/Rename custom 
+file properties and configuration specific properties, in any SolidWorks 
+document, in one easy to use interface.
+
+-------------------------------------------------------------------------------
+
+Version History
+	1.00	Initial release
+	1.10 	Adds the capability of editing file summary information for 
+		SolidWorks documents.
+	1.20    Minor annoyances fixed. Added sorting of property names.
+		Added '[SHIFT]-Enter' and '[ALT]-0013' capability to 
+                TextBoxEdit_KeyPress for entering hard returns inside 
+		property values.
+        1.30    Added selection box for predefined "[SPECIAL PROPERTIES]"
+                to Form_AddProp for add properties function.
+        1.31    Bug Fix:    Add property - Must selected property type
+                            Check for null property list
+                            Sort property names instead of list items
+                            Undelete function correct property name & value
+        1.32    Added 'Copy To All' button to copy property and value to all
+                configurations
+        1.33    Bug Fix:    Correct type setting for predefined properties
+                            in Form_AddProp.  Corrected issue by resetting
+                            ListBoxType.ListIndex to -1.
+        1.34    Bug Fix:    Correct date adding/changing.  Needed global var
+
+-------------------------------------------------------------------------------
+
+DISCLAIMER:
+* These macros are provided free of charge for personal use and/or reference. 
+* These macros may be freely distributed, provided the original copyright 
+  notices remain unchanged and intact. 
+* All macros were written to work with SolidWorks 2003. 
+* These macros, and corresponding files, are provided as is. 
+* There are no warranties, expressed or implied, that these macros will perform 
+  as indicated, perform to users expectations, or complete a specific task. 
+* These macros will change the current SolidWorks document. Use these macros at 
+  your own risk. Back up your data before using this macro on any SolidWorks 
+  document. 
+
+-------------------------------------------------------------------------------
+
+HOW TO USE THIS MACRO:
+
+1)  With a document open, launch the macro from within SolidWorks.
+
+2)  Select property group to edit.
+    NOTE: By default, a user can only edit the custom file properties, 
+          and the confguration specific properties for the current 
+          configuration.  If access is necessary for configuration 
+          specific properties for all configurations in the model, 
+          check 'Access all configurations'.    
+
+3)  Edit/Add/Delete/Rename in the property list as needed.
+    * Edit a property by selecting it's name in the property list.
+    * Add a property by clicking on the 'Add' button.  You will then see a
+      new for entering the necessary data for the property being added.
+    * Deleted properties will be marked '<Deleted>' and the value cleared.
+      To cancel a delete, the name and value can be restored by selecting 
+      the <Deleted> row in the property list and clicking 'UnDelete'.
+    * To rename a property, selecting it's name in the property list and
+      click the 'Rename' button.  You can then rename the property.  
+      To restore the original property name and value,  selecting it's name 
+      in the property list and click the 'Restore' button.
+    * Added properties can be renamed anytime they are selected.
+
+  Note: Once a change is made to the property list, you cannot accidentally 
+        change the configuration and lose the changes.  At this point you 
+        must do either of the following:
+            > 'Write' the changes to the model.
+            > 'Refresh' the property list and cancelling the changes.
+
+4)  'Write' the changes to the document.  
+    NOTE: The change(s) will not be written to the SolidWorks document 
+          until you click the 'Write' button.  The property list will
+          be refreshed when changes have been completed.
+
+5)  Repeat steps 2 thru 4 as needed.
+
+-------------------------------------------------------------------------------
+
+HOW THIS MACRO WORKS:
+
+This macro first retrieves a list of configurations used in the model, then
+populates the configuration list.  A selection for 'Custom File Properties'
+will always be at the top of the list. The selection in the configuration 
+list will define what properties are shown and are available for editing.
+
+A list of properties, types, and values in a multi-column listbox on the 
+form.  The form is populated by reading the data from the model.  The data 
+that cannot be changes is hidden from the user.  Once a change is made to 
+the property list, you cannot accidentally change the configuration and lose 
+the changes.  At this point you must either 'Write' the changes to the model, 
+or 'Refresh' the property list and cancel the changes.  All intended changes 
+to this list are immediately recorded in the listbox.  The data is then 
+written back to the SolidWorks document when user forces it.  
+
+
+-------------------------------------------------------------------------------
+
+EDIT BUTTONS:
+
+The buttons that are available change depending on the property selected.  
+Here is an explanation of each button.  Unless otherwise notes, each
+button only works on the currently selected property.
+
+Add        Allows user to add a property to the property list.
+           * This button is available at all times.
+
+|Delete    Allows user to tag a property that is to be deleted.
+|          A line is reserved in case it is necessary to undelete
+|          the property.  Once the properties are written to the
+|          document, the property cannot be undeleted.
+|          * This button will disappear if the selected property has 
+|            already been tagged for deletion or there are no 
+|            properties in the list.
+|UnDelete  If the property has been tagged for deletion, it can be
+|          recovered with the 'Undelete'.  Once the properties are 
+|          written to the document, the property cannot be undeleted.
+|          * This button will not available unless the selected 
+|            property has been tagged for deletion.
+
+|Rename    Allows a change in the property name.
+|          * This button is only available if the selected property 
+|            has not been renamed or tagged for deletion.
+|Restore   Restores original property name and value for the selected 
+|          property.  Once the properties are written to the document, 
+|          property name and value cannot be restored.
+|          * This button will not available unless the selected 
+|            property has been renamed.
+
+Write      Writes all changes to the SolidWorks document.  Once the 
+           properties are written to the document, the property cannot 
+           be undeleted or restored without manually recreating the
+           property.
+
+Refresh    Retrieves the all property data from the model and cancels 
+           all changes in the property list including deleted, renamed, 
+           and added properties.
+           * This button is available at all times.
+
+-------------------------------------------------------------------------------
+
+CONFIGURING THE EXTERNAL DATA FILE:
+* Data file is only used to add properties to existing SolidWorks documents.
+  Data file is not required to run this macro.  
+* Data file, if used, must be in same directory as macro file.  Data file, 
+  if used, must have same name as macro file with '.ini' extension.
+* Group names must be enclose with [] brackets.  An empty line must exist at 
+  the end of each group. Group names are case sensitive and must match.
+* Data should be enclosed in "" quotes to allow special characters to exist 
+  within property names.
+* The following groups are recognized in the data file:
+    [MODEL-CUSTOM]
+	For required 'custom file properties' in a SolidWorks model.
+    [MODEL-CONFIGURATION]
+	For required 'config specific properties' in a SolidWorks model.
+    [DRAWING-CUSTOM]
+	For required 'custom file properties' in a SolidWorks drawing.
+    [SPECIAL PROPERTIES]
+        Predefines properties used for special purposes only.  There are no
+	restrictions on where or how these properties can be used
+* Add the property name and type in the group where it is intended to exist in 
+  the model.  Property names are case sensitive.  When the macro is started, 
+  the property will be added using the following rules:
+  * If the property already exists, it will not be added or revised.
+  * If the property does not exist, the property will be created with a default 
+    value of "".
+
+* Format:  PropertyName, Type
+
+                         30 = Text       Note: The format numbers
+                         64 = Date             match the values in
+                          3 = Number           the swconst.bas file.
+                         11 = Yes/No
+
+-------------------------------------------------------------------------------

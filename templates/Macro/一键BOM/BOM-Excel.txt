@@ -1,0 +1,13 @@
+BomType,0
+ExcelSilent,False
+OutputPathInit,.
+ExcelFormat,.xlsx
+HeaderRow,
+PropForSheetName,Description
+DoPreview,True
+ImgQuality,3
+PreviewDisplayMode,ShadedWithEdges
+PreviewTangentEdge,Phantom
+PreviewColumn,0
+PreviewCommentWidth,200
+PreviewCommentHeight,150

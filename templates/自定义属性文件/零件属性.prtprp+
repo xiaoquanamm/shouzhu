@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CPTemplate>
+  <AppVersion>24</AppVersion>
+  <CPSheet>
+    <GroupBox Label="零件属性" PropName="组框2" DefaultState="Expanded">
+      <Control Label="项目" PropName="项目" ApplyTo="Global" Type="ComboBox" UserDefineable="True">
+        <Data Range="A2:A100" SheetIndex="1" Path="D:\SW\自定义属性文件\项目.xlsx" SourceType="Excel" />
+      </Control>
+      <Control Label="零件名称" PropName="零件名称" ApplyTo="Global" Type="TextBox" DefaultValue="SW-File Name" Mode="SWProperty" />
+      <Control Label="Description" PropName="Description" ApplyTo="Global" Type="TextBox" DefaultValue="" Mode="Text" />
+      <Control Label="数量" PropName="数量" ApplyTo="Global" Type="NumericCtrl" DefaultValue="2" />
+      <Control Label="材质" PropName="Material" ApplyTo="Global" Type="TextBox" DefaultValue="SW-Material" Mode="SWProperty" />
+      <Control Label="表面处理" PropName="表处" ApplyTo="Global" Type="ComboBox" UserDefineable="True">
+        <Data Path="" SourceType="List">
+          <Item>本色氧化</Item>
+          <Item>喷砂氧化</Item>
+          <Item>黑色氧化</Item>
+          <Item>调质 镀硬铬</Item>
+          <Item>镀铬</Item>
+          <Item>淬火HRC50°</Item>
+          <Item>烤漆</Item>
+          <Item>拉丝</Item>
+          <Item>镀锌</Item>
+          <Item>发黑</Item>
+          <Item>调质 镀铬</Item>
+          <Item>热处理 HRC58°</Item>
+          <Item>抛光</Item>
+        </Data>
+      </Control>
+      <Control Label="技术要求" PropName="技术要求" ApplyTo="Global" Type="ComboBox" UserDefineable="True">
+        <Data Path="" SourceType="List">
+          <Item>原件修改</Item>
+          <Item>左右对称加工各一件</Item>
+          <Item>尖角倒圆，棱边倒钝</Item>
+          <Item>孔口倒角，去除孔内毛刺</Item>
+          <Item>表面不能有划痕，凹陷</Item>
+        </Data>
+      </Control>
+      <Control Label="加工工艺" PropName="工艺" ApplyTo="Global" Type="ComboBox" UserDefineable="True">
+        <Data Path="" SourceType="List">
+          <Item>铣</Item>
+          <Item>车</Item>
+          <Item>磨</Item>
+          <Item>CNC</Item>
+          <Item>焊接</Item>
+          <Item>钣金</Item>
+          <Item>线割</Item>
+        </Data>
+      </Control>
+      <Control Label="类别" PropName="类别" ApplyTo="Global" Type="ComboBox" UserDefineable="True">
+        <Data Path="" SourceType="List">
+          <Item>外购件</Item>
+          <Item>加工件</Item>
+          <Item>库存件</Item>
+        </Data>
+      </Control>
+      <Control Label="品牌" PropName="品牌" ApplyTo="Global" Type="ComboBox" UserDefineable="True">
+        <Data Path="" SourceType="List">
+          <Item>SMC</Item>
+          <Item>MISUMI</Item>
+          <Item>FESTO</Item>
+          <Item>Autonics</Item>
+          <Item>亚德客</Item>
+          <Item>OMRON</Item>
+          <Item>市购</Item>
+        </Data>
+      </Control>
+      <Control Label="文件位置" PropName="文件位置" ApplyTo="Global" Type="TextBox" DefaultValue="SW-Folder Name" Mode="SWProperty" />
+    </GroupBox>
+  </CPSheet>
+</CPTemplate>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CPTemplate>
+  <CPSheet>
+    <GroupBox Label="组框" PropName="组框31" DefaultState="Expanded">
+      <Control Label="物料描述" PropName="零件名称" ApplyTo="Config" Type="TextBox" DefaultValue="" Mode="Text" />
+    </GroupBox>
+    <GroupBox Label="公共属性" PropName="组框2" DefaultState="Expanded">
+      <Control Label="类别" PropName="+类别" ApplyTo="Config" Type="ComboBox" UserDefineable="True">
+        <Data Path="" SourceType="List">
+          <Item>加工件</Item>
+          <Item>钣金件</Item>
+          <Item>组装图</Item>
+          <Item>购品（机械）</Item>
+          <Item>购品（电气）</Item>
+          <Item>产品</Item>
+          <Item>辅助件</Item>
+          <Item>紧固件</Item>
+        </Data>
+      </Control>
+      <Control Label="总数量" PropName="+总数量" ApplyTo="Config" Type="NumericCtrl" DefaultValue="1" />
+      <Control Label="易损件" PropName="+易损件" ApplyTo="Config" Type="CheckBox" DefaultValue="0" PropValueChecked="易损件" PropValueUnchecked="" />
+    </GroupBox>
+    <GroupBox Label="加工件属性" PropName="组框18" DefaultState="Expanded">
+      <Control Label="材料" PropName="材料" ApplyTo="Config" Type="TextBox" DefaultValue="SW-Material" Mode="SWProperty" />
+      <Control Label="表面处理" PropName="+表面处理" ApplyTo="Config" Type="ComboBox" UserDefineable="True">
+        <Data Path="" SourceType="List">
+          <Item>镀硬铬</Item>
+          <Item>拉丝</Item>
+          <Item>本色阳极</Item>
+          <Item>浅灰RAL7035</Item>
+          <Item>黄色RAL1016</Item>
+          <Item>红色RAL2002</Item>
+          <Item>硬质阳极氧化</Item>
+          <Item>发黑</Item>
+          <Item>JD2670灰白桔纹烤漆</Item>
+          <Item>土耳其蓝烤漆</Item>
+          <Item>Muncell 10B3/5土耳其蓝烤漆</Item>
+          <Item>伊顿蓝</Item>
+          <Item>氮化</Item>
+          <Item>喷砂</Item>
+          <Item>喷砂亮氧</Item>
+          <Item>镀镍</Item>
+          <Item>象牙白</Item>
+          <Item>RAL7035</Item>
+        </Data>
+      </Control>
+      <Control Label="热处理" PropName="+热处理" ApplyTo="Config" Type="ComboBox" UserDefineable="True">
+        <Data Path="" SourceType="List">
+          <Item>HRC28-32</Item>
+          <Item>HRC32-40</Item>
+          <Item>HRC40-45</Item>
+          <Item>HRC45-55</Item>
+          <Item>HRC55-62</Item>
+          <Item>调质HRC28-32</Item>
+          <Item>调质HRC32-35</Item>
+        </Data>
+      </Control>
+      <Control Label="未注倒角" PropName="+未注倒角" ApplyTo="Config" Type="TextBox" DefaultValue="C0.5" Mode="Text" />
+      <Control Label="钣金件" PropName="+钣金件" ApplyTo="Config" Type="CheckBox" DefaultValue="0" PropValueChecked="钣金件" PropValueUnchecked="" />
+    </GroupBox>
+    <GroupBox Label="其他属性" PropName="组框23" DefaultState="Expanded">
+      <Control Label="设计者" PropName="+设计者" ApplyTo="Config" Type="TextBox" DefaultValue="刘大刚" Mode="Text" />
+      <Control Label="体积" PropName="+体积" ApplyTo="Config" Type="TextBox" DefaultValue="SW-Volume" Mode="SWProperty" />
+      <Control Label="密度" PropName="+密度" ApplyTo="Config" Type="TextBox" DefaultValue="SW-Density" Mode="SWProperty" />
+      <Control Label="质量" PropName="+质量" ApplyTo="Config" Type="TextBox" DefaultValue="SW-Mass" Mode="SWProperty" />
+      <Control Label="设计日期" PropName="+设计日期" ApplyTo="Config" Type="TextBox" DefaultValue="SW-Created Date" Mode="SWProperty" />
+    </GroupBox>
+  </CPSheet>
+</CPTemplate>

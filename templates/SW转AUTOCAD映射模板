@@ -1,0 +1,35 @@
+[Version]
+SW990001
+
+[Layers]
+0 = 0, 1
+中心线 = 4, 7
+虚线层 = 6, 2
+细实线层 = 0, 3
+粗实线层 = 0, 1
+尺寸线层 = 3, 6
+剖面线层 = 4, 3
+表格层 = 0, 3
+细线1 = 0, 10
+剖面线层1 = 4, 3
+
+[Entities]
+几何体 [0] = BYLAYER, BYLAYER, 0
+中心线 [14] = BYLAYER, BYLAYER, 中心线
+隐藏线 [15] = BYLAYER, BYLAYER, 虚线层
+中心符号线 [4] = BYLAYER, BYLAYER, 细实线层
+注释 [2] = BYLAYER, BYLAYER, 粗实线层
+尺寸 [1] = BYLAYER, BYLAYER, 尺寸线层
+局部视图图标 [6] = BYLAYER, BYLAYER, 剖面线层
+材料明细表 [12] = BYLAYER, BYLAYER, 表格层
+局部视图边界 [18] = BYLAYER, BYLAYER, 细线1
+剖面线 [17] = BYLAYER, BYLAYER, 剖面线层1
+
+[Colors]
+0 -> 0
+0 -> 0
+65280 -> 3
+16711935 -> 6
+16776960 -> 4
+255 -> 1
+

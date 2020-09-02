@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CPTemplate>
+  <AppVersion>26</AppVersion>
+  <CPSheet>
+    <GroupBox Label="Part Type" PropName="组框22" DefaultState="Expanded">
+      <Control Label="Part Type" PropName="Part Type" ApplyTo="Global" Type="RadioButton" ReadOnly="False">
+        <Data>
+          <Item Label="加工件" PropValue="加工件">
+            <ChildControl PropName="组框18" Visibility="IsChecked=true" />
+          </Item>
+          <Item Label="标准件" PropValue="标准件">
+            <ChildControl PropName="组框20" Visibility="IsChecked=true" />
+          </Item>
+          <Item Label="产品" PropValue="产品">
+            <ChildControl PropName="组框19" Visibility="IsChecked=true" />
+          </Item>
+        </Data>
+      </Control>
+    </GroupBox>
+    <GroupBox Label="零件属性" PropName="组框18" DefaultState="Expanded">
+      <Control Label="材质" PropName="Material" ApplyTo="Global" Type="TextBox" ReadOnly="False" DefaultValue="SW-Material" Mode="SWProperty" />
+      <Control Label="数量" PropName="数量" ApplyTo="Global" Type="NumericCtrl" ReadOnly="False" DefaultValue="1" />
+      <Control Label="类别" PropName="Part Type7" ApplyTo="Global" Type="ComboBox" ReadOnly="False" UserDefineable="True">
+        <Data Path="" SourceType="List">
+          <Item>加工件</Item>
+          <Item>钣金件</Item>
+          <Item>标准件</Item>
+          <Item>通用件</Item>
+          <Item>组件</Item>
+          <Item>产品</Item>
+          <Item>辅助件</Item>
+          <Item>紧固件</Item>
+        </Data>
+      </Control>
+      <Control Label="表面处理" PropName="Finish" ApplyTo="Global" Type="ComboBox" ReadOnly="False" UserDefineable="True">
+        <Data Range="A1:A99" SheetIndex="2" Path="D:\templates\自定义属性文件\Property.xls" SourceType="Excel" />
+      </Control>
+      <Control Label="热处理" PropName="Heat Treatment" ApplyTo="Global" Type="ComboBox" ReadOnly="False" UserDefineable="True">
+        <Data Range="A1:A99" SheetIndex="3" Path="D:\templates\自定义属性文件\Property.xls" SourceType="Excel" />
+      </Control>
+      <Control Label="备注" PropName="备注" ApplyTo="Global" Type="ComboBox" ReadOnly="False" UserDefineable="True">
+        <Data Path="" SourceType="List">
+          <Item>左右对称加工各一件，共2件</Item>
+          <Item>原件修改</Item>
+          <Item>所有螺纹孔镶牙套</Item>
+        </Data>
+      </Control>
+      <Control Label="项目" PropName="Project Number" ApplyTo="Global" Type="ComboBox" ReadOnly="False" UserDefineable="True">
+        <Data Range="A1:A99" SheetIndex="1" Path="D:\templates\自定义属性文件\Property.xls" SourceType="Excel" />
+      </Control>
+      <Control Label="描述" PropName="Description" ApplyTo="Global" Type="TextBox" ReadOnly="False" DefaultValue="" Mode="Text" />
+      <Control Label="代号" PropName="Part Number" ApplyTo="Global" Type="TextBox" ReadOnly="False" DefaultValue="" Mode="Text" />
+      <Control Label="版本" PropName="修订" ApplyTo="Global" Type="ComboBox" ReadOnly="False" UserDefineable="True">
+        <Data Path="" SourceType="List">
+          <Item>A</Item>
+          <Item>B</Item>
+          <Item>C</Item>
+          <Item>D</Item>
+        </Data>
+      </Control>
+    </GroupBox>
+    <GroupBox Label="标准件" PropName="组框20" DefaultState="Expanded">
+      <Control Label="品牌" PropName="品牌" ApplyTo="Global" Type="ComboBox" ReadOnly="False" UserDefineable="True">
+        <Data Range="A1:A99" SheetIndex="4" Path="D:\templates\自定义属性文件\Property.xls" SourceType="Excel" />
+      </Control>
+      <Control Label="型号" PropName="规格" ApplyTo="Global" Type="TextBox" ReadOnly="False" DefaultValue="" Mode="Text" />
+    </GroupBox>
+    <GroupBox Label="产品" PropName="组框19" DefaultState="Expanded">
+      <Control Label="客户" PropName="客户" ApplyTo="Global" Type="TextBox" ReadOnly="False" DefaultValue="" Mode="Text" />
+      <Control Label="产品" PropName="产品名称" ApplyTo="Global" Type="TextBox" ReadOnly="False" DefaultValue="" Mode="Text" />
+    </GroupBox>
+  </CPSheet>
+</CPTemplate>
