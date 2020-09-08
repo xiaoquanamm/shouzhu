@@ -1,0 +1,6 @@
+D:\Desktop\cad-plus-master\_build\SwEDrawingsHost.dll
+D:\Desktop\cad-plus-master\_build\SwEDrawingsHost.pdb
+D:\Desktop\cad-plus-master\src\SwEDrawingsHost\obj\Debug\SwEDrawingsHost.csprojAssemblyReference.cache
+D:\Desktop\cad-plus-master\src\SwEDrawingsHost\obj\Debug\SwEDrawingsHost.csproj.CoreCompileInputs.cache
+D:\Desktop\cad-plus-master\src\SwEDrawingsHost\obj\Debug\SwEDrawingsHost.dll
+D:\Desktop\cad-plus-master\src\SwEDrawingsHost\obj\Debug\SwEDrawingsHost.pdb

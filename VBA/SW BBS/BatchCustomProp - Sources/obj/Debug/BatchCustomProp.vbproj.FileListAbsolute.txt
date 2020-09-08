@@ -1,0 +1,12 @@
+D:\Desktop\BatchCustomProp - Sources\bin\Debug\BatchCustomProp.exe.config
+D:\Desktop\BatchCustomProp - Sources\bin\Debug\BatchCustomProp.exe
+D:\Desktop\BatchCustomProp - Sources\bin\Debug\BatchCustomProp.pdb
+D:\Desktop\BatchCustomProp - Sources\bin\Debug\BatchCustomProp.xml
+D:\Desktop\BatchCustomProp - Sources\obj\Debug\BatchCustomProp.vbprojAssemblyReference.cache
+D:\Desktop\BatchCustomProp - Sources\obj\Debug\BatchCustomProp.BatchPropForm.resources
+D:\Desktop\BatchCustomProp - Sources\obj\Debug\BatchCustomProp.Resources.resources
+D:\Desktop\BatchCustomProp - Sources\obj\Debug\BatchCustomProp.vbproj.GenerateResource.cache
+D:\Desktop\BatchCustomProp - Sources\obj\Debug\BatchCustomProp.vbproj.CoreCompileInputs.cache
+D:\Desktop\BatchCustomProp - Sources\obj\Debug\BatchCustomProp.exe
+D:\Desktop\BatchCustomProp - Sources\obj\Debug\BatchCustomProp.xml
+D:\Desktop\BatchCustomProp - Sources\obj\Debug\BatchCustomProp.pdb

@@ -1,0 +1,730 @@
+Form loaded
+BtSearch_Click
+BtSearch_Click
+   Add file2: D:\Desktop\门\20054-02-20-001.sldprt
+   Add file2: D:\Desktop\门\20054-02-20-0020.SLDPRT
+   Add file2: D:\Desktop\门\20054-02-20-0030.SLDPRT
+   Add file2: D:\Desktop\门\20054-02-20-004.SLDPRT
+   Add file2: D:\Desktop\门\20054-02-20-005.SLDPRT
+   Add file2: D:\Desktop\门\20054-02-20-006.SLDPRT
+   Add file2: D:\Desktop\门\20054-02-20-007.SLDPRT
+   Add file2: D:\Desktop\门\20054-02-20-008.SLDPRT
+   Add file2: D:\Desktop\门\20054-02-20-009.sldprt
+   Add file2: D:\Desktop\门\20054-02-20-010.sldprt
+   Add file2: D:\Desktop\门\20054-02-20-011.sldprt
+   Add file2: D:\Desktop\门\20054-02-20-012.sldprt
+   Add file2: D:\Desktop\门\20054-02-20-013.sldprt
+   Add file2: D:\Desktop\门\20054-02-20-014.sldprt
+   Add file2: D:\Desktop\门\20054-02-20-015.sldprt
+   Add file2: D:\Desktop\门\20054-02-20-016.SLDPRT
+   Add file2: D:\Desktop\门\20054-02-20-017.SLDPRT
+   Add file2: D:\Desktop\门\20054-02-20-018.SLDPRT
+   Add file2: D:\Desktop\门\20054-02-20-019.SLDPRT
+   Add file2: D:\Desktop\门\40x40型材端盖.SLDPRT
+   Add file2: D:\Desktop\门\HFC21-62B (YHDFA).SLDPRT
+   Add file2: D:\Desktop\门\借用-门吸.SLDPRT
+   Add file2: D:\Desktop\门\孔距120-M8铝合金把手.SLDPRT
+   Add file2: D:\Desktop\门\安全开关_D4NS-1BFst10-cl1.SLDPRT
+   Add file2: D:\Desktop\门\安全开关钥匙_D4DS-K3st10-cl1.SLDPRT
+   Add file2: D:\Desktop\门\20054-02-20-0000.SLDASM
+   Add file2: D:\Desktop\门\20054-02-21-0000.SLDASM
+   Add file2: D:\Desktop\门\20054-02-22-000.SLDASM
+   Add file2: D:\Desktop\门\20054-02-23-000.SLDASM
+   Add file2: D:\Desktop\门\20054-02-24-000.SLDASM
+   Add file2: D:\Desktop\门\20054-02-25-000.SLDASM
+   Add file2: D:\Desktop\门\20054-02-26-000.SLDASM
+   Add file2: D:\Desktop\门\安全门锁D4NS-1BF&D4DS-K3.SLDASM
+BtSearch_Click
+   Add file: D:\Desktop\门\20054-02-20-001.sldprt
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-0020.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-0030.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-004.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-005.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-006.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-007.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-008.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-009.sldprt
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-010.sldprt
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-011.sldprt
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-012.sldprt
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-013.sldprt
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-014.sldprt
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-015.sldprt
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-016.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-017.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-018.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-019.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\40x40型材端盖.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\HFC21-62B (YHDFA).SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\借用-门吸.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\孔距120-M8铝合金把手.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\安全开关_D4NS-1BFst10-cl1.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\安全开关钥匙_D4DS-K3st10-cl1.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-0000.SLDASM
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-21-0000.SLDASM
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-22-000.SLDASM
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-23-000.SLDASM
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-24-000.SLDASM
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-25-000.SLDASM
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-26-000.SLDASM
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\安全门锁D4NS-1BF&D4DS-K3.SLDASM
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+BtSearch_Click
+   Add file: D:\Desktop\门\20054-02-20-001.sldprt
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-0020.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-0030.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-004.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-005.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-006.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-007.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-008.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-009.sldprt
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-010.sldprt
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-011.sldprt
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-012.sldprt
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-013.sldprt
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-014.sldprt
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-015.sldprt
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-016.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-017.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-018.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-019.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\40x40型材端盖.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\HFC21-62B (YHDFA).SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\借用-门吸.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\孔距120-M8铝合金把手.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\安全开关_D4NS-1BFst10-cl1.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\安全开关钥匙_D4DS-K3st10-cl1.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-0000.SLDASM
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-21-0000.SLDASM
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-22-000.SLDASM
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-23-000.SLDASM
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-24-000.SLDASM
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-25-000.SLDASM
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-26-000.SLDASM
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\安全门锁D4NS-1BF&D4DS-K3.SLDASM
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+BtSearch_Click
+   Add file: D:\Desktop\门\20054-02-20-001.sldprt
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-0020.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-0030.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-004.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-005.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-006.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-007.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-008.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-009.sldprt
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-010.sldprt
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-011.sldprt
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-012.sldprt
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-013.sldprt
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-014.sldprt
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-015.sldprt
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-016.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-017.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-018.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-019.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\40x40型材端盖.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\HFC21-62B (YHDFA).SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\借用-门吸.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\孔距120-M8铝合金把手.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\安全开关_D4NS-1BFst10-cl1.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\安全开关钥匙_D4DS-K3st10-cl1.SLDPRT
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-20-0000.SLDASM
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-21-0000.SLDASM
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-22-000.SLDASM
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-23-000.SLDASM
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-24-000.SLDASM
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-25-000.SLDASM
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\20054-02-26-000.SLDASM
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+   Add file: D:\Desktop\门\安全门锁D4NS-1BF&D4DS-K3.SLDASM
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+BtSearch_Click
+Document Manager API Error. Probable causes:
+ - invalid license number
+ - project not compiled for x64 CPU
+BtSearch_Click
+   Add file2: D:\Desktop\门\20054-02-20-013.sldprt
+   Add file2: D:\Desktop\门\20054-02-24-000.SLDASM
+   Add file2: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\40x40型材端盖.SLDPRT
+   Add file2: D:\Desktop\门\20054-02-20-004.SLDPRT
+   Add file2: D:\Desktop\门\20054-02-20-005.SLDPRT
+   Add file2: D:\Desktop\门\HFC21-62B (YHDFA).SLDPRT
+   Add file2: D:\Desktop\门\20054-02-26-000.SLDASM
+   Add file2: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\20054-02-20-017.SLDPRT
+   Add file2: D:\Desktop\门\借用-门吸.SLDPRT
+   Add file2: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\20054-02-20-016.SLDPRT
+   Add file2: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\孔距120-M8铝合金把手.SLDPRT
+   Add file2: D:\Desktop\门\20054-02-20-019.SLDPRT
+   Add file2: D:\Desktop\门\20054-02-20-012.sldprt
+   Add file2: D:\Desktop\门\20054-02-22-000.SLDASM
+   Add file2: D:\Desktop\门\20054-02-23-000.SLDASM
+   Add file2: D:\Desktop\门\20054-02-20-006.SLDPRT
+   Add file2: D:\Desktop\门\20054-02-20-007.SLDPRT
+   Add file2: D:\Desktop\门\安全门锁D4NS-1BF&D4DS-K3.SLDASM
+   Add file2: D:\Desktop\门\安全开关钥匙_D4DS-K3st10-cl1.SLDPRT
+   Add file2: D:\Desktop\门\安全开关_D4NS-1BFst10-cl1.SLDPRT
+   Add file2: D:\Desktop\门\20054-02-20-015.sldprt
+   Add file2: D:\Desktop\门\20054-02-20-014.sldprt
+   Add file2: D:\Desktop\门\20054-02-20-018.SLDPRT
+   Add file2: D:\Desktop\门\20054-02-20-001.sldprt
+   Add file2: D:\Desktop\门\20054-02-21-0000.SLDASM
+   Add file2: D:\Desktop\门\20054-02-25-000.SLDASM
+   Add file2: D:\Desktop\门\20054-02-20-0020.SLDPRT
+   Add file2: D:\Desktop\门\20054-02-20-0030.SLDPRT
+   Add file2: D:\Desktop\门\20054-02-20-009.sldprt
+   Add file2: D:\Desktop\门\20054-02-20-011.sldprt
+   Add file2: D:\Desktop\门\20054-02-20-008.SLDPRT
+   Add file2: D:\Desktop\门\20054-02-20-010.sldprt
+   updating value: Material, of type: Text , to value: SW-Material@20054-02-20-013.SLDPRT$$$透明PC耐力板, in file: D:\Desktop\门\20054-02-20-013.sldprt, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: D:\Desktop\门\20054-02-20-013.sldprt, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: D:\Desktop\门\20054-02-20-013.sldprt, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: D:\Desktop\门\20054-02-20-013.sldprt, config: 
+   updating value: Weight, of type: Text , to value: SW-质量@20054-02-20-013.SLDPRT$$$2081.34697230, in file: D:\Desktop\门\20054-02-20-013.sldprt, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-13, in file: D:\Desktop\门\20054-02-20-013.sldprt, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@默认@20054-02-20-013.sldprt$$$2081.34697230, in file: D:\Desktop\门\20054-02-20-013.sldprt, config: 
+   updating value: Material, of type: Text , to value: SW-Material@20054-02-24-000.SLDASM$$$材质 AL6061, in file: D:\Desktop\门\20054-02-24-000.SLDASM, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: D:\Desktop\门\20054-02-24-000.SLDASM, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: D:\Desktop\门\20054-02-24-000.SLDASM, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: D:\Desktop\门\20054-02-24-000.SLDASM, config: 
+   updating value: Weight, of type: Text , to value: SW-Mass@20054-02-24-000.SLDASM$$$6231.23374172, in file: D:\Desktop\门\20054-02-24-000.SLDASM, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-14, in file: D:\Desktop\门\20054-02-24-000.SLDASM, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@默认@20054-02-24-000.SLDASM$$$6231.23374172, in file: D:\Desktop\门\20054-02-24-000.SLDASM, config: 
+   updating value: 质量, of type: Text , to value: SW-Mass@20054-02-24-000.SLDASM$$$6231.23374172, in file: D:\Desktop\门\20054-02-24-000.SLDASM, config: 
+   updating value: Material, of type: Text , to value: SW-Material@40x40型材端盖.SLDPRT$$$橡胶, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\40x40型材端盖.SLDPRT, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\40x40型材端盖.SLDPRT, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\40x40型材端盖.SLDPRT, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\40x40型材端盖.SLDPRT, config: 
+   updating value: Weight, of type: Text , to value: SW-Mass@40x40型材端盖.SLDPRT$$$0.01, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\40x40型材端盖.SLDPRT, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-15, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\40x40型材端盖.SLDPRT, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@40x40型材端盖.SLDPRT$$$0.01, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\40x40型材端盖.SLDPRT, config: 
+   updating value: 质量, of type: Text , to value: SW-Mass@40x40型材端盖.SLDPRT$$$0.01, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\40x40型材端盖.SLDPRT, config: 
+   updating value: 材料, of type: Text , to value: SW-Material@40x40型材端盖.SLDPRT$$$橡胶, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\40x40型材端盖.SLDPRT, config: 
+   updating value: 单重, of type: Text , to value: SW-Mass@40x40型材端盖.SLDPRT$$$0.01, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\40x40型材端盖.SLDPRT, config: 
+   updating value: 体积, of type: Text , to value: SW-Volume@@40x40型材端盖.SLDPRT$$$6.51, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\40x40型材端盖.SLDPRT, config: 
+   updating value: Material, of type: Text , to value: SW-Material@20054-02-20-004.SLDPRT$$$铝型材 , in file: D:\Desktop\门\20054-02-20-004.SLDPRT, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: D:\Desktop\门\20054-02-20-004.SLDPRT, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: D:\Desktop\门\20054-02-20-004.SLDPRT, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: D:\Desktop\门\20054-02-20-004.SLDPRT, config: 
+   updating value: Weight, of type: Text , to value: SW-Mass@20054-02-20-004.SLDPRT$$$3839.79953553, in file: D:\Desktop\门\20054-02-20-004.SLDPRT, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-16, in file: D:\Desktop\门\20054-02-20-004.SLDPRT, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@默认<按加工>@20054-02-20-004.SLDPRT$$$3839.79953553, in file: D:\Desktop\门\20054-02-20-004.SLDPRT, config: 
+   updating value: 质量, of type: Text , to value: SW-Mass@20054-02-20-004.SLDPRT$$$3839.79953553, in file: D:\Desktop\门\20054-02-20-004.SLDPRT, config: 
+   updating value: 材料, of type: Text , to value: SW-Material@20054-02-20-004.SLDPRT$$$铝型材 , in file: D:\Desktop\门\20054-02-20-004.SLDPRT, config: 
+   updating value: 单重, of type: Text , to value: SW-Mass@20054-02-20-004.SLDPRT$$$3839.79953553, in file: D:\Desktop\门\20054-02-20-004.SLDPRT, config: 
+   updating value: Material, of type: Text , to value: SW-Material@20054-02-20-005.SLDPRT$$$透明PC耐力板, in file: D:\Desktop\门\20054-02-20-005.SLDPRT, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: D:\Desktop\门\20054-02-20-005.SLDPRT, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: D:\Desktop\门\20054-02-20-005.SLDPRT, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: D:\Desktop\门\20054-02-20-005.SLDPRT, config: 
+   updating value: Weight, of type: Text , to value: SW-Mass@20054-02-20-005.SLDPRT$$$1928.21016575, in file: D:\Desktop\门\20054-02-20-005.SLDPRT, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-17, in file: D:\Desktop\门\20054-02-20-005.SLDPRT, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@默认@20054-02-20-005.SLDPRT$$$1928.21016575, in file: D:\Desktop\门\20054-02-20-005.SLDPRT, config: 
+   updating value: Material, of type: Text , to value: SW-Material@HFC21-62B (YHDFA).SLDPRT$$$材质 AL6061, in file: D:\Desktop\门\HFC21-62B (YHDFA).SLDPRT, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: D:\Desktop\门\HFC21-62B (YHDFA).SLDPRT, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: D:\Desktop\门\HFC21-62B (YHDFA).SLDPRT, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: D:\Desktop\门\HFC21-62B (YHDFA).SLDPRT, config: 
+   updating value: Weight, of type: Text , to value: SW-Mass@HFC21-62B (YHDFA).SLDPRT$$$0.03, in file: D:\Desktop\门\HFC21-62B (YHDFA).SLDPRT, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-18, in file: D:\Desktop\门\HFC21-62B (YHDFA).SLDPRT, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@HFC21-62B (YHDFA).SLDPRT$$$0.03, in file: D:\Desktop\门\HFC21-62B (YHDFA).SLDPRT, config: 
+   updating value: 体积, of type: Text , to value: SW-Volume@@HFC21-62B (YHDFA).SLDPRT$$$30.07, in file: D:\Desktop\门\HFC21-62B (YHDFA).SLDPRT, config: 
+   updating value: Material, of type: Text , to value: SW-Material@20054-02-26-000.SLDASM$$$材质 AL6061, in file: D:\Desktop\门\20054-02-26-000.SLDASM, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: D:\Desktop\门\20054-02-26-000.SLDASM, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: D:\Desktop\门\20054-02-26-000.SLDASM, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: D:\Desktop\门\20054-02-26-000.SLDASM, config: 
+   updating value: Weight, of type: Text , to value: SW-Mass@20054-02-26-000.SLDASM$$$0.17, in file: D:\Desktop\门\20054-02-26-000.SLDASM, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-19, in file: D:\Desktop\门\20054-02-26-000.SLDASM, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@20054-02-26-000.SLDASM$$$0.17, in file: D:\Desktop\门\20054-02-26-000.SLDASM, config: 
+   updating value: 质量, of type: Text , to value: SW-Mass@20054-02-26-000.SLDASM$$$0.17, in file: D:\Desktop\门\20054-02-26-000.SLDASM, config: 
+   updating value: 体积, of type: Text , to value: SW-Volume@@20054-02-26-000.SLDASM$$$65.67, in file: D:\Desktop\门\20054-02-26-000.SLDASM, config: 
+   updating value: Material, of type: Text , to value: SW-Material@20054-02-20-017.SLDPRT$$$AL5052, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\20054-02-20-017.SLDPRT, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\20054-02-20-017.SLDPRT, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\20054-02-20-017.SLDPRT, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\20054-02-20-017.SLDPRT, config: 
+   updating value: Weight, of type: Text , to value: SW-Mass@20054-02-20-017.SLDPRT$$$0.03, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\20054-02-20-017.SLDPRT, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-20, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\20054-02-20-017.SLDPRT, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@20054-02-20-017.SLDPRT$$$0.03, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\20054-02-20-017.SLDPRT, config: 
+   updating value: 体积, of type: Text , to value: SW-Volume@@20054-02-20-017.SLDPRT$$$9.83, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\20054-02-20-017.SLDPRT, config: 
+   updating value: Material, of type: Text , to value: SW-Material@借用-门吸.SLDPRT$$$材质 AL6061, in file: D:\Desktop\门\借用-门吸.SLDPRT, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: D:\Desktop\门\借用-门吸.SLDPRT, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: D:\Desktop\门\借用-门吸.SLDPRT, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: D:\Desktop\门\借用-门吸.SLDPRT, config: 
+   updating value: Weight, of type: Text , to value: SW-Mass@借用-门吸.SLDPRT$$$0.01, in file: D:\Desktop\门\借用-门吸.SLDPRT, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-21, in file: D:\Desktop\门\借用-门吸.SLDPRT, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@借用-门吸.SLDPRT$$$0.01, in file: D:\Desktop\门\借用-门吸.SLDPRT, config: 
+   updating value: 体积, of type: Text , to value: SW-Volume@@借用-门吸.SLDPRT$$$6.45, in file: D:\Desktop\门\借用-门吸.SLDPRT, config: 
+   updating value: Material, of type: Text , to value: SW-Material@20054-02-20-016.SLDPRT$$$AL6061, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\20054-02-20-016.SLDPRT, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\20054-02-20-016.SLDPRT, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\20054-02-20-016.SLDPRT, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\20054-02-20-016.SLDPRT, config: 
+   updating value: Weight, of type: Text , to value: SW-Mass@20054-02-20-016.SLDPRT$$$0.13, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\20054-02-20-016.SLDPRT, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-22, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\20054-02-20-016.SLDPRT, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@20054-02-20-016.SLDPRT$$$0.13, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\20054-02-20-016.SLDPRT, config: 
+   updating value: 质量, of type: Text , to value: SW-Mass@20054-02-20-016.SLDPRT$$$0.13, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\20054-02-20-016.SLDPRT, config: 
+   updating value: 单重, of type: Text , to value: SW-Mass@20054-02-20-016.SLDPRT$$$0.13, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\20054-02-20-016.SLDPRT, config: 
+   updating value: 体积, of type: Text , to value: SW-Volume@@20054-02-20-016.SLDPRT$$$49.38, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\20054-02-20-016.SLDPRT, config: 
+   updating value: Material, of type: Text , to value: SW-Material@孔距120-M8铝合金把手.SLDPRT$$$材质 AL6061, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\孔距120-M8铝合金把手.SLDPRT, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\孔距120-M8铝合金把手.SLDPRT, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\孔距120-M8铝合金把手.SLDPRT, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\孔距120-M8铝合金把手.SLDPRT, config: 
+   updating value: Weight, of type: Text , to value: SW-Mass@孔距120-M8铝合金把手.SLDPRT$$$0.03, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\孔距120-M8铝合金把手.SLDPRT, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-23, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\孔距120-M8铝合金把手.SLDPRT, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@孔距120-M8铝合金把手.SLDPRT$$$0.03, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\孔距120-M8铝合金把手.SLDPRT, config: 
+   updating value: 质量, of type: Text , to value: SW-Mass@孔距120-M8铝合金把手.SLDPRT$$$0.03, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\孔距120-M8铝合金把手.SLDPRT, config: 
+   updating value: 材料, of type: Text , to value: SW-Material@孔距120-M8铝合金把手.SLDPRT$$$材质 AL6061, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\孔距120-M8铝合金把手.SLDPRT, config: 
+   updating value: 单重, of type: Text , to value: SW-Mass@孔距120-M8铝合金把手.SLDPRT$$$0.03, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\孔距120-M8铝合金把手.SLDPRT, config: 
+   updating value: 体积, of type: Text , to value: SW-Volume@@孔距120-M8铝合金把手.SLDPRT$$$31.35, in file: \\192.168.1.102\每日工程师日记表\全守柱\PDM\18059\门\孔距120-M8铝合金把手.SLDPRT, config: 
+   updating value: Material, of type: Text , to value: SW-Material@20054-02-20-019.SLDPRT$$$透明PC耐力板, in file: D:\Desktop\门\20054-02-20-019.SLDPRT, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: D:\Desktop\门\20054-02-20-019.SLDPRT, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: D:\Desktop\门\20054-02-20-019.SLDPRT, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: D:\Desktop\门\20054-02-20-019.SLDPRT, config: 
+   updating value: Weight, of type: Text , to value: SW-质量@20054-02-20-019.SLDPRT$$$10929.44096734, in file: D:\Desktop\门\20054-02-20-019.SLDPRT, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-24, in file: D:\Desktop\门\20054-02-20-019.SLDPRT, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@默认@20054-02-20-019.SLDPRT$$$10929.44096734, in file: D:\Desktop\门\20054-02-20-019.SLDPRT, config: 
+   updating value: Material, of type: Text , to value: SW-Material@20054-02-20-012.SLDPRT$$$透明PC耐力板, in file: D:\Desktop\门\20054-02-20-012.sldprt, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: D:\Desktop\门\20054-02-20-012.sldprt, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: D:\Desktop\门\20054-02-20-012.sldprt, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: D:\Desktop\门\20054-02-20-012.sldprt, config: 
+   updating value: Weight, of type: Text , to value: SW-质量@20054-02-20-012.SLDPRT$$$4168.79454969, in file: D:\Desktop\门\20054-02-20-012.sldprt, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-25, in file: D:\Desktop\门\20054-02-20-012.sldprt, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@默认@20054-02-20-012.sldprt$$$4168.79454969, in file: D:\Desktop\门\20054-02-20-012.sldprt, config: 
+   updating value: Material, of type: Text , to value: SW-Material@20054-02-22-000.SLDASM$$$材质 AL6061, in file: D:\Desktop\门\20054-02-22-000.SLDASM, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: D:\Desktop\门\20054-02-22-000.SLDASM, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: D:\Desktop\门\20054-02-22-000.SLDASM, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: D:\Desktop\门\20054-02-22-000.SLDASM, config: 
+   updating value: Weight, of type: Text , to value: SW-Mass@20054-02-22-000.SLDASM$$$15397.51481568, in file: D:\Desktop\门\20054-02-22-000.SLDASM, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-26, in file: D:\Desktop\门\20054-02-22-000.SLDASM, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@默认@20054-02-22-000.SLDASM$$$15397.51481568, in file: D:\Desktop\门\20054-02-22-000.SLDASM, config: 
+   updating value: 质量, of type: Text , to value: SW-质量@20054-02-22-000.SLDASM$$$15397.51481568, in file: D:\Desktop\门\20054-02-22-000.SLDASM, config: 
+   updating value: Material, of type: Text , to value: SW-Material@20054-02-23-000.SLDASM$$$材质 AL6061, in file: D:\Desktop\门\20054-02-23-000.SLDASM, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: D:\Desktop\门\20054-02-23-000.SLDASM, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: D:\Desktop\门\20054-02-23-000.SLDASM, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: D:\Desktop\门\20054-02-23-000.SLDASM, config: 
+   updating value: Weight, of type: Text , to value: SW-Mass@20054-02-23-000.SLDASM$$$7.40, in file: D:\Desktop\门\20054-02-23-000.SLDASM, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-27, in file: D:\Desktop\门\20054-02-23-000.SLDASM, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@20054-02-23-000.SLDASM$$$7.40, in file: D:\Desktop\门\20054-02-23-000.SLDASM, config: 
+   updating value: 质量, of type: Text , to value: SW-Mass@20054-02-23-000.SLDASM$$$7.40, in file: D:\Desktop\门\20054-02-23-000.SLDASM, config: 
+   updating value: 体积, of type: Text , to value: SW-Volume@@20054-02-23-000.SLDASM$$$4653.32, in file: D:\Desktop\门\20054-02-23-000.SLDASM, config: 
+   updating value: Material, of type: Text , to value: SW-Material@20054-02-20-006.SLDPRT$$$铝型材 , in file: D:\Desktop\门\20054-02-20-006.SLDPRT, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: D:\Desktop\门\20054-02-20-006.SLDPRT, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: D:\Desktop\门\20054-02-20-006.SLDPRT, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: D:\Desktop\门\20054-02-20-006.SLDPRT, config: 
+   updating value: Weight, of type: Text , to value: SW-Mass@20054-02-20-006.SLDPRT$$$4.24, in file: D:\Desktop\门\20054-02-20-006.SLDPRT, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-28, in file: D:\Desktop\门\20054-02-20-006.SLDPRT, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@20054-02-20-006.SLDPRT$$$4.24, in file: D:\Desktop\门\20054-02-20-006.SLDPRT, config: 
+   updating value: 质量, of type: Text , to value: SW-Mass@20054-02-20-006.SLDPRT$$$4.24, in file: D:\Desktop\门\20054-02-20-006.SLDPRT, config: 
+   updating value: 材料, of type: Text , to value: SW-Material@20054-02-20-006.SLDPRT$$$铝型材 , in file: D:\Desktop\门\20054-02-20-006.SLDPRT, config: 
+   updating value: 单重, of type: Text , to value: SW-Mass@20054-02-20-006.SLDPRT$$$4.24, in file: D:\Desktop\门\20054-02-20-006.SLDPRT, config: 
+   updating value: 体积, of type: Text , to value: SW-Volume@@20054-02-20-006.SLDPRT$$$1571.26, in file: D:\Desktop\门\20054-02-20-006.SLDPRT, config: 
+   updating value: Material, of type: Text , to value: SW-Material@20054-02-20-007.SLDPRT$$$透明PC耐力板, in file: D:\Desktop\门\20054-02-20-007.SLDPRT, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: D:\Desktop\门\20054-02-20-007.SLDPRT, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: D:\Desktop\门\20054-02-20-007.SLDPRT, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: D:\Desktop\门\20054-02-20-007.SLDPRT, config: 
+   updating value: Weight, of type: Text , to value: SW-Mass@20054-02-20-007.SLDPRT$$$2.70, in file: D:\Desktop\门\20054-02-20-007.SLDPRT, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-29, in file: D:\Desktop\门\20054-02-20-007.SLDPRT, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@20054-02-20-007.SLDPRT$$$2.70, in file: D:\Desktop\门\20054-02-20-007.SLDPRT, config: 
+   updating value: 体积, of type: Text , to value: SW-Volume@@20054-02-20-007.SLDPRT$$$2833.20, in file: D:\Desktop\门\20054-02-20-007.SLDPRT, config: 
+   updating value: Material, of type: Text , to value: SW-Material@安全门锁D4NS-1BF&D4DS-K3.SLDASM$$$材质 AL6061, in file: D:\Desktop\门\安全门锁D4NS-1BF&D4DS-K3.SLDASM, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: D:\Desktop\门\安全门锁D4NS-1BF&D4DS-K3.SLDASM, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: D:\Desktop\门\安全门锁D4NS-1BF&D4DS-K3.SLDASM, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: D:\Desktop\门\安全门锁D4NS-1BF&D4DS-K3.SLDASM, config: 
+   updating value: Weight, of type: Text , to value: SW-Mass@安全门锁D4NS-1BF&D4DS-K3.SLDASM$$$0.30, in file: D:\Desktop\门\安全门锁D4NS-1BF&D4DS-K3.SLDASM, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-30, in file: D:\Desktop\门\安全门锁D4NS-1BF&D4DS-K3.SLDASM, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@默认@安全门锁D4NS-1BF&D4DS-K3.SLDASM$$$0.30, in file: D:\Desktop\门\安全门锁D4NS-1BF&D4DS-K3.SLDASM, config: 
+   updating value: Material, of type: Text , to value: SW-Material@安全开关钥匙_D4DS-K3st10-cl1.SLDPRT$$$AL6061, in file: D:\Desktop\门\安全开关钥匙_D4DS-K3st10-cl1.SLDPRT, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: D:\Desktop\门\安全开关钥匙_D4DS-K3st10-cl1.SLDPRT, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: D:\Desktop\门\安全开关钥匙_D4DS-K3st10-cl1.SLDPRT, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: D:\Desktop\门\安全开关钥匙_D4DS-K3st10-cl1.SLDPRT, config: 
+   updating value: Weight, of type: Text , to value: SW-质量@安全开关钥匙_D4DS-K3st10-cl1.SLDPRT$$$0.02, in file: D:\Desktop\门\安全开关钥匙_D4DS-K3st10-cl1.SLDPRT, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-31, in file: D:\Desktop\门\安全开关钥匙_D4DS-K3st10-cl1.SLDPRT, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@默认@安全开关钥匙_D4DS-K3st10-cl1.SLDPRT$$$0.02, in file: D:\Desktop\门\安全开关钥匙_D4DS-K3st10-cl1.SLDPRT, config: 
+   updating value: Material, of type: Text , to value: SW-Material@安全开关_D4NS-1BFst10-cl1.SLDPRT$$$AL6061, in file: D:\Desktop\门\安全开关_D4NS-1BFst10-cl1.SLDPRT, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: D:\Desktop\门\安全开关_D4NS-1BFst10-cl1.SLDPRT, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: D:\Desktop\门\安全开关_D4NS-1BFst10-cl1.SLDPRT, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: D:\Desktop\门\安全开关_D4NS-1BFst10-cl1.SLDPRT, config: 
+   updating value: Weight, of type: Text , to value: SW-质量@安全开关_D4NS-1BFst10-cl1.SLDPRT$$$0.21, in file: D:\Desktop\门\安全开关_D4NS-1BFst10-cl1.SLDPRT, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-32, in file: D:\Desktop\门\安全开关_D4NS-1BFst10-cl1.SLDPRT, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@默认@安全开关_D4NS-1BFst10-cl1.SLDPRT$$$0.21, in file: D:\Desktop\门\安全开关_D4NS-1BFst10-cl1.SLDPRT, config: 
+   updating value: Material, of type: Text , to value: SW-材质@20054-02-20-015.SLDPRT$$$AL6061, in file: D:\Desktop\门\20054-02-20-015.sldprt, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: D:\Desktop\门\20054-02-20-015.sldprt, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: D:\Desktop\门\20054-02-20-015.sldprt, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: D:\Desktop\门\20054-02-20-015.sldprt, config: 
+   updating value: Weight, of type: Text , to value: SW-质量@20054-02-20-015.SLDPRT$$$0.04, in file: D:\Desktop\门\20054-02-20-015.sldprt, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-33, in file: D:\Desktop\门\20054-02-20-015.sldprt, config: 
+   updating value: 重量, of type: Text , to value: SW-质量@20054-02-20-015.SLDPRT$$$0.04, in file: D:\Desktop\门\20054-02-20-015.sldprt, config: 
+   updating value: 体积, of type: Text , to value: SW-Volume@@@20054-02-20-015.sldprt$$$"SW-Volume@@@*D:\Desktop\门\20054-02-20-015.sldprt", in file: D:\Desktop\门\20054-02-20-015.sldprt, config: 
+   updating value: Material, of type: Text , to value: SW-Material@20054-02-20-014.sldprt$$$A6061, in file: D:\Desktop\门\20054-02-20-014.sldprt, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: D:\Desktop\门\20054-02-20-014.sldprt, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: D:\Desktop\门\20054-02-20-014.sldprt, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: D:\Desktop\门\20054-02-20-014.sldprt, config: 
+   updating value: Weight, of type: Text , to value: SW-Mass@20054-02-20-014.sldprt$$$0.02, in file: D:\Desktop\门\20054-02-20-014.sldprt, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-34, in file: D:\Desktop\门\20054-02-20-014.sldprt, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@默认@20054-02-20-014.sldprt$$$0.02, in file: D:\Desktop\门\20054-02-20-014.sldprt, config: 
+   updating value: Material, of type: Text , to value: SW-材质@20054-02-20-018.SLDPRT$$$透明PC耐力板, in file: D:\Desktop\门\20054-02-20-018.SLDPRT, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: D:\Desktop\门\20054-02-20-018.SLDPRT, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: D:\Desktop\门\20054-02-20-018.SLDPRT, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: D:\Desktop\门\20054-02-20-018.SLDPRT, config: 
+   updating value: Weight, of type: Text , to value: SW-质量@20054-02-20-018.SLDPRT$$$10745.13376734, in file: D:\Desktop\门\20054-02-20-018.SLDPRT, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-35, in file: D:\Desktop\门\20054-02-20-018.SLDPRT, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@默认@20054-02-20-018.SLDPRT$$$10745.13376734, in file: D:\Desktop\门\20054-02-20-018.SLDPRT, config: 
+   updating value: Material, of type: Text , to value: SW-Material@20054-02-20-001.SLDPRT$$$透明PC耐力板, in file: D:\Desktop\门\20054-02-20-001.sldprt, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: D:\Desktop\门\20054-02-20-001.sldprt, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: D:\Desktop\门\20054-02-20-001.sldprt, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: D:\Desktop\门\20054-02-20-001.sldprt, config: 
+   updating value: Weight, of type: Text , to value: SW-质量@20054-02-20-001.SLDPRT$$$2693.75191230, in file: D:\Desktop\门\20054-02-20-001.sldprt, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-36, in file: D:\Desktop\门\20054-02-20-001.sldprt, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@默认@20054-02-20-001.sldprt$$$2693.75191230, in file: D:\Desktop\门\20054-02-20-001.sldprt, config: 
+   updating value: Material, of type: Text , to value: SW-Material@20054-02-21-0000.SLDASM$$$材质 AL6061, in file: D:\Desktop\门\20054-02-21-0000.SLDASM, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: D:\Desktop\门\20054-02-21-0000.SLDASM, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: D:\Desktop\门\20054-02-21-0000.SLDASM, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: D:\Desktop\门\20054-02-21-0000.SLDASM, config: 
+   updating value: Weight, of type: Text , to value: SW-Mass@20054-02-21-0000.SLDASM$$$12099.17219351, in file: D:\Desktop\门\20054-02-21-0000.SLDASM, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-37, in file: D:\Desktop\门\20054-02-21-0000.SLDASM, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@默认@20054-02-21-0000.SLDASM$$$12099.17219351, in file: D:\Desktop\门\20054-02-21-0000.SLDASM, config: 
+   updating value: 质量, of type: Text , to value: SW-质量@20054-02-21-0000.SLDASM$$$12099.17219351, in file: D:\Desktop\门\20054-02-21-0000.SLDASM, config: 
+   updating value: Material, of type: Text , to value: SW-Material@20054-02-25-000.SLDASM$$$材质 AL6061, in file: D:\Desktop\门\20054-02-25-000.SLDASM, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: D:\Desktop\门\20054-02-25-000.SLDASM, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: D:\Desktop\门\20054-02-25-000.SLDASM, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: D:\Desktop\门\20054-02-25-000.SLDASM, config: 
+   updating value: Weight, of type: Text , to value: SW-Mass@20054-02-25-000.SLDASM$$$5753.64566973, in file: D:\Desktop\门\20054-02-25-000.SLDASM, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-38, in file: D:\Desktop\门\20054-02-25-000.SLDASM, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@默认@20054-02-25-000.SLDASM$$$5753.64566973, in file: D:\Desktop\门\20054-02-25-000.SLDASM, config: 
+   updating value: 质量, of type: Text , to value: SW-Mass@20054-02-25-000.SLDASM$$$5753.64566973, in file: D:\Desktop\门\20054-02-25-000.SLDASM, config: 
+   updating value: Material, of type: Text , to value: SW-Material@20054-02-20-0020.SLDPRT$$$铝型材 , in file: D:\Desktop\门\20054-02-20-0020.SLDPRT, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: D:\Desktop\门\20054-02-20-0020.SLDPRT, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: D:\Desktop\门\20054-02-20-0020.SLDPRT, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: D:\Desktop\门\20054-02-20-0020.SLDPRT, config: 
+   updating value: Weight, of type: Text , to value: SW-Mass@20054-02-20-0020.SLDPRT$$$3675.68602355, in file: D:\Desktop\门\20054-02-20-0020.SLDPRT, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-39, in file: D:\Desktop\门\20054-02-20-0020.SLDPRT, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@默认<按加工>@20054-02-20-0020.SLDPRT$$$3675.68602355, in file: D:\Desktop\门\20054-02-20-0020.SLDPRT, config: 
+   updating value: 质量, of type: Text , to value: SW-Mass@20054-02-20-0020.SLDPRT$$$3675.68602355, in file: D:\Desktop\门\20054-02-20-0020.SLDPRT, config: 
+   updating value: 材料, of type: Text , to value: SW-Material@20054-02-20-0020.SLDPRT$$$铝型材 , in file: D:\Desktop\门\20054-02-20-0020.SLDPRT, config: 
+   updating value: 单重, of type: Text , to value: SW-Mass@20054-02-20-0020.SLDPRT$$$3675.68602355, in file: D:\Desktop\门\20054-02-20-0020.SLDPRT, config: 
+   updating value: Material, of type: Text , to value: SW-Material@20054-02-20-0030.SLDPRT$$$透明PC耐力板, in file: D:\Desktop\门\20054-02-20-0030.SLDPRT, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: D:\Desktop\门\20054-02-20-0030.SLDPRT, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: D:\Desktop\门\20054-02-20-0030.SLDPRT, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: D:\Desktop\门\20054-02-20-0030.SLDPRT, config: 
+   updating value: Weight, of type: Text , to value: SW-Mass@20054-02-20-0030.SLDPRT$$$1614.73560575, in file: D:\Desktop\门\20054-02-20-0030.SLDPRT, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-40, in file: D:\Desktop\门\20054-02-20-0030.SLDPRT, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@默认@20054-02-20-0030.SLDPRT$$$1614.73560575, in file: D:\Desktop\门\20054-02-20-0030.SLDPRT, config: 
+   updating value: Material, of type: Text , to value: SW-Material@20054-02-20-009.SLDPRT$$$透明PC耐力板, in file: D:\Desktop\门\20054-02-20-009.sldprt, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: D:\Desktop\门\20054-02-20-009.sldprt, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: D:\Desktop\门\20054-02-20-009.sldprt, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: D:\Desktop\门\20054-02-20-009.sldprt, config: 
+   updating value: Weight, of type: Text , to value: SW-质量@20054-02-20-009.SLDPRT$$$4379.25004669, in file: D:\Desktop\门\20054-02-20-009.sldprt, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-41, in file: D:\Desktop\门\20054-02-20-009.sldprt, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@默认@20054-02-20-009.sldprt$$$4379.25004669, in file: D:\Desktop\门\20054-02-20-009.sldprt, config: 
+   updating value: Material, of type: Text , to value: SW-材质@20054-02-20-011.SLDPRT$$$透明PC耐力板, in file: D:\Desktop\门\20054-02-20-011.sldprt, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: D:\Desktop\门\20054-02-20-011.sldprt, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: D:\Desktop\门\20054-02-20-011.sldprt, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: D:\Desktop\门\20054-02-20-011.sldprt, config: 
+   updating value: Weight, of type: Text , to value: SW-质量@20054-02-20-011.SLDPRT$$$5194.27194892, in file: D:\Desktop\门\20054-02-20-011.sldprt, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-42, in file: D:\Desktop\门\20054-02-20-011.sldprt, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@默认@20054-02-20-011.sldprt$$$5194.27194892, in file: D:\Desktop\门\20054-02-20-011.sldprt, config: 
+   updating value: Material, of type: Text , to value: SW-Material@20054-02-20-008.SLDPRT$$$型材, in file: D:\Desktop\门\20054-02-20-008.SLDPRT, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: D:\Desktop\门\20054-02-20-008.SLDPRT, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: D:\Desktop\门\20054-02-20-008.SLDPRT, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: D:\Desktop\门\20054-02-20-008.SLDPRT, config: 
+   updating value: Weight, of type: Text , to value: SW-质量@20054-02-20-008.SLDPRT$$$73435.17479817, in file: D:\Desktop\门\20054-02-20-008.SLDPRT, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-43, in file: D:\Desktop\门\20054-02-20-008.SLDPRT, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@默认<按加工>@20054-02-20-008.SLDPRT$$$73435.17479817, in file: D:\Desktop\门\20054-02-20-008.SLDPRT, config: 
+   updating value: Material, of type: Text , to value: SW-Material@20054-02-20-010.SLDPRT$$$透明PC耐力板, in file: D:\Desktop\门\20054-02-20-010.sldprt, config: 
+   updating value: Finish, of type: Text , to value: 硬质氧化, in file: D:\Desktop\门\20054-02-20-010.sldprt, config: 
+   updating value: Heat Treatment, of type: Text , to value: NA, in file: D:\Desktop\门\20054-02-20-010.sldprt, config: 
+   updating value: Vendor, of type: Text , to value: A, in file: D:\Desktop\门\20054-02-20-010.sldprt, config: 
+   updating value: Weight, of type: Text , to value: SW-质量@20054-02-20-010.SLDPRT$$$4623.07194892, in file: D:\Desktop\门\20054-02-20-010.sldprt, config: 
+   updating value: Part Number, of type: Text , to value: 20054-02-20-44, in file: D:\Desktop\门\20054-02-20-010.sldprt, config: 
+   updating value: 重量, of type: Text , to value: SW-Mass@@默认@20054-02-20-010.sldprt$$$4623.07194892, in file: D:\Desktop\门\20054-02-20-010.sldprt, config: 

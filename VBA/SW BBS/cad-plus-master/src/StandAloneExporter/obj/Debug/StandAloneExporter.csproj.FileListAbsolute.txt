@@ -1,0 +1,8 @@
+D:\Desktop\cad-plus-master\_build\StandAloneExporter.exe.config
+D:\Desktop\cad-plus-master\_build\StandAloneExporter.exe
+D:\Desktop\cad-plus-master\_build\StandAloneExporter.pdb
+D:\Desktop\cad-plus-master\src\StandAloneExporter\obj\Debug\StandAloneExporter.csprojAssemblyReference.cache
+D:\Desktop\cad-plus-master\src\StandAloneExporter\obj\Debug\StandAloneExporter.csproj.CoreCompileInputs.cache
+D:\Desktop\cad-plus-master\src\StandAloneExporter\obj\Debug\StandAloneExporter.csproj.CopyComplete
+D:\Desktop\cad-plus-master\src\StandAloneExporter\obj\Debug\StandAloneExporter.exe
+D:\Desktop\cad-plus-master\src\StandAloneExporter\obj\Debug\StandAloneExporter.pdb

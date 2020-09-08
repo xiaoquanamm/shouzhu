@@ -1,0 +1,111 @@
+Dim TopDocPathOnly As String 'TopDocPathOnly声明为字符串，表示文件路径
+Dim PartsCollect() As String 'PartsCollect()声明为字符串数组，表示遍历清单
+Dim InCollectCount As Double 'InCollectCount声明为双精度浮点型，表示遍历清单长度
+Dim CustomInfoQTY As String  'CustomInfoQTY声明为字符串，表示数量
+
+Sub main()                                                                              '程序入口，执行发生在所有窗体打开之前，或理解为最先执行
+    Set swapp = Application.SldWorks                                                    '连接到SW对象，是宏程序与SOLIDWORKS建立连接的桥梁代码，得到的应用程序作为对象传给swApp，没有这条代码宏程序不能继续运行。
+    Set TopDoc = swapp.ActiveDoc                                                        '总装对象
+    If TopDoc.GetType <> 2 Then Exit Sub                                                '如果文档类型不是装配体，则程序退出
+    TopDocPathSplit = Split(TopDoc.GetPathName, "\")                                    '从全文件名中分割，使用Split函数剔除文件名中的"\"
+    TopDocName = TopDocPathSplit(UBound(TopDocPathSplit))                               '总装文件名称，使用UBound函数获取TopDocPathSplit数组大小
+    TopDocName = Left(TopDocName, Len(TopDocName) - 7)                                  '总装文件名称（去除扩展名.SLDASM），使用Left函数，Left（a,N） 从左起第一位开始取值，向右取N位
+    TopDocPathOnly = Mid(TopDoc.GetPathName, 1, InStrRev(TopDoc.GetPathName, "\", -1))  '总装的完整目录，使用Mid函数，从文件名字符串第一位开始截取出指定数量的字符，使用InStrRev函数获取"\"在文件名字符串中最后出现的位置，即为Mid函数中指定的数量。
+    TopConfString = TopDoc.GetActiveConfiguration.Name                                  '总装配配置名称
+    CustomInfoQTY = "数量"                                                              '零件属性的配置特定中数量项目名称，可按个人喜好修改预设值，SOLIDWORKS文件属性中的属性名称
+    InCollectCount = 1                                                                  '遍历清单长度基数
+    ReDim PartsCollect(InCollectCount)                                                  '定义数组项数，对遍历清单数组的重新定义
+    SubAsm TopDoc, TopConfString                                                        '遍历，调用SubAsm函数
+    Beep                                                                                '让系统小喇叭发出声音
+    MsgBox "完成"                                                                       '弹框提示"完成"
+End Sub                                                                                 '程序的结束语句
+
+Function SubAsm(AsmDoc, ConfString)                                                     '定义SubAsm函数
+    Set Configuration = AsmDoc.GetConfigurationByName(ConfString)                       '获取总装对象配置信息
+    Set RootComponent = Configuration.GetRootComponent                                  '获取总装对象属性组成
+    Components = RootComponent.GetChildren                                              '检索属性组成范围内的所有嵌入对象的集合。
+    For Each Child In Components                                                        '循环遍历Components数组中的所有元素
+   
+        
+        Set ChildModel = Child.GetModelDoc                                              '获取零件类型
+        If Not (ChildModel Is Nothing) Then                                             '排除抑制及轻化,抑制或轻化的零件，其档案是没有读入到内存的也就是说该零件没有被开启，因此没有渠道写入属性到这些零件
+            
+            
+            Dim configName() As String                                                  'configName()声明为字符串数组，表示配置名
+            
+           configName = ChildModel.GetConfigurationNames()                              '获取零件的配置名
+            
+           For k = 0 To UBound(configName)                                              '循环遍历零件配置
+           
+              Set config = ChildModel.GetConfigurationByName(configName(k))             '零件属性名
+   
+              Set cusPropMgr = config.CustomPropertyManager                             '零件
+              
+              Dim vPropNames As Variant                                                 'vPropNames声明为变体
+              
+              vPropNames = cusPropMgr.GetNames                                          '获取零件属性名称
+            
+              nNbrProps = cusPropMgr.Count                                              '获取零件属性个数
+              
+              For j = nNbrProps - 1 To 0 Step -1                                        '等同于for(i=k-1;k<0;k--),
+              
+                    
+                  ChildModel.DeleteCustomInfo2 configName(k), nNbrProps(j)              '清除零件所有配置信息
+               
+              Next j                                                                    '执行下一个数据
+
+        
+           Next k                                                                       '执行下一个数据
+            
+         
+            
+            ChildConfString1 = Child.ReferencedConfiguration                                                                '零件配置名称
+            
+            '将属性写在自定义中
+            ChildConfString = ""                                                                                            '零件配置名称为空
+            ChildType = ChildModel.GetType                                                                                  '零件类型
+            ChildPathSplit = Split(Child.GetPathName, "\")                                                                  '分割
+            ChildName = ChildPathSplit(UBound(ChildPathSplit))                                                              '零件文件名称
+            
+            ChildPathOnly = Mid(Child.GetPathName, 1, InStrRev(Child.GetPathName, "\", -1))                                 '零件的完整目录
+            If ChildPathOnly = Replace(ChildPathOnly, TopDocPathOnly, "") Then SamePath = False Else SamePath = True        '零件是否在总装目录或往下目录
+            
+            If SamePath And (Not Child.ExcludeFromBOM) And (Not Child.IsEnvelope) Then                                      '跳過：不在总装目錄或其往下目錄 或 不包括在材料明細表中 或 是个封套
+    '        If (Not Child.ExcludeFromBOM) And (Not Child.IsEnvelope) Then '跳过：不包括在材料明細表中 及 封套
+                UNIT_OF_MEASURE_Name = ChildModel.CustomInfo2(ChildConfString, "UNIT_OF_MEASURE")                           '备用量属性名称
+                UNIT_OF_MEASURE = ChildModel.CustomInfo2(ChildConfString, UNIT_OF_MEASURE_Name)                             '备用量
+                If (UNIT_OF_MEASURE = 0) Or (UNIT_OF_MEASURE = "") Then UNIT_OF_MEASURE = 1                                 '备用量除错
+                inCollect = False                                                                                           '重置判断变量
+                For Each PartinCollect In PartsCollect                                                                      '判断是否已在遍历清单內
+                    If ChildConfString1 & "@" & ChildName = PartinCollect Then inCollect = True
+                Next
+If inCollect Then                                                                                           '如果在遍历清单內
+                    ht_Qty = ChildModel.CustomInfo2(ChildConfString, CustomInfoQTY) + 1 * UNIT_OF_MEASURE
+                    ChildModel.DeleteCustomInfo2 ChildConfString, CustomInfoQTY
+                    ChildModel.AddCustomInfo3 ChildConfString, CustomInfoQTY, 30, ht_Qty
+                Else                                                                                                        '不在遍历清单內（首次处理）
+                    ChildModel.DeleteCustomInfo2 ChildConfString, CustomInfoQTY
+                    ChildModel.AddCustomInfo3 ChildConfString, CustomInfoQTY, 30, UNIT_OF_MEASURE
+                    InCollectCount = InCollectCount + 1                                                                     '遍历清单长度基数+1
+                    ReDim Preserve PartsCollect(InCollectCount)                                                             '重新定义数组项数（保留內含数据）
+                    PartsCollect(InCollectCount - 1) = ChildConfString1 & "@" & ChildName                                    '加入到遍历清单中
+                    ChildModel.SetUserPreferenceIntegerValue swUnitSystem, swUnitSystem_Custom                              '单位系统=Custom
+                    ChildModel.SetUserPreferenceIntegerValue swUnitsMassPropMass, swUnitsMassPropMass_Kilograms             '重量单位设定为kg（可按喜好加入設定）
+                    ChildModel.SetUserPreferenceIntegerValue swUnitsMassPropLength, swMM                                    '设定长度单位为毫米
+                    ChildModel.SetUserPreferenceIntegerValue swUnitsMassPropVolume, swUnitsMassPropVolume_Centimeters3      '设定体积单位为立方厘米
+                    ChildModel.SetUserPreferenceIntegerValue swUnitsMassPropDecimalPlaces, 2                                                            '质量及体积小数点后2位
+                    ChildModel.AddCustomInfo3 "", "Weight", 30, Chr(34) & "SW-Mass@*" & ChildName & Chr(34)                                             '在自定义属性加入Weight属性
+                    ChildModel.AddCustomInfo3 "", "Material", 30, Chr(34) & "SW-Material@*" & ChildName & Chr(34)                                       '在自定义属性加入Material属性
+                    ChildModel.AddCustomInfo3 ChildConfString, "Weight", 30, Chr(34) & "SW-Mass@@" & ChildConfString1 & "@*" & ChildName & Chr(34)       '在配置特定加入Weight属性
+                    ChildModel.AddCustomInfo3 ChildConfString, "Material", 30, Chr(34) & "SW-Material@@" & ChildConfString1 & "@*" & ChildName & Chr(34) '在配置特定加入Material属性
+                    ChildModel.SketchManager.Insert3DSketch True                                                                                        '插入3d草图，从而激活零件的“需存盘标签”
+                    ChildModel.SketchManager.Insert3DSketch True                                                                                        '离开3d草图
+                End If
+                If ChildType = 2 Then                                                                                                                   '如果零件类型是装配
+                    SubAsm ChildModel, ChildConfString1                                                                                                  '如果是装配则向下遍历
+                End If
+               
+            End If
+        End If
+    Next
+End Function

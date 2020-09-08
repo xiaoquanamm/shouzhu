@@ -1,0 +1,45 @@
+Option Explicit
+Dim swApp As SldWorks.SldWorks
+Dim swModel As ModelDoc2
+Dim vComps As Variant
+Dim swComp As SldWorks.Component2
+Dim swAssy As SldWorks.AssemblyDoc
+Dim i As Integer
+Dim wo_num As String
+Dim counter As Integer
+  
+Sub main()
+counter = 1
+  
+Set swApp = Application.SldWorks
+Set swModel = swApp.ActiveDoc
+  
+wo_num = InputBox("填写总装图号")
+    
+updateProperty swModel, wo_num
+    
+If swModel.GetType = swDocASSEMBLY Then
+    Set swAssy = swModel
+    vComps = swAssy.GetComponents(False)
+    For i = 0 To UBound(vComps)
+        Set swComp = vComps(i)
+        If swComp.GetSuppression = swComponentFullyResolved Then
+            Set swModel = swComp.GetModelDoc2
+                If counter <= 9 Then
+                    updateProperty swModel, wo_num & "00" & counter
+                ElseIf counter >= 9 Then
+                    updateProperty swModel, wo_num & "0" & counter
+                End If
+        Else
+            MsgBox "零件轻化或被压缩"
+        End If
+          counter = counter + 1
+    Next i
+End If
+End Sub
+    
+Function updateProperty(swModel As SldWorks.ModelDoc2, mValue As String) As Boolean
+Dim cpm As CustomPropertyManager
+Set cpm = swModel.Extension.CustomPropertyManager("")
+cpm.Add3 "Part Number", swCustomInfoText, mValue, 1
+End Function
